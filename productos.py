@@ -1,4 +1,5 @@
 import os
+import re
 
 # Configuración del repo
 usuario = "JOSHUAKAISER04"
@@ -39,49 +40,70 @@ base_url = f"https://raw.githubusercontent.com/{usuario}/{repositorio}/{rama}/"
 
 productos = []
 
-# Diccionario de índices por subcarpeta
-indices = {}
+# Contadores por personaje/anime
+contadores = {}
+
+def limpiar_nombre(nombre_archivo):
+    """Limpia el nombre del archivo quitando extensión, guiones bajos y numeraciones."""
+    nombre = os.path.splitext(nombre_archivo)[0]
+    # Quita "_2", "(3)", " 1", etc.
+    nombre = re.sub(r"[_\s]*\(?\d+\)?$", "", nombre)
+    # Elimina guiones y espacios sobrantes
+    return nombre.strip()
 
 for root, dirs, files in os.walk(carpeta_base):
-    for file in sorted(files):  # sorted para consistencia
+    for file in sorted(files):
         if file.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
             relative_path = os.path.relpath(os.path.join(root, file), carpeta_base)
             relative_path = relative_path.replace("\\", "/")
-
             url = base_url + relative_path
 
             partes = relative_path.split("/")
-            carpeta = partes[0]  # C-a, P-o, S-e, Pol
+            carpeta = partes[0]  # Ejemplo: C-a, P-o, etc.
 
-            tipo = categorias.get(carpeta, {
-                "nombre": "Producto",
-                "categoria": "Productos",
-                "precio": "0",
-                "descripcion": "Producto de colección inspirado en tus animes favoritos."
-            })
+            if carpeta not in categorias:
+                continue  # Saltar archivos fuera de categorías definidas
 
-            nombre_base = tipo["nombre"]
+            tipo = categorias[carpeta]
+            nombre_categoria = tipo["nombre"]
             categoria_plural = tipo["categoria"]
-            precio_base = tipo["precio"]
+            precio = tipo["precio"]
             descripcion = tipo["descripcion"]
 
-            # Todos los tipos tendrán subcarpetas para el anime
-            if len(partes) > 1:
-                anime = partes[1]
-                clave = f"{carpeta}-{anime}"
-                indice = indices.get(clave, 0) + 1
-                indices[clave] = indice
-                nombre = f"{nombre_base} {anime} #{indice}"
+            # Lógica especial para Polaroids
+            if carpeta == "Pol":
+                # Ruta esperada: Pol/anime/Naruto.png
+                if len(partes) >= 3 and partes[1].lower() == "anime":
+                    subcategoria = limpiar_nombre(file)
+                    personaje = subcategoria  # en Polaroids, el personaje = subcategoria
+                else:
+                    subcategoria = "Desconocido"
+                    personaje = limpiar_nombre(file)
             else:
-                nombre = nombre_base
+                # Ejemplo: C-a/Jujutsu Kaisen/Toji_2.png
+                if len(partes) >= 2:
+                    subcategoria = partes[1]  # nombre del anime
+                else:
+                    subcategoria = "General"
+                personaje = limpiar_nombre(file)
 
-            # Generar producto en Dart
+            clave = f"{carpeta}-{subcategoria}-{personaje}"
+            contadores[clave] = contadores.get(clave, 0) + 1
+            numero = contadores[clave]
+
+            # Nombre final del producto
+            if numero > 1:
+                nombre_producto = f"{nombre_categoria} {personaje} #{numero}"
+            else:
+                nombre_producto = f"{nombre_categoria} {personaje}"
+
             productos.append(f'''  Product(
-    nombre: "{nombre}",
-    precio: "{precio_base}",
+    nombre: "{nombre_producto}",
+    precio: "{precio}",
     descripcion: "{descripcion}",
     categoria: "{categoria_plural}",
     imagen: "{url}",
+    subcategoria: "{subcategoria}",
   ),''')
 
 # Generar archivo Dart
@@ -90,4 +112,4 @@ with open("products.dart", "w", encoding="utf-8") as f:
     f.write("\n".join(productos))
     f.write("\n];\n")
 
-print("✅ Archivo 'products.dart' generado con subcarpetas en todas las categorías.")
+print("✅ Archivo 'products.dart' generado con nombres y subcategorías correctamente asignados.")

@@ -39,8 +39,6 @@ categorias = {
 base_url = f"https://raw.githubusercontent.com/{usuario}/{repositorio}/{rama}/"
 
 productos = []
-
-# Contadores por personaje/anime
 contadores = {}
 
 def limpiar_nombre(nombre_archivo):
@@ -59,7 +57,7 @@ for root, dirs, files in os.walk(carpeta_base):
             url = base_url + relative_path
 
             partes = relative_path.split("/")
-            carpeta = partes[0]  # Ejemplo: C-a, P-o, etc.
+            carpeta = partes[0]  # Ejemplo: C-a, P-o, S-e, Pol
 
             if carpeta not in categorias:
                 continue  # Saltar archivos fuera de categorías definidas
@@ -70,33 +68,39 @@ for root, dirs, files in os.walk(carpeta_base):
             precio = tipo["precio"]
             descripcion = tipo["descripcion"]
 
-            # Lógica especial para Polaroids
+            # --- Lógica especial para Polaroids ---
             if carpeta == "Pol":
-                # Ruta esperada: Pol/anime/Naruto.png
+                # Caso especial: Pol/anime/<archivo>
                 if len(partes) >= 3 and partes[1].lower() == "anime":
-                    subcategoria = limpiar_nombre(file)
-                    personaje = subcategoria  # en Polaroids, el personaje = subcategoria
+                    subcategoria = limpiar_nombre(file)  # El nombre del archivo es la subcategoría
+                    personaje = subcategoria  # Y también el personaje
                 else:
-                    subcategoria = "Desconocido"
+                    # Se comporta igual que camisas
+                    if len(partes) >= 2:
+                        subcategoria = partes[1]
+                    else:
+                        subcategoria = "General"
                     personaje = limpiar_nombre(file)
             else:
-                # Ejemplo: C-a/Jujutsu Kaisen/Toji_2.png
+                # --- Lógica general (camisas, posters, separadores, etc.) ---
                 if len(partes) >= 2:
-                    subcategoria = partes[1]  # nombre del anime
+                    subcategoria = partes[1]
                 else:
                     subcategoria = "General"
                 personaje = limpiar_nombre(file)
 
-            clave = f"{carpeta}-{subcategoria}-{personaje}"
+            # Contador único por categoría + subcategoría + personaje
+            clave = f"{carpeta}-{subcategoria.lower()}-{personaje.lower()}"
             contadores[clave] = contadores.get(clave, 0) + 1
             numero = contadores[clave]
 
-            # Nombre final del producto
+            # Nombre del producto con #n si hay repetidos
             if numero > 1:
                 nombre_producto = f"{nombre_categoria} {personaje} #{numero}"
             else:
                 nombre_producto = f"{nombre_categoria} {personaje}"
 
+            # Generar entrada del producto
             productos.append(f'''  Product(
     nombre: "{nombre_producto}",
     precio: "{precio}",
@@ -112,4 +116,4 @@ with open("products.dart", "w", encoding="utf-8") as f:
     f.write("\n".join(productos))
     f.write("\n];\n")
 
-print("✅ Archivo 'products.dart' generado con nombres y subcategorías correctamente asignados.")
+print("✅ Archivo 'products.dart' generado correctamente con subcategorías y nombres según las reglas definidas.")

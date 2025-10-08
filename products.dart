@@ -2032,7 +2032,7 @@ const List<Product> productos = [
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Luffy Egghead",
+    nombre: "Camisa Luffy Egghead #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2853,7 +2853,7 @@ const List<Product> productos = [
     descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
     categoria: "Polaroids",
     imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor Swift/Taylor Swift 1989 (Taylor's Version).png",
-    subcategoria: "Desconocido",
+    subcategoria: "Taylor Swift",
   ),
   Product(
     nombre: "Polaroid Taylor Swift Eras Tour",
@@ -2861,7 +2861,7 @@ const List<Product> productos = [
     descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
     categoria: "Polaroids",
     imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor Swift/Taylor Swift Eras Tour.png",
-    subcategoria: "Desconocido",
+    subcategoria: "Taylor Swift",
   ),
   Product(
     nombre: "Polaroid Taylor Swift Eras Tour #2",
@@ -2869,7 +2869,7 @@ const List<Product> productos = [
     descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
     categoria: "Polaroids",
     imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor Swift/Taylor Swift Eras Tour_1.png",
-    subcategoria: "Desconocido",
+    subcategoria: "Taylor Swift",
   ),
   Product(
     nombre: "Polaroid Taylor Swift Evermore",
@@ -2877,7 +2877,7 @@ const List<Product> productos = [
     descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
     categoria: "Polaroids",
     imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor Swift/Taylor Swift Evermore.png",
-    subcategoria: "Desconocido",
+    subcategoria: "Taylor Swift",
   ),
   Product(
     nombre: "Polaroid Taylor Swift Fearless",
@@ -2885,7 +2885,7 @@ const List<Product> productos = [
     descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
     categoria: "Polaroids",
     imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor Swift/Taylor Swift Fearless.png",
-    subcategoria: "Desconocido",
+    subcategoria: "Taylor Swift",
   ),
   Product(
     nombre: "Polaroid Taylor Swift Folklore",
@@ -2893,7 +2893,7 @@ const List<Product> productos = [
     descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
     categoria: "Polaroids",
     imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor Swift/Taylor Swift Folklore.png",
-    subcategoria: "Desconocido",
+    subcategoria: "Taylor Swift",
   ),
   Product(
     nombre: "Polaroid Taylor Swift Lover",
@@ -2901,7 +2901,7 @@ const List<Product> productos = [
     descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
     categoria: "Polaroids",
     imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor Swift/Taylor Swift Lover.png",
-    subcategoria: "Desconocido",
+    subcategoria: "Taylor Swift",
   ),
   Product(
     nombre: "Polaroid Taylor Swift Midnights",
@@ -2909,7 +2909,7 @@ const List<Product> productos = [
     descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
     categoria: "Polaroids",
     imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor Swift/Taylor Swift Midnights.png",
-    subcategoria: "Desconocido",
+    subcategoria: "Taylor Swift",
   ),
   Product(
     nombre: "Polaroid Taylor Swift Red (Taylor's Version)",
@@ -2917,7 +2917,7 @@ const List<Product> productos = [
     descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
     categoria: "Polaroids",
     imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor Swift/Taylor Swift Red (Taylor's Version).png",
-    subcategoria: "Desconocido",
+    subcategoria: "Taylor Swift",
   ),
   Product(
     nombre: "Polaroid Taylor Swift Reputacion",
@@ -2925,7 +2925,7 @@ const List<Product> productos = [
     descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
     categoria: "Polaroids",
     imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor Swift/Taylor Swift Reputacion.png",
-    subcategoria: "Desconocido",
+    subcategoria: "Taylor Swift",
   ),
   Product(
     nombre: "Polaroid Taylor Swift Speak Now",
@@ -2933,7 +2933,7 @@ const List<Product> productos = [
     descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
     categoria: "Polaroids",
     imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor Swift/Taylor Swift Speak Now.png",
-    subcategoria: "Desconocido",
+    subcategoria: "Taylor Swift",
   ),
   Product(
     nombre: "Polaroid Taylor Swift The Tortured Poets Department",
@@ -2941,7 +2941,7 @@ const List<Product> productos = [
     descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
     categoria: "Polaroids",
     imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor Swift/Taylor Swift The Tortured Poets Department.png",
-    subcategoria: "Desconocido",
+    subcategoria: "Taylor Swift",
   ),
   Product(
     nombre: "Polaroid Taylor Swift",
@@ -2949,7 +2949,7 @@ const List<Product> productos = [
     descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
     categoria: "Polaroids",
     imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor Swift/Taylor Swift.png",
-    subcategoria: "Desconocido",
+    subcategoria: "Taylor Swift",
   ),
   Product(
     nombre: "Separador Chuya",

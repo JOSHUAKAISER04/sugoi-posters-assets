@@ -42,12 +42,21 @@ productos = []
 contadores = {}
 
 def limpiar_nombre(nombre_archivo):
-    """Limpia el nombre del archivo quitando extensión, guiones bajos y numeraciones."""
+    """Limpia el nombre del archivo para uso en el nombre del producto."""
     nombre = os.path.splitext(nombre_archivo)[0]
-    # Quita "_2", "(3)", " 1", etc.
-    nombre = re.sub(r"[_\s]*\(?\d+\)?$", "", nombre)
-    # Elimina guiones y espacios sobrantes
-    return nombre.strip()
+
+    # Convierte patrones _1, (2), etc. → #1, #2
+    nombre = re.sub(r"[_\s]*\(?(\d+)\)?$", r" #\1", nombre)
+
+    # Sustituye guiones bajos por espacios, pero solo si no son parte del patrón numérico
+    nombre = re.sub(r"_(?!#?\d+)", " ", nombre)
+
+    # Asegura espacios alrededor del símbolo &
+    nombre = re.sub(r"\s*&\s*", " & ", nombre)
+
+    # Limpieza final de dobles espacios
+    nombre = re.sub(r"\s{2,}", " ", nombre).strip()
+    return nombre
 
 for root, dirs, files in os.walk(carpeta_base):
     for file in sorted(files):
@@ -70,23 +79,15 @@ for root, dirs, files in os.walk(carpeta_base):
 
             # --- Lógica especial para Polaroids ---
             if carpeta == "Pol":
-                # Caso especial: Pol/anime/<archivo>
                 if len(partes) >= 3 and partes[1].lower() == "anime":
-                    subcategoria = limpiar_nombre(file)  # El nombre del archivo es la subcategoría
-                    personaje = subcategoria  # Y también el personaje
+                    subcategoria = limpiar_nombre(file)
+                    personaje = subcategoria
                 else:
-                    # Se comporta igual que camisas
-                    if len(partes) >= 2:
-                        subcategoria = partes[1]
-                    else:
-                        subcategoria = "General"
+                    subcategoria = partes[1] if len(partes) >= 2 else "General"
                     personaje = limpiar_nombre(file)
             else:
                 # --- Lógica general (camisas, posters, separadores, etc.) ---
-                if len(partes) >= 2:
-                    subcategoria = partes[1]
-                else:
-                    subcategoria = "General"
+                subcategoria = partes[1] if len(partes) >= 2 else "General"
                 personaje = limpiar_nombre(file)
 
             # Contador único por categoría + subcategoría + personaje
@@ -95,12 +96,11 @@ for root, dirs, files in os.walk(carpeta_base):
             numero = contadores[clave]
 
             # Nombre del producto con #n si hay repetidos
-            if numero > 1:
+            if numero > 1 and f"#{numero}" not in personaje:
                 nombre_producto = f"{nombre_categoria} {personaje} #{numero}"
             else:
                 nombre_producto = f"{nombre_categoria} {personaje}"
 
-            # Generar entrada del producto
             productos.append(f'''  Product(
     nombre: "{nombre_producto}",
     precio: "{precio}",
@@ -116,4 +116,4 @@ with open("products.dart", "w", encoding="utf-8") as f:
     f.write("\n".join(productos))
     f.write("\n];\n")
 
-print("✅ Archivo 'products.dart' generado correctamente con subcategorías y nombres según las reglas definidas.")
+print("✅ Archivo 'products.dart' generado correctamente con las reglas de nombres aplicadas.")

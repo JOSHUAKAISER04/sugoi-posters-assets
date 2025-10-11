@@ -58,6 +58,18 @@ def limpiar_nombre(nombre_archivo):
     nombre = re.sub(r"\s{2,}", " ", nombre).strip()
     return nombre
 
+def limpiar_subcategoria(nombre_carpeta):
+    """Limpia el nombre de la carpeta para uso en subcategoría."""
+    # Reemplaza guiones bajos por espacios
+    nombre = nombre_carpeta.replace("_", " ")
+    
+    # Asegura espacios alrededor del símbolo &
+    nombre = re.sub(r"\s*&\s*", " & ", nombre)
+    
+    # Limpieza final de dobles espacios
+    nombre = re.sub(r"\s{2,}", " ", nombre).strip()
+    return nombre
+
 for root, dirs, files in os.walk(carpeta_base):
     for file in sorted(files):
         if file.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
@@ -83,11 +95,13 @@ for root, dirs, files in os.walk(carpeta_base):
                     subcategoria = limpiar_nombre(file)
                     personaje = subcategoria
                 else:
-                    subcategoria = partes[1] if len(partes) >= 2 else "General"
+                    # Aplicar limpieza a la subcategoría para Polaroids
+                    subcategoria = limpiar_subcategoria(partes[1]) if len(partes) >= 2 else "General"
                     personaje = limpiar_nombre(file)
             else:
                 # --- Lógica general (camisas, posters, separadores, etc.) ---
-                subcategoria = partes[1] if len(partes) >= 2 else "General"
+                # Aplicar limpieza a la subcategoría
+                subcategoria = limpiar_subcategoria(partes[1]) if len(partes) >= 2 else "General"
                 personaje = limpiar_nombre(file)
 
             # Contador único por categoría + subcategoría + personaje

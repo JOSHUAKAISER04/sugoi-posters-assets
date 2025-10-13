@@ -1,10 +1,12 @@
 const List<Product> productos = [
   Product(
-    nombre: "Camisa Grimmjow",
+    nombre: "Camisa Grimmjow #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Grimmjow.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Grimmjow/Grimmjow.png"
+    ],
     subcategoria: "Bleach",
   ),
   Product(
@@ -12,7 +14,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_1/Ichigo_1.png"
+    ],
     subcategoria: "Bleach",
   ),
   Product(
@@ -20,7 +24,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_2/Ichigo_2.png"
+    ],
     subcategoria: "Bleach",
   ),
   Product(
@@ -28,7 +34,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_3/Ichigo_3.png"
+    ],
     subcategoria: "Bleach",
   ),
   Product(
@@ -36,15 +44,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_4.png",
-    subcategoria: "Bleach",
-  ),
-  Product(
-    nombre: "Camisa Ichigo Hollow",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_Hollow.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_4/Ichigo_4.png"
+    ],
     subcategoria: "Bleach",
   ),
   Product(
@@ -52,7 +54,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_Hollow_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_Hollow/Ichigo_Hollow.png"
+    ],
+    subcategoria: "Bleach",
+  ),
+  Product(
+    nombre: "Camisa Ichigo Hollow #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_Hollow_1/Ichigo_Hollow_1.png"
+    ],
     subcategoria: "Bleach",
   ),
   Product(
@@ -60,7 +74,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_Hollow_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_Hollow_2/Ichigo_Hollow_2.png"
+    ],
     subcategoria: "Bleach",
   ),
   Product(
@@ -68,7 +84,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_Hollow_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_Hollow_3/Ichigo_Hollow_3.png"
+    ],
     subcategoria: "Bleach",
   ),
   Product(
@@ -76,7 +94,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_Hollow_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_Hollow_4/Ichigo_Hollow_4.png"
+    ],
     subcategoria: "Bleach",
   ),
   Product(
@@ -84,7 +104,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_Hollow_5.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Ichigo_Hollow_5/Ichigo_Hollow_5.png"
+    ],
     subcategoria: "Bleach",
   ),
   Product(
@@ -92,7 +114,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Kenpachi_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Kenpachi_1/Kenpachi_1.png"
+    ],
     subcategoria: "Bleach",
   ),
   Product(
@@ -100,23 +124,29 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Kenpachi_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Kenpachi_2/Kenpachi_2.png"
+    ],
     subcategoria: "Bleach",
   ),
   Product(
-    nombre: "Camisa Rangiku",
+    nombre: "Camisa Rangiku #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Rangiku.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Rangiku/Rangiku.png"
+    ],
     subcategoria: "Bleach",
   ),
   Product(
-    nombre: "Camisa Shiba",
+    nombre: "Camisa Shiba #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Shiba.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Bleach/Shiba/Shiba.png"
+    ],
     subcategoria: "Bleach",
   ),
   Product(
@@ -124,47 +154,62 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Dandadan_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Dandadan_1/Dandadan_1.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
-    nombre: "Camisa Dandadan Team",
+    nombre: "Camisa Dandadan Team #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Dandadan_Team.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Dandadan_Team/Dandadan_Team.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
-    nombre: "Camisa Okarun & Momo & Aliens",
+    nombre: "Camisa Okarun&Momo #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun&Momo&Aliens.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun&Momo/Okarun&Momo.png",
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun&Momo/Okarun&Momo_doble.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
-    nombre: "Camisa Okarun & Momo",
+    nombre: "Camisa Okarun&Momo&Aliens #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun&Momo.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun&Momo&Aliens/Okarun&Momo&Aliens.png",
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun&Momo&Aliens/Okarun&Momo&Aliens_doble.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
-    nombre: "Camisa Okarun & Momo #1",
+    nombre: "Camisa Okarun&Momo #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun&Momo_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun&Momo_1/Okarun&Momo_1.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
-    nombre: "Camisa Okarun & Momo #2",
+    nombre: "Camisa Okarun&Momo #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun&Momo_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun&Momo_2/Okarun&Momo_2.png",
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun&Momo_2/Okarun&Momo_2_doble.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
@@ -172,7 +217,10 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_1/Okarun_1.png",
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_1/Okarun_1_doble.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
@@ -180,7 +228,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_2/Okarun_2.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
@@ -188,7 +238,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_3/Okarun_3.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
@@ -196,7 +248,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_4/Okarun_4.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
@@ -204,7 +258,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_5.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_5/Okarun_5.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
@@ -212,7 +268,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_6.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_6/Okarun_6.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
@@ -220,23 +278,30 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_7.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Okarun_7/Okarun_7.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
-    nombre: "Camisa Seiko Ayase",
+    nombre: "Camisa Seiko Ayase #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Seiko_Ayase.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Seiko_Ayase/Seiko_Ayase.png",
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Seiko_Ayase/Seiko_Ayase_doble.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
-    nombre: "Camisa Turbo Cat",
+    nombre: "Camisa Turbo Cat #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Turbo_Cat.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dandadan/Turbo_Cat/Turbo_Cat.png"
+    ],
     subcategoria: "Dandadan",
   ),
   Product(
@@ -244,71 +309,89 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Androide_18.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Androide_18/Androide_18.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Bardock",
+    nombre: "Camisa Bardock #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Bardock.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Bardock/Bardock.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Broly",
+    nombre: "Camisa Broly #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Broly.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Broly/Broly.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Bulma",
+    nombre: "Camisa Bulma #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Bulma.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Bulma/Bulma.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Buu",
+    nombre: "Camisa Buu #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Buu.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Buu/Buu.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Cell Saga",
+    nombre: "Camisa Cell Saga #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Cell Saga.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Cell Saga/Cell Saga.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Daima",
+    nombre: "Camisa Daima #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Daima.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Daima/Daima.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Fantasmas Kamikase",
+    nombre: "Camisa Fantasmas Kamikase #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Fantasmas Kamikase.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Fantasmas Kamikase/Fantasmas Kamikase.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Frezzer",
+    nombre: "Camisa Frezzer #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Frezzer.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Frezzer/Frezzer.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -316,7 +399,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Frezzer_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Frezzer_2/Frezzer_2.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -324,7 +409,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gogeta_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gogeta_1/Gogeta_1.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -332,15 +419,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gogeta_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gogeta_2/Gogeta_2.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Gohan & Dragon",
+    nombre: "Camisa Gohan&Dragon #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gohan&Dragon.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gohan&Dragon/Gohan&Dragon.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -348,7 +439,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gohan_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gohan_1/Gohan_1.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -356,7 +449,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gohan_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gohan_2/Gohan_2.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -364,7 +459,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gohan_SSJ1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gohan_SSJ1/Gohan_SSJ1.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -372,7 +469,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gohan_SSJ2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gohan_SSJ2/Gohan_SSJ2.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -380,23 +479,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gohan_SSJ2_1.png",
-    subcategoria: "Dragon Ball",
-  ),
-  Product(
-    nombre: "Camisa Goku & Gohan & Goten",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Goku&Gohan&Goten.png",
-    subcategoria: "Dragon Ball",
-  ),
-  Product(
-    nombre: "Camisa Goku",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Goku.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Gohan_SSJ2_1/Gohan_SSJ2_1.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -404,7 +489,29 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Goku_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Goku/Goku.png"
+    ],
+    subcategoria: "Dragon Ball",
+  ),
+  Product(
+    nombre: "Camisa Goku&Gohan&Goten #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Goku&Gohan&Goten/Goku&Gohan&Goten.png"
+    ],
+    subcategoria: "Dragon Ball",
+  ),
+  Product(
+    nombre: "Camisa Goku #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Goku_1/Goku_1.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -412,7 +519,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Goku_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Goku_2/Goku_2.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -420,79 +529,99 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Goku_SSJ4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Goku_SSJ4/Goku_SSJ4.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Goku Ultra Instict",
+    nombre: "Camisa Goku Ultra Instict #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Goku_Ultra_Instict.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Goku_Ultra_Instict/Goku_Ultra_Instict.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Golden Freezer",
+    nombre: "Camisa Golden Freezer #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Golden_Freezer.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Golden_Freezer/Golden_Freezer.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Kid Goku",
+    nombre: "Camisa Kid Goku #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Kid_Goku.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Kid_Goku/Kid_Goku.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Majin Buu",
+    nombre: "Camisa Majin Buu #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Majin_Buu.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Majin_Buu/Majin_Buu.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Majin Vegeta",
+    nombre: "Camisa Majin Vegeta #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Majin_Vegeta.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Majin_Vegeta/Majin_Vegeta.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Piccolo",
+    nombre: "Camisa Piccolo #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Piccolo.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Piccolo/Piccolo.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Roshi",
+    nombre: "Camisa Roshi #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Roshi.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Roshi/Roshi.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Trunks",
+    nombre: "Camisa Trunks #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Trunks.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Trunks/Trunks.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Vegeta & Kid Trunks & Trunks",
+    nombre: "Camisa Vegeta&Kid Trunks&Trunks #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Vegeta&Kid_Trunks&Trunks.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Vegeta&Kid_Trunks&Trunks/Vegeta&Kid_Trunks&Trunks.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -500,7 +629,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Vegeta_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Vegeta_1/Vegeta_1.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -508,7 +639,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Vegeta_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Vegeta_2/Vegeta_2.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -516,7 +649,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Vegeta_SSJ4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Dragon_Ball/Vegeta_SSJ4/Vegeta_SSJ4.png"
+    ],
     subcategoria: "Dragon Ball",
   ),
   Product(
@@ -524,7 +659,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Choso_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Choso_1/Choso_1.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -532,7 +669,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Choso_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Choso_2/Choso_2.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -540,7 +679,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Choso_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Choso_3/Choso_3.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -548,7 +689,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Choso_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Choso_4/Choso_4.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -556,15 +699,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Clase 1.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Camisa Geto",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Clase 1/Clase 1.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -572,7 +709,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto/Geto.png"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+  ),
+  Product(
+    nombre: "Camisa Geto #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto_1/Geto_1.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -580,7 +729,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto_2/Geto_2.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -588,7 +739,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto_3/Geto_3.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -596,7 +749,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto_4/Geto_4.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -604,7 +759,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto_5.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto_5/Geto_5.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -612,7 +769,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto_6.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto_6/Geto_6.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -620,23 +779,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto_7.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Camisa Gojo & Geto",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo & Geto.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Camisa Gojo",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Geto_7/Geto_7.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -644,7 +789,29 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo/Gojo.png"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+  ),
+  Product(
+    nombre: "Camisa Gojo & Geto #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo & Geto/Gojo & Geto.png"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+  ),
+  Product(
+    nombre: "Camisa Gojo #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_1/Gojo_1.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -652,7 +819,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_10.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_10/Gojo_10.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -660,7 +829,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_11.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_11/Gojo_11.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -668,7 +839,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_12.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_12/Gojo_12.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -676,7 +849,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_2/Gojo_2.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -684,7 +859,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_3/Gojo_3.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -692,7 +869,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_4/Gojo_4.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -700,7 +879,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_5.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_5/Gojo_5.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -708,7 +889,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_6.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_6/Gojo_6.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -716,7 +899,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_7.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_7/Gojo_7.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -724,7 +909,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_8.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_8/Gojo_8.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -732,31 +919,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_9.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Gojo_9/Gojo_9.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Inventario Oculto",
+    nombre: "Camisa Inventario Oculto #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Inventario_Oculto.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Camisa Itadori & Sukuna",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Itadori&Sukuna.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Camisa Itadori",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Itadori.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Inventario_Oculto/Inventario_Oculto.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -764,23 +939,39 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Itadori_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Itadori/Itadori.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Mahito",
+    nombre: "Camisa Itadori&Sukuna #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Mahito.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Itadori&Sukuna/Itadori&Sukuna.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Maki",
+    nombre: "Camisa Itadori #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Maki.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Itadori_1/Itadori_1.png"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+  ),
+  Product(
+    nombre: "Camisa Mahito #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Mahito/Mahito.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -788,7 +979,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Maki_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Maki/Maki.png"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+  ),
+  Product(
+    nombre: "Camisa Maki #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Maki_1/Maki_1.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -796,7 +999,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Maki_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Maki_2/Maki_2.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -804,7 +1009,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Megumi_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Megumi_1/Megumi_1.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -812,7 +1019,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Megumi_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Megumi_2/Megumi_2.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -820,7 +1029,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Megumi_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Megumi_3/Megumi_3.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -828,15 +1039,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Megumi_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Megumi_4/Megumi_4.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Mei Mei",
+    nombre: "Camisa Mei Mei #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Mei_Mei.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Mei_Mei/Mei_Mei.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -844,31 +1059,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Mei_Mei_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Mei_Mei_2/Mei_Mei_2.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Mekamaru",
+    nombre: "Camisa Mekamaru #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Mekamaru.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Camisa Nanami & Itadori",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nanami&Itadori.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Camisa Nanami",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nanami.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Mekamaru/Mekamaru.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -876,7 +1079,29 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nanami_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nanami/Nanami.png"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+  ),
+  Product(
+    nombre: "Camisa Nanami&Itadori #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nanami&Itadori/Nanami&Itadori.png"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+  ),
+  Product(
+    nombre: "Camisa Nanami #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nanami_1/Nanami_1.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -884,7 +1109,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nanami_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nanami_2/Nanami_2.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -892,7 +1119,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nanami_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nanami_3/Nanami_3.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -900,7 +1129,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nanami_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nanami_4/Nanami_4.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -908,15 +1139,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nanami_5.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Camisa Nobara",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nobara.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nanami_5/Nanami_5.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -924,7 +1149,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nobara_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nobara/Nobara.png"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+  ),
+  Product(
+    nombre: "Camisa Nobara #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nobara_1/Nobara_1.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -932,7 +1169,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nobara_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nobara_2/Nobara_2.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -940,7 +1179,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nobara_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nobara_3/Nobara_3.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -948,31 +1189,29 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nobara_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Nobara_4/Nobara_4.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Panda",
+    nombre: "Camisa Panda #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Panda.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Panda/Panda.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Shibuya Incident",
+    nombre: "Camisa Shibuya Incident #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Shibuya_Incident.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Camisa Sukuna",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Shibuya_Incident/Shibuya_Incident.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -980,7 +1219,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna/Sukuna.png"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+  ),
+  Product(
+    nombre: "Camisa Sukuna #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_1/Sukuna_1.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -988,7 +1239,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_10.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_10/Sukuna_10.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -996,7 +1249,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_2/Sukuna_2.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1004,7 +1259,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_3/Sukuna_3.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1012,7 +1269,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_4/Sukuna_4.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1020,7 +1279,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_5.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_5/Sukuna_5.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1028,7 +1289,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_6.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_6/Sukuna_6.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1036,7 +1299,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_7.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_7/Sukuna_7.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1044,7 +1309,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_8.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_8/Sukuna_8.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1052,39 +1319,39 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_9.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Sukuna_9/Sukuna_9.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Todo & Itadori",
+    nombre: "Camisa Todo #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Todo&Itadori.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Todo/Todo.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Todo & Itadori #1",
+    nombre: "Camisa Todo&Itadori #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Todo&Itadori_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Todo&Itadori/Todo&Itadori.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Todo",
+    nombre: "Camisa Todo&Itadori #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Todo.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Camisa Toge",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toge.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Todo&Itadori_1/Todo&Itadori_1.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1092,7 +1359,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toge_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toge/Toge.png"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+  ),
+  Product(
+    nombre: "Camisa Toge #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toge_1/Toge_1.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1100,7 +1379,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_1/Toji_1.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1108,7 +1389,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_2/Toji_2.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1116,7 +1399,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_3/Toji_3.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1124,7 +1409,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_4/Toji_4.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1132,7 +1419,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_5.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_5/Toji_5.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1140,7 +1429,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_6.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_6/Toji_6.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1148,7 +1439,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_7.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_7/Toji_7.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1156,23 +1449,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_8.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Toji_8/Toji_8.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Young Gojo",
+    nombre: "Camisa Young Gojo #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Young_Gojo.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Camisa Yuta",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Yuta.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Young_Gojo/Young_Gojo.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1180,7 +1469,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Yuta_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Yuta/Yuta.png"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+  ),
+  Product(
+    nombre: "Camisa Yuta #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Yuta_1/Yuta_1.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1188,7 +1489,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Yuta_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Yuta_2/Yuta_2.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
@@ -1196,31 +1499,29 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Yuta_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Jujutsu_Kaisen/Yuta_3/Yuta_3.png"
+    ],
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Comandante Yosida",
+    nombre: "Camisa Comandante Yosida #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Comandante_Yosida.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Comandante_Yosida/Comandante_Yosida.png"
+    ],
     subcategoria: "Kaiju N°8",
   ),
   Product(
-    nombre: "Camisa Hina",
+    nombre: "Camisa Hina #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Hina.png",
-    subcategoria: "Kaiju N°8",
-  ),
-  Product(
-    nombre: "Camisa Kafka",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kafka.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Hina/Hina.png"
+    ],
     subcategoria: "Kaiju N°8",
   ),
   Product(
@@ -1228,15 +1529,29 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kafka_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kafka/Kafka.png"
+    ],
     subcategoria: "Kaiju N°8",
   ),
   Product(
-    nombre: "Camisa Kaiju Kawai",
+    nombre: "Camisa Kafka #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kaiju_Kawai.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kafka_1/Kafka_1.png"
+    ],
+    subcategoria: "Kaiju N°8",
+  ),
+  Product(
+    nombre: "Camisa Kaiju Kawai #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kaiju_Kawai/Kaiju_Kawai.png"
+    ],
     subcategoria: "Kaiju N°8",
   ),
   Product(
@@ -1244,7 +1559,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kaiju_N°8.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kaiju_N°8/Kaiju_N°8.png"
+    ],
     subcategoria: "Kaiju N°8",
   ),
   Product(
@@ -1252,7 +1569,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kaiju_N°8_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kaiju_N°8_1/Kaiju_N°8_1.png"
+    ],
     subcategoria: "Kaiju N°8",
   ),
   Product(
@@ -1260,7 +1579,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kaiju_N°8_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kaiju_N°8_2/Kaiju_N°8_2.png"
+    ],
     subcategoria: "Kaiju N°8",
   ),
   Product(
@@ -1268,7 +1589,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kaiju_N°8_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kaiju_N°8_3/Kaiju_N°8_3.png"
+    ],
     subcategoria: "Kaiju N°8",
   ),
   Product(
@@ -1276,7 +1599,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kaiju_N°8_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kaiju_N°8_4/Kaiju_N°8_4.png"
+    ],
     subcategoria: "Kaiju N°8",
   ),
   Product(
@@ -1284,31 +1609,29 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kaiju_N°8_5.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Kaiju_N°8_5/Kaiju_N°8_5.png"
+    ],
     subcategoria: "Kaiju N°8",
   ),
   Product(
-    nombre: "Camisa Reno Ichikawa",
+    nombre: "Camisa Reno Ichikawa #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Reno_Ichikawa.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kaiju_N°8/Reno_Ichikawa/Reno_Ichikawa.png"
+    ],
     subcategoria: "Kaiju N°8",
   ),
   Product(
-    nombre: "Camisa Akaza",
+    nombre: "Camisa Akaza #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Akaza.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Camisa Douma",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Douma.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Akaza/Akaza.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1316,23 +1639,29 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Douma_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Douma/Douma.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Genya",
+    nombre: "Camisa Douma #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Genya.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Douma_1/Douma_1.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Haganezuka",
+    nombre: "Camisa Genya #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Haganezuka.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Genya/Genya.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1340,7 +1669,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Haganezuka_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Haganezuka/Haganezuka.png"
+    ],
+    subcategoria: "Kimetsu no Yaiba",
+  ),
+  Product(
+    nombre: "Camisa Haganezuka #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Haganezuka_1/Haganezuka_1.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1348,15 +1689,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Haganezuka_2.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Camisa Hashira",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Hashira.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Haganezuka_2/Haganezuka_2.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1364,15 +1699,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Hashira_1.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Camisa Hashiras",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Hashiras.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Hashira/Hashira.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1380,15 +1709,29 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Hashiras_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Hashiras/Hashiras.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Inosuke",
+    nombre: "Camisa Hashiras #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Inosuke.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Hashiras_1/Hashiras_1.png"
+    ],
+    subcategoria: "Kimetsu no Yaiba",
+  ),
+  Product(
+    nombre: "Camisa Hashira #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Hashira_1/Hashira_1.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1396,7 +1739,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Inosuke_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Inosuke/Inosuke.png"
+    ],
+    subcategoria: "Kimetsu no Yaiba",
+  ),
+  Product(
+    nombre: "Camisa Inosuke #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Inosuke_1/Inosuke_1.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1404,39 +1759,49 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Inosuke_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Inosuke_2/Inosuke_2.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Kaigaku",
+    nombre: "Camisa Kaigaku #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Kaigaku.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Kaigaku/Kaigaku.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Kanao",
+    nombre: "Camisa Kanao #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Kanao.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Kanao/Kanao.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Kimetsu Halloween",
+    nombre: "Camisa Kimetsu Halloween #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Kimetsu_Halloween.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Kimetsu_Halloween/Kimetsu_Halloween.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Kokushibo",
+    nombre: "Camisa Kokushibo #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Kokushibo.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Kokushibo/Kokushibo.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1444,15 +1809,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Kokushibo_2.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Camisa Lunas Superiores",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Lunas_Superiores.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Kokushibo_2/Kokushibo_2.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1460,15 +1819,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Lunas_Superiores_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Lunas_Superiores/Lunas_Superiores.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Mitsuri",
+    nombre: "Camisa Lunas Superiores #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Mitsuri.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Lunas_Superiores_1/Lunas_Superiores_1.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1476,7 +1839,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Mitsuri_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Mitsuri/Mitsuri.png"
+    ],
+    subcategoria: "Kimetsu no Yaiba",
+  ),
+  Product(
+    nombre: "Camisa Mitsuri #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Mitsuri_1/Mitsuri_1.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1484,7 +1859,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Mitsuri_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Mitsuri_2/Mitsuri_2.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1492,7 +1869,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Mitsuri_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Mitsuri_3/Mitsuri_3.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1500,7 +1879,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Mitsuri_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Mitsuri_4/Mitsuri_4.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1508,23 +1889,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Mitsuri_5.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Mitsuri_5/Mitsuri_5.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Mitsuri Kanroji",
+    nombre: "Camisa Mitsuri Kanroji #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Mitsuri_Kanroji.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Camisa Muzan",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Muzan.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Mitsuri_Kanroji/Mitsuri_Kanroji.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1532,7 +1909,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Muzan_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Muzan/Muzan.png"
+    ],
+    subcategoria: "Kimetsu no Yaiba",
+  ),
+  Product(
+    nombre: "Camisa Muzan #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Muzan_1/Muzan_1.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1540,15 +1929,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Muzan_2.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Camisa Nezuko",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Nezuko.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Muzan_2/Muzan_2.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1556,7 +1939,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Nezuko_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Nezuko/Nezuko.png"
+    ],
+    subcategoria: "Kimetsu no Yaiba",
+  ),
+  Product(
+    nombre: "Camisa Nezuko #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Nezuko_1/Nezuko_1.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1564,7 +1959,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Nezuko_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Nezuko_2/Nezuko_2.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1572,7 +1969,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Nezuko_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Nezuko_3/Nezuko_3.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1580,15 +1979,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Nezuko_4.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Camisa Rengoku",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Rengoku.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Nezuko_4/Nezuko_4.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1596,7 +1989,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Rengoku_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Rengoku/Rengoku.png"
+    ],
+    subcategoria: "Kimetsu no Yaiba",
+  ),
+  Product(
+    nombre: "Camisa Rengoku #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Rengoku_1/Rengoku_1.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1604,7 +2009,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Rengoku_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Rengoku_2/Rengoku_2.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1612,7 +2019,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Rengoku_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Rengoku_3/Rengoku_3.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1620,39 +2029,29 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Rengoku_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Rengoku_4/Rengoku_4.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Sanemi & Genya",
+    nombre: "Camisa Sanemi #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Sanemi&Genya.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Sanemi/Sanemi.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Sanemi",
+    nombre: "Camisa Sanemi&Genya #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Sanemi.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Camisa Shinobu & Douma",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Shinobu&Douma.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Camisa Shinobu",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Shinobu.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Sanemi&Genya/Sanemi&Genya.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1660,7 +2059,29 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Shinobu_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Shinobu/Shinobu.png"
+    ],
+    subcategoria: "Kimetsu no Yaiba",
+  ),
+  Product(
+    nombre: "Camisa Shinobu&Douma #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Shinobu&Douma/Shinobu&Douma.png"
+    ],
+    subcategoria: "Kimetsu no Yaiba",
+  ),
+  Product(
+    nombre: "Camisa Shinobu #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Shinobu_1/Shinobu_1.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1668,15 +2089,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Shinobu_2.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Camisa Shinobu Kocho",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Shinobu_Kocho.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Shinobu_2/Shinobu_2.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1684,39 +2099,59 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Shinobu_Kocho_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Shinobu_Kocho/Shinobu_Kocho.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Tanjiro & Inosuke & Zenitsu",
+    nombre: "Camisa Shinobu Kocho #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Tanjiro&Inosuke&Zenitsu.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Shinobu_Kocho_1/Shinobu_Kocho_1.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Tanjiro & Nezuko & Inosuke & Zenitsu",
+    nombre: "Camisa Tanjiro #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Tanjiro&Nezuko&Inosuke&Zenitsu.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Tanjiro/Tanjiro.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Tanjiro & Yorichi",
+    nombre: "Camisa Tanjiro&Inosuke&Zenitsu #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Tanjiro&Yorichi.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Tanjiro&Inosuke&Zenitsu/Tanjiro&Inosuke&Zenitsu.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Tanjiro",
+    nombre: "Camisa Tanjiro&Nezuko&Inosuke&Zenitsu #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Tanjiro.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Tanjiro&Nezuko&Inosuke&Zenitsu/Tanjiro&Nezuko&Inosuke&Zenitsu.png"
+    ],
+    subcategoria: "Kimetsu no Yaiba",
+  ),
+  Product(
+    nombre: "Camisa Tanjiro&Yorichi #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Tanjiro&Yorichi/Tanjiro&Yorichi.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1724,55 +2159,59 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Tanjiro_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Tanjiro_2/Tanjiro_2.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Tengen Uzui",
+    nombre: "Camisa Tengen Uzui #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Tengen_Uzui.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Tengen_Uzui/Tengen_Uzui.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Tomioka",
+    nombre: "Camisa Tomioka #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Tomioka.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Tomioka/Tomioka.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Uzui",
+    nombre: "Camisa Uzui #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Uzui.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Uzui/Uzui.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Villa de los Herreros",
+    nombre: "Camisa Villa de los Herreros #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Villa_de_los_Herreros.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Villa_de_los_Herreros/Villa_de_los_Herreros.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Yorichi",
+    nombre: "Camisa Yorichi #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Yorichi.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Camisa Zenitsu",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Zenitsu.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Yorichi/Yorichi.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1780,7 +2219,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Zenitsu_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Zenitsu/Zenitsu.png"
+    ],
+    subcategoria: "Kimetsu no Yaiba",
+  ),
+  Product(
+    nombre: "Camisa Zenitsu #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Zenitsu_1/Zenitsu_1.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
@@ -1788,71 +2239,79 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Zenitsu_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Kimetsu_no_Yaiba/Zenitsu_2/Zenitsu_2.png"
+    ],
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Bailey",
+    nombre: "Camisa Bailey #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Mascotas/Bailey.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Mascotas/Bailey/Bailey.png"
+    ],
     subcategoria: "Mascotas",
   ),
   Product(
-    nombre: "Camisa Rocky",
+    nombre: "Camisa Rocky #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Mascotas/Rocky.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Mascotas/Rocky/Rocky.png"
+    ],
     subcategoria: "Mascotas",
   ),
   Product(
-    nombre: "Camisa Scott",
+    nombre: "Camisa Scott #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Mascotas/Scott.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Mascotas/Scott/Scott.png"
+    ],
     subcategoria: "Mascotas",
   ),
   Product(
-    nombre: "Camisa Thor",
+    nombre: "Camisa Thor #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Mascotas/Thor.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Mascotas/Thor/Thor.png"
+    ],
     subcategoria: "Mascotas",
   ),
   Product(
-    nombre: "Camisa Totti",
+    nombre: "Camisa Totti #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Mascotas/Totti.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Mascotas/Totti/Totti.png"
+    ],
     subcategoria: "Mascotas",
   ),
   Product(
-    nombre: "Camisa Equipo Kakashi",
+    nombre: "Camisa Equipo Kakashi #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Equipo_Kakashi.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Equipo_Kakashi/Equipo_Kakashi.png"
+    ],
     subcategoria: "Naruto",
   ),
   Product(
-    nombre: "Camisa Itachi",
+    nombre: "Camisa Itachi #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Itachi.png",
-    subcategoria: "Naruto",
-  ),
-  Product(
-    nombre: "Camisa Jiraiya",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Jiraiya.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Itachi/Itachi.png"
+    ],
     subcategoria: "Naruto",
   ),
   Product(
@@ -1860,7 +2319,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Jiraiya_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Jiraiya/Jiraiya.png"
+    ],
+    subcategoria: "Naruto",
+  ),
+  Product(
+    nombre: "Camisa Jiraiya #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Jiraiya_1/Jiraiya_1.png"
+    ],
     subcategoria: "Naruto",
   ),
   Product(
@@ -1868,47 +2339,49 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Jiraiya_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Jiraiya_2/Jiraiya_2.png"
+    ],
     subcategoria: "Naruto",
   ),
   Product(
-    nombre: "Camisa Kaguya",
+    nombre: "Camisa Kaguya #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Kaguya.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Kaguya/Kaguya.png"
+    ],
     subcategoria: "Naruto",
   ),
   Product(
-    nombre: "Camisa Kakashi",
+    nombre: "Camisa Kakashi #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Kakashi.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Kakashi/Kakashi.png"
+    ],
     subcategoria: "Naruto",
   ),
   Product(
-    nombre: "Camisa Madara",
+    nombre: "Camisa Madara #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Madara.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Madara/Madara.png"
+    ],
     subcategoria: "Naruto",
   ),
   Product(
-    nombre: "Camisa Minato",
+    nombre: "Camisa Minato #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Minato.png",
-    subcategoria: "Naruto",
-  ),
-  Product(
-    nombre: "Camisa Naruto",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Naruto.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Minato/Minato.png"
+    ],
     subcategoria: "Naruto",
   ),
   Product(
@@ -1916,47 +2389,69 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Naruto_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Naruto/Naruto.png"
+    ],
     subcategoria: "Naruto",
   ),
   Product(
-    nombre: "Camisa Naruto Sennin",
+    nombre: "Camisa Naruto #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Naruto_Sennin.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Naruto_1/Naruto_1.png"
+    ],
     subcategoria: "Naruto",
   ),
   Product(
-    nombre: "Camisa Orochimaru",
+    nombre: "Camisa Naruto Sennin #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Orochimaru.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Naruto_Sennin/Naruto_Sennin.png"
+    ],
     subcategoria: "Naruto",
   ),
   Product(
-    nombre: "Camisa Pain",
+    nombre: "Camisa Orochimaru #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Pain.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Orochimaru/Orochimaru.png"
+    ],
     subcategoria: "Naruto",
   ),
   Product(
-    nombre: "Camisa Shikamaru",
+    nombre: "Camisa Pain #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Shikamaru.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Pain/Pain.png"
+    ],
     subcategoria: "Naruto",
   ),
   Product(
-    nombre: "Camisa Ace",
+    nombre: "Camisa Shikamaru #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Ace.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Naruto/Shikamaru/Shikamaru.png"
+    ],
+    subcategoria: "Naruto",
+  ),
+  Product(
+    nombre: "Camisa Ace #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Ace/Ace.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -1964,7 +2459,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Ace_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Ace_1/Ace_1.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -1972,7 +2469,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Ace_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Ace_2/Ace_2.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -1980,31 +2479,29 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Ace_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Ace_3/Ace_3.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Boa Hancock",
+    nombre: "Camisa Boa Hancock #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Boa_Hancock.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Boa_Hancock/Boa_Hancock.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Bonney",
+    nombre: "Camisa Bonney #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Bonney.png",
-    subcategoria: "One piece",
-  ),
-  Product(
-    nombre: "Camisa Chopper",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Chopper.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Bonney/Bonney.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2012,47 +2509,69 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Chopper_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Chopper/Chopper.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Franky",
+    nombre: "Camisa Chopper #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Franky.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Chopper_1/Chopper_1.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Gol D Roger",
+    nombre: "Camisa Franky #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Gol_D_Roger.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Franky/Franky.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Jinbe",
+    nombre: "Camisa Gol D Roger #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Jinbe.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Gol_D_Roger/Gol_D_Roger.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Kaido",
+    nombre: "Camisa Jinbe #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Kaido.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Jinbe/Jinbe.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Katakuri",
+    nombre: "Camisa Kaido #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Katakuri.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Kaido/Kaido.png"
+    ],
+    subcategoria: "One piece",
+  ),
+  Product(
+    nombre: "Camisa Katakuri #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Katakuri/Katakuri.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2060,7 +2579,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_1/Luffy_1.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2068,7 +2589,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_10.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_10/Luffy_10.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2076,7 +2599,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_11.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_11/Luffy_11.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2084,7 +2609,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_12.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_12/Luffy_12.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2092,7 +2619,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_2/Luffy_2.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2100,7 +2629,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_3/Luffy_3.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2108,7 +2639,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_4/Luffy_4.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2116,7 +2649,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_5.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_5/Luffy_5.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2124,7 +2659,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_6.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_6/Luffy_6.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2132,7 +2669,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_7.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_7/Luffy_7.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2140,7 +2679,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_8.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_8/Luffy_8.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2148,15 +2689,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_9.png",
-    subcategoria: "One piece",
-  ),
-  Product(
-    nombre: "Camisa Luffy EggHead",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_EggHead.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_9/Luffy_9.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2164,31 +2699,49 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_EggHead_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_EggHead/Luffy_EggHead.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Luffy Gear_4 Bounce-Man",
+    nombre: "Camisa Luffy EggHead #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_4_Bounce-Man.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_EggHead_1/Luffy_EggHead_1.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Luffy Gear_4 Snake-Man",
+    nombre: "Camisa Luffy Gear 4 Bounce-Man #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_4_Snake-Man.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_4_Bounce-Man/Luffy_Gear_4_Bounce-Man.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Luffy Gear_4 Snake-Man #1",
+    nombre: "Camisa Luffy Gear 4 Snake-Man #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_4_Snake-Man_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_4_Snake-Man/Luffy_Gear_4_Snake-Man.png"
+    ],
+    subcategoria: "One piece",
+  ),
+  Product(
+    nombre: "Camisa Luffy Gear 4 Snake-Man #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_4_Snake-Man_1/Luffy_Gear_4_Snake-Man_1.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2196,79 +2749,89 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_5.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_5/Luffy_Gear_5.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Luffy Gear_5 #1",
+    nombre: "Camisa Luffy Gear 5 #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_5_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_5_1/Luffy_Gear_5_1.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Luffy Gear_5 #2",
+    nombre: "Camisa Luffy Gear 5 #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_5_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_5_2/Luffy_Gear_5_2.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Luffy Gear_5 #3",
+    nombre: "Camisa Luffy Gear 5 #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_5_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_5_3/Luffy_Gear_5_3.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Luffy Gear_5 #4",
+    nombre: "Camisa Luffy Gear 5 #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_5_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Gear_5_4/Luffy_Gear_5_4.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Luffy Wano",
+    nombre: "Camisa Luffy Wano #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Wano.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Wano/Luffy_Wano.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Luffy Yonko Poster",
+    nombre: "Camisa Luffy Yonko Poster #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Yonko_Poster.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Luffy_Yonko_Poster/Luffy_Yonko_Poster.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Marco",
+    nombre: "Camisa Marco #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Marco.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Marco/Marco.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Mihawk",
+    nombre: "Camisa Mihawk #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Mihawk.png",
-    subcategoria: "One piece",
-  ),
-  Product(
-    nombre: "Camisa Nami",
-    precio: "280",
-    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
-    categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Nami.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Mihawk/Mihawk.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2276,39 +2839,49 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Nami_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Nami/Nami.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Sanji",
+    nombre: "Camisa Nami #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Sanji.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Nami_1/Nami_1.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Shanks",
+    nombre: "Camisa Sanji #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Shanks.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Sanji/Sanji.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Teach",
+    nombre: "Camisa Shanks #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Teach.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Shanks/Shanks.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Trafalgar Law",
+    nombre: "Camisa Teach #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Trafalgar_Law.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Teach/Teach.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2316,23 +2889,29 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Trafalgar_Law_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Trafalgar_Law/Trafalgar_Law.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Usopp & Zoro & Luffy",
+    nombre: "Camisa Trafalgar Law #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Usopp&Zoro&Luffy.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Trafalgar_Law_1/Trafalgar_Law_1.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Zoro",
+    nombre: "Camisa Usopp&Zoro&Luffy #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Zoro.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Usopp&Zoro&Luffy/Usopp&Zoro&Luffy.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2340,7 +2919,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Zoro_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Zoro/Zoro.png"
+    ],
+    subcategoria: "One piece",
+  ),
+  Product(
+    nombre: "Camisa Zoro #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Zoro_1/Zoro_1.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2348,7 +2939,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Zoro_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Zoro_2/Zoro_2.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
@@ -2356,15 +2949,19 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Zoro_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/One_piece/Zoro_3/Zoro_3.png"
+    ],
     subcategoria: "One piece",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo",
+    nombre: "Camisa Sung Jinwoo #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo/Sung_Jinwoo.png"
+    ],
     subcategoria: "Solo Leveling",
   ),
   Product(
@@ -2372,7 +2969,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_1.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_1/Sung_Jinwoo_1.png"
+    ],
     subcategoria: "Solo Leveling",
   ),
   Product(
@@ -2380,7 +2979,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_10.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_10/Sung_Jinwoo_10.png"
+    ],
     subcategoria: "Solo Leveling",
   ),
   Product(
@@ -2388,7 +2989,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_11.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_11/Sung_Jinwoo_11.png"
+    ],
     subcategoria: "Solo Leveling",
   ),
   Product(
@@ -2396,7 +2999,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_12.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_12/Sung_Jinwoo_12.png"
+    ],
     subcategoria: "Solo Leveling",
   ),
   Product(
@@ -2404,7 +3009,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_13.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_13/Sung_Jinwoo_13.png"
+    ],
     subcategoria: "Solo Leveling",
   ),
   Product(
@@ -2412,7 +3019,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_14.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_14/Sung_Jinwoo_14.png"
+    ],
     subcategoria: "Solo Leveling",
   ),
   Product(
@@ -2420,7 +3029,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_2.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_2/Sung_Jinwoo_2.png"
+    ],
     subcategoria: "Solo Leveling",
   ),
   Product(
@@ -2428,7 +3039,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_3.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_3/Sung_Jinwoo_3.png"
+    ],
     subcategoria: "Solo Leveling",
   ),
   Product(
@@ -2436,7 +3049,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_4.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_4/Sung_Jinwoo_4.png"
+    ],
     subcategoria: "Solo Leveling",
   ),
   Product(
@@ -2444,7 +3059,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_5.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_5/Sung_Jinwoo_5.png"
+    ],
     subcategoria: "Solo Leveling",
   ),
   Product(
@@ -2452,7 +3069,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_6.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_6/Sung_Jinwoo_6.png"
+    ],
     subcategoria: "Solo Leveling",
   ),
   Product(
@@ -2460,7 +3079,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_7.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_7/Sung_Jinwoo_7.png"
+    ],
     subcategoria: "Solo Leveling",
   ),
   Product(
@@ -2468,7 +3089,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_8.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_8/Sung_Jinwoo_8.png"
+    ],
     subcategoria: "Solo Leveling",
   ),
   Product(
@@ -2476,631 +3099,9 @@ const List<Product> productos = [
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_9.png",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Solo_Leveling/Sung_Jinwoo_9/Sung_Jinwoo_9.png"
+    ],
     subcategoria: "Solo Leveling",
-  ),
-  Product(
-    nombre: "Poster Superman",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/DC_Comics/Superman.png",
-    subcategoria: "DC Comics",
-  ),
-  Product(
-    nombre: "Poster Itadori Yuji",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/Jujutsu_Kaisen/Itadori_Yuji.jpg",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Poster Mitsuri",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/Kimetsu_no_Yaiba/Mitsuri.jpg",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Poster Rengoku",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/Kimetsu_no_Yaiba/Rengoku.jpg",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Poster Brook Wanted",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Brook Wanted.jpg",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Brook Wanted #2",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Brook Wanted.png",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Chopper Wanted",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Chopper Wanted.jpg",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Chopper Wanted #2",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Chopper Wanted.png",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Franky Wanted",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Franky Wanted.jpg",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Franky Wanted #2",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Franky Wanted.png",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster God Usopp Wanted",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/God Usopp Wanted.jpg",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Jinbe Wanted",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Jinbe Wanted.jpg",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Monkey D Luffy Wanted",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Monkey D Luffy Wanted.png",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Monkey D. Luffy Wanted",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Monkey D. Luffy Wanted.png",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Monkey D. Luffy Wanted #1",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Monkey D. Luffy Wanted_1.png",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Nami Wanted",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Nami Wanted.png",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Nami",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Nami.jpg",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Nico Robin Wanted",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Nico Robin Wanted.jpg",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Nico Robin Wanted #2",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Nico Robin Wanted.png",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Sanji Only Alive Wanted",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Sanji Only Alive Wanted.jpg",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Sanji Wanted",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Sanji Wanted.png",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Sogeking (Usopp) Wanted",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Sogeking (Usopp) Wanted.png",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Zoro Wanted",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Zoro Wanted.jpg",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster Zoro Wanted #2",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/One_Piece/Zoro Wanted.png",
-    subcategoria: "One Piece",
-  ),
-  Product(
-    nombre: "Poster The Legend of Zelda Tears of the Kingdom",
-    precio: "70",
-    descripcion: "Poster con impresión premium para dar vida a tus espacios. Perfecto para decorar tu cuarto, oficina o rincón otaku.",
-    categoria: "Posters",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/P-o/The_Legend_of_Zelda/The_Legend_of_Zelda_Tears_of_the_Kingdom.jpg",
-    subcategoria: "The Legend of Zelda",
-  ),
-  Product(
-    nombre: "Polaroid Ao no Exorcist",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Ao no Exorcist.jpeg",
-    subcategoria: "Ao no Exorcist",
-  ),
-  Product(
-    nombre: "Polaroid Black Clover",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Black Clover.jpeg",
-    subcategoria: "Black Clover",
-  ),
-  Product(
-    nombre: "Polaroid Boku no Hero Academia",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Boku no Hero Academia.jpeg",
-    subcategoria: "Boku no Hero Academia",
-  ),
-  Product(
-    nombre: "Polaroid Bungou Stray Dogs",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Bungou Stray Dogs.jpeg",
-    subcategoria: "Bungou Stray Dogs",
-  ),
-  Product(
-    nombre: "Polaroid Chainsaw Man",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Chainsaw Man.jpeg",
-    subcategoria: "Chainsaw Man",
-  ),
-  Product(
-    nombre: "Polaroid Death Note",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Death Note.jpeg",
-    subcategoria: "Death Note",
-  ),
-  Product(
-    nombre: "Polaroid Fairy Tail",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Fairy Tail.jpeg",
-    subcategoria: "Fairy Tail",
-  ),
-  Product(
-    nombre: "Polaroid Fire Force",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Fire Force.jpeg",
-    subcategoria: "Fire Force",
-  ),
-  Product(
-    nombre: "Polaroid Fullmetal Alchemist Brotherhood",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Fullmetal Alchemist Brotherhood.jpeg",
-    subcategoria: "Fullmetal Alchemist Brotherhood",
-  ),
-  Product(
-    nombre: "Polaroid Hanako-Kun",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Hanako-Kun.jpeg",
-    subcategoria: "Hanako-Kun",
-  ),
-  Product(
-    nombre: "Polaroid Jujutsu Kaisen",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Jujutsu Kaisen.jpeg",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Polaroid Kimetsu no Yaiba",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Kimetsu no Yaiba.jpeg",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Polaroid Komi-San Can't Communicate",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Komi-San Can't Communicate.jpeg",
-    subcategoria: "Komi-San Can't Communicate",
-  ),
-  Product(
-    nombre: "Polaroid Mushoku Tensei",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Mushoku Tensei.jpeg",
-    subcategoria: "Mushoku Tensei",
-  ),
-  Product(
-    nombre: "Polaroid My Dress-Up Darling",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/My Dress-Up Darling.jpeg",
-    subcategoria: "My Dress-Up Darling",
-  ),
-  Product(
-    nombre: "Polaroid Neon Genesis Evangelion",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Neon Genesis Evangelion.jpeg",
-    subcategoria: "Neon Genesis Evangelion",
-  ),
-  Product(
-    nombre: "Polaroid Noragami",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Noragami.jpeg",
-    subcategoria: "Noragami",
-  ),
-  Product(
-    nombre: "Polaroid Shuumatsu no Valkyrie",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Shuumatsu no Valkyrie.jpeg",
-    subcategoria: "Shuumatsu no Valkyrie",
-  ),
-  Product(
-    nombre: "Polaroid Spy x Family",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Spy x Family.jpeg",
-    subcategoria: "Spy x Family",
-  ),
-  Product(
-    nombre: "Polaroid Vanitas No Carte",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Anime/Vanitas No Carte.jpeg",
-    subcategoria: "Vanitas No Carte",
-  ),
-  Product(
-    nombre: "Polaroid Taylor Swift 1989 (Taylor's Version)",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor_Swift/Taylor Swift 1989 (Taylor's Version).png",
-    subcategoria: "Taylor Swift",
-  ),
-  Product(
-    nombre: "Polaroid Taylor Swift Eras Tour",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor_Swift/Taylor Swift Eras Tour.png",
-    subcategoria: "Taylor Swift",
-  ),
-  Product(
-    nombre: "Polaroid Taylor Swift Eras Tour #1",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor_Swift/Taylor Swift Eras Tour_1.png",
-    subcategoria: "Taylor Swift",
-  ),
-  Product(
-    nombre: "Polaroid Taylor Swift Evermore",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor_Swift/Taylor Swift Evermore.png",
-    subcategoria: "Taylor Swift",
-  ),
-  Product(
-    nombre: "Polaroid Taylor Swift Fearless",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor_Swift/Taylor Swift Fearless.png",
-    subcategoria: "Taylor Swift",
-  ),
-  Product(
-    nombre: "Polaroid Taylor Swift Folklore",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor_Swift/Taylor Swift Folklore.png",
-    subcategoria: "Taylor Swift",
-  ),
-  Product(
-    nombre: "Polaroid Taylor Swift Lover",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor_Swift/Taylor Swift Lover.png",
-    subcategoria: "Taylor Swift",
-  ),
-  Product(
-    nombre: "Polaroid Taylor Swift Midnights",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor_Swift/Taylor Swift Midnights.png",
-    subcategoria: "Taylor Swift",
-  ),
-  Product(
-    nombre: "Polaroid Taylor Swift Red (Taylor's Version)",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor_Swift/Taylor Swift Red (Taylor's Version).png",
-    subcategoria: "Taylor Swift",
-  ),
-  Product(
-    nombre: "Polaroid Taylor Swift Reputacion",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor_Swift/Taylor Swift Reputacion.png",
-    subcategoria: "Taylor Swift",
-  ),
-  Product(
-    nombre: "Polaroid Taylor Swift Speak Now",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor_Swift/Taylor Swift Speak Now.png",
-    subcategoria: "Taylor Swift",
-  ),
-  Product(
-    nombre: "Polaroid Taylor Swift The Tortured Poets Department",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor_Swift/Taylor Swift The Tortured Poets Department.png",
-    subcategoria: "Taylor Swift",
-  ),
-  Product(
-    nombre: "Polaroid Taylor Swift",
-    precio: "20",
-    descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
-    categoria: "Polaroids",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/Pol/Taylor_Swift/Taylor Swift.png",
-    subcategoria: "Taylor Swift",
-  ),
-  Product(
-    nombre: "Separador Chuya",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Bungou_Stray_Dogs/Chuya.png",
-    subcategoria: "Bungou Stray Dogs",
-  ),
-  Product(
-    nombre: "Separador Kyōka Izum",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Bungou_Stray_Dogs/Kyōka_Izum.png",
-    subcategoria: "Bungou Stray Dogs",
-  ),
-  Product(
-    nombre: "Separador Ranpo",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Bungou_Stray_Dogs/Ranpo.png",
-    subcategoria: "Bungou Stray Dogs",
-  ),
-  Product(
-    nombre: "Separador Gojo",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Jujutsu_Kaisen/Gojo.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Separador Itadori",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Jujutsu_Kaisen/Itadori.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Separador Itadori #1",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Jujutsu_Kaisen/Itadori_1.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Separador Kenjaku",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Jujutsu_Kaisen/Kenjaku.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Separador Mahito",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Jujutsu_Kaisen/Mahito.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Separador Megumi",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Jujutsu_Kaisen/Megumi.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Separador Nanami",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Jujutsu_Kaisen/Nanami.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Separador Nanami #1",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Jujutsu_Kaisen/Nanami_1.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Separador Nobara",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Jujutsu_Kaisen/Nobara.png",
-    subcategoria: "Jujutsu Kaisen",
-  ),
-  Product(
-    nombre: "Separador Himejima",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Kimetsu_no_Yaiba/Himejima.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Separador Nezuko",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Kimetsu_no_Yaiba/Nezuko.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Separador Obanai",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Kimetsu_no_Yaiba/Obanai.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Separador Rengoku",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Kimetsu_no_Yaiba/Rengoku.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Separador Shinobu",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Kimetsu_no_Yaiba/Shinobu.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Separador Tanjiro",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Kimetsu_no_Yaiba/Tanjiro.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Separador Uzui",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Kimetsu_no_Yaiba/Uzui.png",
-    subcategoria: "Kimetsu no Yaiba",
-  ),
-  Product(
-    nombre: "Separador Zenitsu",
-    precio: "25",
-    descripcion: "Separador de diseño exclusivo para que nunca pierdas la página en tus mangas y libros. Compacto, resistente y coleccionable.",
-    categoria: "Separadores",
-    imagen: "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/S-e/Kimetsu_no_Yaiba/Zenitsu.png",
-    subcategoria: "Kimetsu no Yaiba",
   ),
 ];

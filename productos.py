@@ -70,58 +70,88 @@ def limpiar_subcategoria(nombre_carpeta):
     nombre = re.sub(r"\s{2,}", " ", nombre).strip()
     return nombre
 
-for root, dirs, files in os.walk(carpeta_base):
-    for file in sorted(files):
-        if file.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
-            relative_path = os.path.relpath(os.path.join(root, file), carpeta_base)
-            relative_path = relative_path.replace("\\", "/")
-            url = base_url + relative_path
+def extraer_variante(nombre_carpeta):
+    """Extrae el nombre del personaje y el número de variante de una carpeta como 'Gojo_1'."""
+    # Busca patrones como: Gojo_1, Gojo_2, Luffy_1, etc.
+    match = re.match(r"^(.+?)[_\s]*(\d+)$", nombre_carpeta)
+    if match:
+        nombre_personaje = match.group(1).replace("_", " ").strip()
+        numero_variante = match.group(2)
+        return nombre_personaje, numero_variante
+    else:
+        # Si no hay número, se considera variante 1
+        return nombre_carpeta.replace("_", " ").strip(), "1"
 
-            partes = relative_path.split("/")
-            carpeta = partes[0]  # Ejemplo: C-a, P-o, S-e, Pol
-
-            if carpeta not in categorias:
-                continue  # Saltar archivos fuera de categorías definidas
-
-            tipo = categorias[carpeta]
-            nombre_categoria = tipo["nombre"]
-            categoria_plural = tipo["categoria"]
-            precio = tipo["precio"]
-            descripcion = tipo["descripcion"]
-
-            # --- Lógica especial para Polaroids ---
-            if carpeta == "Pol":
-                if len(partes) >= 3 and partes[1].lower() == "anime":
-                    subcategoria = limpiar_nombre(file)
-                    personaje = subcategoria
+# Recorremos la estructura de directorios
+for categoria_dir in os.listdir(carpeta_base):
+    if categoria_dir not in categorias:
+        continue
+        
+    categoria_path = os.path.join(carpeta_base, categoria_dir)
+    if not os.path.isdir(categoria_path):
+        continue
+        
+    tipo = categorias[categoria_dir]
+    nombre_categoria = tipo["nombre"]
+    categoria_plural = tipo["categoria"]
+    precio = tipo["precio"]
+    descripcion = tipo["descripcion"]
+    
+    # Recorremos las subcategorías (animes/series)
+    for subcategoria_dir in os.listdir(categoria_path):
+        subcategoria_path = os.path.join(categoria_path, subcategoria_dir)
+        if not os.path.isdir(subcategoria_path):
+            continue
+            
+        subcategoria_limpia = limpiar_subcategoria(subcategoria_dir)
+        
+        # Recorremos las carpetas de variantes de personajes
+        for variante_dir in os.listdir(subcategoria_path):
+            variante_path = os.path.join(subcategoria_path, variante_dir)
+            if not os.path.isdir(variante_path):
+                continue
+                
+            # Extraemos el nombre del personaje y el número de variante
+            nombre_personaje, numero_variante = extraer_variante(variante_dir)
+            
+            # Buscamos todas las imágenes en la carpeta de variante
+            imagenes_variante = []
+            for file in sorted(os.listdir(variante_path)):
+                if file.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
+                    relative_path = os.path.relpath(os.path.join(variante_path, file), carpeta_base)
+                    relative_path = relative_path.replace("\\", "/")
+                    url = base_url + relative_path
+                    imagenes_variante.append(url)
+            
+            # Si no hay imágenes, saltamos esta variante
+            if not imagenes_variante:
+                continue
+                
+            # Generamos el nombre del producto
+            nombre_producto = f"{nombre_categoria} {nombre_personaje} #{numero_variante}"
+            
+            # Para Polaroids, lógica especial
+            if categoria_dir == "Pol":
+                if subcategoria_dir.lower() == "anime":
+                    subcategoria_final = limpiar_nombre(file)
+                    personaje_final = subcategoria_final
                 else:
-                    # Aplicar limpieza a la subcategoría para Polaroids
-                    subcategoria = limpiar_subcategoria(partes[1]) if len(partes) >= 2 else "General"
-                    personaje = limpiar_nombre(file)
+                    subcategoria_final = subcategoria_limpia
+                    personaje_final = nombre_personaje
             else:
-                # --- Lógica general (camisas, posters, separadores, etc.) ---
-                # Aplicar limpieza a la subcategoría
-                subcategoria = limpiar_subcategoria(partes[1]) if len(partes) >= 2 else "General"
-                personaje = limpiar_nombre(file)
-
-            # Contador único por categoría + subcategoría + personaje
-            clave = f"{carpeta}-{subcategoria.lower()}-{personaje.lower()}"
-            contadores[clave] = contadores.get(clave, 0) + 1
-            numero = contadores[clave]
-
-            # Nombre del producto con #n si hay repetidos
-            if numero > 1 and f"#{numero}" not in personaje:
-                nombre_producto = f"{nombre_categoria} {personaje} #{numero}"
-            else:
-                nombre_producto = f"{nombre_categoria} {personaje}"
-
+                subcategoria_final = subcategoria_limpia
+                personaje_final = nombre_personaje
+            
+            # Generamos la lista de imágenes en formato Dart
+            imagenes_dart = "[\n" + ",\n".join([f'      "{img_url}"' for img_url in imagenes_variante]) + "\n    ]"
+            
             productos.append(f'''  Product(
     nombre: "{nombre_producto}",
     precio: "{precio}",
     descripcion: "{descripcion}",
     categoria: "{categoria_plural}",
-    imagen: "{url}",
-    subcategoria: "{subcategoria}",
+    imagenes: {imagenes_dart},
+    subcategoria: "{subcategoria_final}",
   ),''')
 
 # Generar archivo Dart
@@ -130,4 +160,5 @@ with open("products.dart", "w", encoding="utf-8") as f:
     f.write("\n".join(productos))
     f.write("\n];\n")
 
-print("✅ Archivo 'products.dart' generado correctamente con las reglas de nombres aplicadas.")
+print(f"✅ Archivo 'products.dart' generado correctamente con {len(productos)} productos.")
+print("📁 Estructura procesada: Categoría → Subcategoría → Variante_Personaje → Múltiples imágenes")

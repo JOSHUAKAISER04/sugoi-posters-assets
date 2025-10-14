@@ -18,7 +18,7 @@ categorias = {
     "S-u": {
         "nombre": "Suéter",
         "categoria": "Sueters",
-        "precio": "350",
+        "precio": "500",
         "descripcion": "Suéter cómodo y duradero con diseños únicos de tus animes favoritos. Ideal para mantenerte abrigado con estilo otaku."
     },
     "P-o": {

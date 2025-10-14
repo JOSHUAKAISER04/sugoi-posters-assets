@@ -3730,7 +3730,7 @@ const List<Product> productos = [
   ),
   Product(
     nombre: "Suéter Okarun&Momo #1",
-    precio: "350",
+    precio: "500",
     descripcion: "Suéter cómodo y duradero con diseños únicos de tus animes favoritos. Ideal para mantenerte abrigado con estilo otaku.",
     categoria: "Sueters",
     imagenes: [
@@ -3740,7 +3740,7 @@ const List<Product> productos = [
   ),
   Product(
     nombre: "Suéter Okarun&Momo #2",
-    precio: "350",
+    precio: "500",
     descripcion: "Suéter cómodo y duradero con diseños únicos de tus animes favoritos. Ideal para mantenerte abrigado con estilo otaku.",
     categoria: "Sueters",
     imagenes: [

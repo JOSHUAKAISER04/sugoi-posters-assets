@@ -62,13 +62,14 @@ def limpiar_subcategoria(nombre_carpeta):
     return nombre
 
 def extraer_variante(nombre_carpeta):
+    """Devuelve (nombre_base, numero_variante o None si no hay número explícito)."""
     match = re.match(r"^(.+?)[_\s]*(\d+)$", nombre_carpeta)
     if match:
         nombre_personaje = match.group(1).replace("_", " ").strip()
         numero_variante = match.group(2)
-        return nombre_personaje, numero_variante
+        return nombre_personaje, int(numero_variante)
     else:
-        return nombre_carpeta.replace("_", " ").strip(), "1"
+        return nombre_carpeta.replace("_", " ").strip(), None
 
 # Recorremos la estructura de directorios
 for categoria_dir in os.listdir(carpeta_base):
@@ -94,29 +95,39 @@ for categoria_dir in os.listdir(carpeta_base):
 
             subcategoria_limpia = limpiar_subcategoria(subcategoria_dir)
 
-            for variante_dir in os.listdir(subcategoria_path):
+            variantes = os.listdir(subcategoria_path)
+            variantes_agrupadas = {}
+
+            # Agrupar variantes por nombre base (Tomioka, Tomioka_1, etc.)
+            for variante_dir in variantes:
                 variante_path = os.path.join(subcategoria_path, variante_dir)
                 if not os.path.isdir(variante_path):
                     continue
 
-                nombre_personaje, numero_variante = extraer_variante(variante_dir)
+                nombre_base, numero = extraer_variante(variante_dir)
+                variantes_agrupadas.setdefault(nombre_base, []).append((numero, variante_dir))
 
-                imagenes_variante = []
-                for file in sorted(os.listdir(variante_path)):
-                    if file.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
-                        relative_path = os.path.relpath(os.path.join(variante_path, file), carpeta_base)
-                        relative_path = relative_path.replace("\\", "/")
-                        url = base_url + relative_path
-                        imagenes_variante.append(url)
+            # Procesar las variantes agrupadas
+            for nombre_base, lista_variantes in variantes_agrupadas.items():
+                lista_variantes.sort(key=lambda x: x[0] if x[0] is not None else 0)
+                contador_local = 1
 
-                if not imagenes_variante:
-                    continue
+                for numero, variante_dir in lista_variantes:
+                    variante_path = os.path.join(subcategoria_path, variante_dir)
+                    imagenes_variante = [
+                        base_url + os.path.relpath(os.path.join(variante_path, file), carpeta_base).replace("\\", "/")
+                        for file in sorted(os.listdir(variante_path))
+                        if file.lower().endswith((".png", ".jpg", ".jpeg", ".webp"))
+                    ]
+                    if not imagenes_variante:
+                        continue
 
-                nombre_producto = f"{nombre_categoria} {nombre_personaje} #{numero_variante}"
+                    numero_final = numero if numero is not None else contador_local
+                    nombre_producto = f"{nombre_categoria} {nombre_base} #{numero_final}"
 
-                imagenes_dart = "[\n" + ",\n".join([f'      "{img_url}"' for img_url in imagenes_variante]) + "\n    ]"
+                    imagenes_dart = "[\n" + ",\n".join([f'      "{img}"' for img in imagenes_variante]) + "\n    ]"
 
-                productos.append(f'''  Product(
+                    productos.append(f'''  Product(
     nombre: "{nombre_producto}",
     precio: "{precio}",
     descripcion: "{descripcion}",
@@ -124,6 +135,8 @@ for categoria_dir in os.listdir(carpeta_base):
     imagenes: {imagenes_dart},
     subcategoria: "{subcategoria_limpia}",
   ),''')
+
+                    contador_local += 1
 
     # --- LÓGICA PARA LOS DEMÁS PRODUCTOS ---
     else:
@@ -183,9 +196,7 @@ print(f"✅ Archivo 'products.dart' generado correctamente con {len(productos)} 
 print("\n📁 Estructura procesada:")
 print("   - Camisas (C-a) y Sueters (S-u): Categoría → Subcategoría → Variante_Personaje → Múltiples imágenes")
 print("   - Otros productos: Categoría → Subcategoría → Archivos individuales")
-print("\n📝 Ejemplos de productos generados:")
-print("   - Camisa Gojo #1 (con múltiples imágenes)")
-print("   - Sueter Luffy #1 (con múltiples imágenes)")
-print("   - Poster Naruto (una sola imagen)")
-print("   - Separador Tanjiro (una sola imagen)")
-print("   - Polaroid Anime (una sola imagen)")
+print("\n📝 Ejemplo corregido:")
+print("   - Tomioka (sin número) → Camisa Tomioka #1")
+print("   - Tomioka_1 → Camisa Tomioka #2")
+print("   - Tomioka_2 → Camisa Tomioka #3")

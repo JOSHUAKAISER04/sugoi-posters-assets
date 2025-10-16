@@ -48,28 +48,30 @@ productos = []
 contadores = {}
 
 def limpiar_nombre(nombre_archivo):
+    """Limpia el nombre de un archivo quitando extensiones y formateando texto."""
     nombre = os.path.splitext(nombre_archivo)[0]
     nombre = re.sub(r"[_\s]*\(?(\d+)\)?$", r" #\1", nombre)
-    nombre = re.sub(r"_(?!#?\d+)", " ", nombre)
-    nombre = re.sub(r"\s*&\s*", " & ", nombre)
+    nombre = re.sub(r"[_]+", " ", nombre)
     nombre = re.sub(r"\s{2,}", " ", nombre).strip()
     return nombre
 
 def limpiar_subcategoria(nombre_carpeta):
+    """Formatea los nombres de las subcarpetas correctamente."""
     nombre = nombre_carpeta.replace("_", " ")
-    nombre = re.sub(r"\s*&\s*", " & ", nombre)
     nombre = re.sub(r"\s{2,}", " ", nombre).strip()
     return nombre
 
 def extraer_variante(nombre_carpeta):
     """Devuelve (nombre_base, numero_variante o None si no hay número explícito)."""
+    # Primero intentamos extraer número al final
     match = re.match(r"^(.+?)[_\s]*(\d+)$", nombre_carpeta)
     if match:
         nombre_personaje = match.group(1).replace("_", " ").strip()
-        numero_variante = match.group(2)
-        return nombre_personaje, int(numero_variante)
-    else:
-        return nombre_carpeta.replace("_", " ").strip(), None
+        numero_variante = int(match.group(2))
+        return nombre_personaje, numero_variante
+    
+    # Si no hay número, devolvemos el nombre completo
+    return nombre_carpeta.replace("_", " ").strip(), None
 
 # Recorremos la estructura de directorios
 for categoria_dir in os.listdir(carpeta_base):
@@ -86,7 +88,7 @@ for categoria_dir in os.listdir(carpeta_base):
     precio = tipo["precio"]
     descripcion = tipo["descripcion"]
 
-    # --- LÓGICA ESPECIAL PARA CAMISAS Y SUÉTERS ---
+    # --- CAMISAS Y SUÉTERES ---
     if categoria_dir in ("C-a", "S-u"):
         for subcategoria_dir in os.listdir(categoria_path):
             subcategoria_path = os.path.join(categoria_path, subcategoria_dir)
@@ -94,26 +96,38 @@ for categoria_dir in os.listdir(carpeta_base):
                 continue
 
             subcategoria_limpia = limpiar_subcategoria(subcategoria_dir)
-
-            variantes = os.listdir(subcategoria_path)
-            variantes_agrupadas = {}
-
-            # Agrupar variantes por nombre base (Tomioka, Tomioka_1, etc.)
-            for variante_dir in variantes:
+            
+            # Recolectamos todas las variantes primero
+            todas_variantes = []
+            for variante_dir in os.listdir(subcategoria_path):
                 variante_path = os.path.join(subcategoria_path, variante_dir)
                 if not os.path.isdir(variante_path):
                     continue
-
+                
                 nombre_base, numero = extraer_variante(variante_dir)
-                variantes_agrupadas.setdefault(nombre_base, []).append((numero, variante_dir))
-
-            # Procesar las variantes agrupadas
+                todas_variantes.append({
+                    'nombre_base': nombre_base,
+                    'numero': numero,
+                    'nombre_original': variante_dir,
+                    'path': variante_path
+                })
+            
+            # Agrupamos por nombre base
+            variantes_agrupadas = {}
+            for variante in todas_variantes:
+                nombre_base = variante['nombre_base']
+                if nombre_base not in variantes_agrupadas:
+                    variantes_agrupadas[nombre_base] = []
+                variantes_agrupadas[nombre_base].append(variante)
+            
+            # Procesamos cada grupo
             for nombre_base, lista_variantes in variantes_agrupadas.items():
-                lista_variantes.sort(key=lambda x: x[0] if x[0] is not None else 0)
-                contador_local = 1
-
-                for numero, variante_dir in lista_variantes:
-                    variante_path = os.path.join(subcategoria_path, variante_dir)
+                # Ordenamos las variantes: primero las que no tienen número, luego por número
+                lista_variantes.sort(key=lambda x: (x['numero'] is not None, x['numero'] if x['numero'] is not None else 0))
+                
+                # Asignamos números consecutivos empezando desde 1
+                for i, variante in enumerate(lista_variantes, 1):
+                    variante_path = variante['path']
                     imagenes_variante = [
                         base_url + os.path.relpath(os.path.join(variante_path, file), carpeta_base).replace("\\", "/")
                         for file in sorted(os.listdir(variante_path))
@@ -122,8 +136,8 @@ for categoria_dir in os.listdir(carpeta_base):
                     if not imagenes_variante:
                         continue
 
-                    numero_final = numero if numero is not None else contador_local
-                    nombre_producto = f"{nombre_categoria} {nombre_base} #{numero_final}"
+                    # Siempre usamos el número consecutivo, ignorando el número original
+                    nombre_producto = f"{nombre_categoria} {nombre_base} #{i}"
 
                     imagenes_dart = "[\n" + ",\n".join([f'      "{img}"' for img in imagenes_variante]) + "\n    ]"
 
@@ -136,9 +150,7 @@ for categoria_dir in os.listdir(carpeta_base):
     subcategoria: "{subcategoria_limpia}",
   ),''')
 
-                    contador_local += 1
-
-    # --- LÓGICA PARA LOS DEMÁS PRODUCTOS ---
+    # --- OTROS PRODUCTOS ---
     else:
         for subcategoria_dir in os.listdir(categoria_path):
             subcategoria_path = os.path.join(categoria_path, subcategoria_dir)
@@ -148,36 +160,32 @@ for categoria_dir in os.listdir(carpeta_base):
             subcategoria_limpia = limpiar_subcategoria(subcategoria_dir)
 
             for file in sorted(os.listdir(subcategoria_path)):
-                if file.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
-                    relative_path = os.path.relpath(os.path.join(subcategoria_path, file), carpeta_base)
-                    relative_path = relative_path.replace("\\", "/")
-                    url = base_url + relative_path
+                if not file.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
+                    continue
 
-                    personaje = limpiar_nombre(file)
+                relative_path = os.path.relpath(os.path.join(subcategoria_path, file), carpeta_base).replace("\\", "/")
+                url = base_url + relative_path
+                personaje = limpiar_nombre(file)
 
-                    if categoria_dir == "Pol":
-                        if subcategoria_dir.lower() == "anime":
-                            subcategoria_final = personaje
-                            personaje_final = personaje
-                        else:
-                            subcategoria_final = subcategoria_limpia
-                            personaje_final = personaje
-                    else:
-                        subcategoria_final = subcategoria_limpia
-                        personaje_final = personaje
+                if categoria_dir == "Pol":
+                    subcategoria_final = personaje if subcategoria_dir.lower() == "anime" else subcategoria_limpia
+                    personaje_final = personaje
+                else:
+                    subcategoria_final = subcategoria_limpia
+                    personaje_final = personaje
 
-                    clave = f"{categoria_dir}-{subcategoria_final.lower()}-{personaje_final.lower()}"
-                    contadores[clave] = contadores.get(clave, 0) + 1
-                    numero = contadores[clave]
+                clave = f"{categoria_dir}-{subcategoria_final.lower()}-{personaje_final.lower()}"
+                contadores[clave] = contadores.get(clave, 0) + 1
+                numero = contadores[clave]
 
-                    if numero > 1 and f"#{numero}" not in personaje_final:
-                        nombre_producto = f"{nombre_categoria} {personaje_final} #{numero}"
-                    else:
-                        nombre_producto = f"{nombre_categoria} {personaje_final}"
+                if numero > 1 and f"#{numero}" not in personaje_final:
+                    nombre_producto = f"{nombre_categoria} {personaje_final} #{numero}"
+                else:
+                    nombre_producto = f"{nombre_categoria} {personaje_final}"
 
-                    imagenes_dart = f'["{url}"]'
+                imagenes_dart = f'["{url}"]'
 
-                    productos.append(f'''  Product(
+                productos.append(f'''  Product(
     nombre: "{nombre_producto}",
     precio: "{precio}",
     descripcion: "{descripcion}",
@@ -186,7 +194,7 @@ for categoria_dir in os.listdir(carpeta_base):
     subcategoria: "{subcategoria_final}",
   ),''')
 
-# Generar archivo Dart
+# --- GENERAR ARCHIVO DART ---
 with open("products.dart", "w", encoding="utf-8") as f:
     f.write("const List<Product> productos = [\n")
     f.write("\n".join(productos))
@@ -194,9 +202,9 @@ with open("products.dart", "w", encoding="utf-8") as f:
 
 print(f"✅ Archivo 'products.dart' generado correctamente con {len(productos)} productos.")
 print("\n📁 Estructura procesada:")
-print("   - Camisas (C-a) y Sueters (S-u): Categoría → Subcategoría → Variante_Personaje → Múltiples imágenes")
+print("   - Camisas (C-a) y Sueters (S-u): Categoría → Subcategoría → Variante → Múltiples imágenes")
 print("   - Otros productos: Categoría → Subcategoría → Archivos individuales")
 print("\n📝 Ejemplo corregido:")
-print("   - Tomioka (sin número) → Camisa Tomioka #1")
+print("   - Tomioka → Camisa Tomioka #1")
 print("   - Tomioka_1 → Camisa Tomioka #2")
 print("   - Tomioka_2 → Camisa Tomioka #3")

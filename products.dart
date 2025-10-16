@@ -60,7 +60,7 @@ const List<Product> productos = [
     subcategoria: "Bleach",
   ),
   Product(
-    nombre: "Camisa Ichigo Hollow #1",
+    nombre: "Camisa Ichigo Hollow #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -70,7 +70,7 @@ const List<Product> productos = [
     subcategoria: "Bleach",
   ),
   Product(
-    nombre: "Camisa Ichigo Hollow #2",
+    nombre: "Camisa Ichigo Hollow #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -80,7 +80,7 @@ const List<Product> productos = [
     subcategoria: "Bleach",
   ),
   Product(
-    nombre: "Camisa Ichigo Hollow #3",
+    nombre: "Camisa Ichigo Hollow #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -90,7 +90,7 @@ const List<Product> productos = [
     subcategoria: "Bleach",
   ),
   Product(
-    nombre: "Camisa Ichigo Hollow #4",
+    nombre: "Camisa Ichigo Hollow #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -100,7 +100,7 @@ const List<Product> productos = [
     subcategoria: "Bleach",
   ),
   Product(
-    nombre: "Camisa Ichigo Hollow #5",
+    nombre: "Camisa Ichigo Hollow #6",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -181,7 +181,7 @@ const List<Product> productos = [
     subcategoria: "Dandadan",
   ),
   Product(
-    nombre: "Camisa Okarun&Momo #1",
+    nombre: "Camisa Okarun&Momo #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -191,7 +191,7 @@ const List<Product> productos = [
     subcategoria: "Dandadan",
   ),
   Product(
-    nombre: "Camisa Okarun&Momo #2",
+    nombre: "Camisa Okarun&Momo #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -305,7 +305,7 @@ const List<Product> productos = [
     subcategoria: "Dandadan",
   ),
   Product(
-    nombre: "Camisa Androide #18",
+    nombre: "Camisa Androide #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -495,7 +495,7 @@ const List<Product> productos = [
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Goku #1",
+    nombre: "Camisa Goku #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -505,7 +505,7 @@ const List<Product> productos = [
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Goku #2",
+    nombre: "Camisa Goku #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -525,7 +525,7 @@ const List<Product> productos = [
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Goku SSJ #4",
+    nombre: "Camisa Goku SSJ #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -645,7 +645,7 @@ const List<Product> productos = [
     subcategoria: "Dragon Ball",
   ),
   Product(
-    nombre: "Camisa Vegeta SSJ #4",
+    nombre: "Camisa Vegeta SSJ #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -715,7 +715,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Geto #1",
+    nombre: "Camisa Geto #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -725,7 +725,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Geto #2",
+    nombre: "Camisa Geto #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -735,7 +735,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Geto #3",
+    nombre: "Camisa Geto #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -745,7 +745,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Geto #4",
+    nombre: "Camisa Geto #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -755,7 +755,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Geto #5",
+    nombre: "Camisa Geto #6",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -765,7 +765,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Geto #6",
+    nombre: "Camisa Geto #7",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -775,7 +775,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Geto #7",
+    nombre: "Camisa Geto #8",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -795,7 +795,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo #1",
+    nombre: "Camisa Gojo #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -805,7 +805,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo #2",
+    nombre: "Camisa Gojo #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -815,7 +815,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo #3",
+    nombre: "Camisa Gojo #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -825,7 +825,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo #4",
+    nombre: "Camisa Gojo #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -835,7 +835,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo #5",
+    nombre: "Camisa Gojo #6",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -845,7 +845,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo #6",
+    nombre: "Camisa Gojo #7",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -855,7 +855,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo #7",
+    nombre: "Camisa Gojo #8",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -865,7 +865,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo #8",
+    nombre: "Camisa Gojo #9",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -875,7 +875,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo #9",
+    nombre: "Camisa Gojo #10",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -885,7 +885,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo #10",
+    nombre: "Camisa Gojo #11",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -895,7 +895,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo #11",
+    nombre: "Camisa Gojo #12",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -905,7 +905,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo #12",
+    nombre: "Camisa Gojo #13",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -945,7 +945,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Itadori #1",
+    nombre: "Camisa Itadori #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -985,7 +985,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Maki #1",
+    nombre: "Camisa Maki #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -995,7 +995,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Maki #2",
+    nombre: "Camisa Maki #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1085,7 +1085,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Nanami #1",
+    nombre: "Camisa Nanami #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1095,7 +1095,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Nanami #2",
+    nombre: "Camisa Nanami #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1105,7 +1105,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Nanami #3",
+    nombre: "Camisa Nanami #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1115,7 +1115,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Nanami #4",
+    nombre: "Camisa Nanami #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1125,7 +1125,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Nanami #5",
+    nombre: "Camisa Nanami #6",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1155,7 +1155,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Nobara #1",
+    nombre: "Camisa Nobara #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1165,7 +1165,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Nobara #2",
+    nombre: "Camisa Nobara #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1175,7 +1175,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Nobara #3",
+    nombre: "Camisa Nobara #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1185,7 +1185,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Nobara #4",
+    nombre: "Camisa Nobara #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1225,7 +1225,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Sukuna #1",
+    nombre: "Camisa Sukuna #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1235,7 +1235,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Sukuna #2",
+    nombre: "Camisa Sukuna #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1245,7 +1245,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Sukuna #3",
+    nombre: "Camisa Sukuna #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1255,7 +1255,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Sukuna #4",
+    nombre: "Camisa Sukuna #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1265,7 +1265,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Sukuna #5",
+    nombre: "Camisa Sukuna #6",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1275,7 +1275,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Sukuna #6",
+    nombre: "Camisa Sukuna #7",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1285,7 +1285,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Sukuna #7",
+    nombre: "Camisa Sukuna #8",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1295,7 +1295,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Sukuna #8",
+    nombre: "Camisa Sukuna #9",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1305,7 +1305,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Sukuna #9",
+    nombre: "Camisa Sukuna #10",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1315,7 +1315,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Sukuna #10",
+    nombre: "Camisa Sukuna #11",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1345,7 +1345,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Todo&Itadori #1",
+    nombre: "Camisa Todo&Itadori #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1365,7 +1365,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Toge #1",
+    nombre: "Camisa Toge #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1475,7 +1475,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Yuta #1",
+    nombre: "Camisa Yuta #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1485,7 +1485,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Yuta #2",
+    nombre: "Camisa Yuta #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1495,7 +1495,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Yuta #3",
+    nombre: "Camisa Yuta #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1535,7 +1535,7 @@ const List<Product> productos = [
     subcategoria: "Kaiju N°8",
   ),
   Product(
-    nombre: "Camisa Kafka #1",
+    nombre: "Camisa Kafka #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1555,7 +1555,7 @@ const List<Product> productos = [
     subcategoria: "Kaiju N°8",
   ),
   Product(
-    nombre: "Camisa Kaiju N° #8",
+    nombre: "Camisa Kaiju N° #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1647,7 +1647,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Douma #1",
+    nombre: "Camisa Douma #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1680,7 +1680,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Haganezuka #1",
+    nombre: "Camisa Haganezuka #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1691,7 +1691,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Haganezuka #2",
+    nombre: "Camisa Haganezuka #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1713,7 +1713,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Hashira #1",
+    nombre: "Camisa Hashira #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1735,7 +1735,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Hashiras #1",
+    nombre: "Camisa Hashiras #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1746,7 +1746,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Hashiras #2",
+    nombre: "Camisa Hashiras #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1756,7 +1756,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Hashiras #3",
+    nombre: "Camisa Hashiras #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1777,7 +1777,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Inosuke #1",
+    nombre: "Camisa Inosuke #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1788,7 +1788,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Inosuke #2",
+    nombre: "Camisa Inosuke #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1859,7 +1859,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Lunas Superiores #1",
+    nombre: "Camisa Lunas Superiores #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1879,7 +1879,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Mitsuri #1",
+    nombre: "Camisa Mitsuri #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1889,7 +1889,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Mitsuri #2",
+    nombre: "Camisa Mitsuri #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1899,7 +1899,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Mitsuri #3",
+    nombre: "Camisa Mitsuri #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1909,7 +1909,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Mitsuri #4",
+    nombre: "Camisa Mitsuri #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1919,7 +1919,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Mitsuri #5",
+    nombre: "Camisa Mitsuri #6",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1949,7 +1949,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Muzan #1",
+    nombre: "Camisa Muzan #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1959,7 +1959,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Muzan #2",
+    nombre: "Camisa Muzan #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1979,7 +1979,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Nezuko #1",
+    nombre: "Camisa Nezuko #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1989,7 +1989,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Nezuko #2",
+    nombre: "Camisa Nezuko #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1999,7 +1999,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Nezuko #3",
+    nombre: "Camisa Nezuko #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2010,7 +2010,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Nezuko #4",
+    nombre: "Camisa Nezuko #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2032,7 +2032,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Rengoku #1",
+    nombre: "Camisa Rengoku #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2044,7 +2044,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Rengoku #2",
+    nombre: "Camisa Rengoku #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2056,7 +2056,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Rengoku #3",
+    nombre: "Camisa Rengoku #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2068,7 +2068,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Rengoku #4",
+    nombre: "Camisa Rengoku #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2110,7 +2110,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Shinobu #1",
+    nombre: "Camisa Shinobu #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2122,7 +2122,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Shinobu #2",
+    nombre: "Camisa Shinobu #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2134,7 +2134,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Shinobu #3",
+    nombre: "Camisa Shinobu #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2169,7 +2169,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Shinobu Kocho #1",
+    nombre: "Camisa Shinobu Kocho #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2256,7 +2256,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Tomioka #1",
+    nombre: "Camisa Tomioka #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2268,7 +2268,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Tomioka #2",
+    nombre: "Camisa Tomioka #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2325,7 +2325,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Zenitsu #1",
+    nombre: "Camisa Zenitsu #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2335,7 +2335,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Camisa Zenitsu #2",
+    nombre: "Camisa Zenitsu #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2425,7 +2425,7 @@ const List<Product> productos = [
     subcategoria: "Naruto",
   ),
   Product(
-    nombre: "Camisa Jiraiya #1",
+    nombre: "Camisa Jiraiya #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2435,7 +2435,7 @@ const List<Product> productos = [
     subcategoria: "Naruto",
   ),
   Product(
-    nombre: "Camisa Jiraiya #2",
+    nombre: "Camisa Jiraiya #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2495,7 +2495,7 @@ const List<Product> productos = [
     subcategoria: "Naruto",
   ),
   Product(
-    nombre: "Camisa Naruto #1",
+    nombre: "Camisa Naruto #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2555,7 +2555,7 @@ const List<Product> productos = [
     subcategoria: "One Piece",
   ),
   Product(
-    nombre: "Camisa Ace #1",
+    nombre: "Camisa Ace #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2565,7 +2565,7 @@ const List<Product> productos = [
     subcategoria: "One Piece",
   ),
   Product(
-    nombre: "Camisa Ace #2",
+    nombre: "Camisa Ace #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2575,7 +2575,7 @@ const List<Product> productos = [
     subcategoria: "One Piece",
   ),
   Product(
-    nombre: "Camisa Ace #3",
+    nombre: "Camisa Ace #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2615,7 +2615,7 @@ const List<Product> productos = [
     subcategoria: "One Piece",
   ),
   Product(
-    nombre: "Camisa Chopper #1",
+    nombre: "Camisa Chopper #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2805,7 +2805,7 @@ const List<Product> productos = [
     subcategoria: "One Piece",
   ),
   Product(
-    nombre: "Camisa Luffy EggHead #1",
+    nombre: "Camisa Luffy EggHead #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2835,7 +2835,7 @@ const List<Product> productos = [
     subcategoria: "One Piece",
   ),
   Product(
-    nombre: "Camisa Luffy Gear 4 Snake-Man #1",
+    nombre: "Camisa Luffy Gear 4 Snake-Man #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2845,7 +2845,7 @@ const List<Product> productos = [
     subcategoria: "One Piece",
   ),
   Product(
-    nombre: "Camisa Luffy Gear #5",
+    nombre: "Camisa Luffy Gear #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2945,7 +2945,7 @@ const List<Product> productos = [
     subcategoria: "One Piece",
   ),
   Product(
-    nombre: "Camisa Nami #1",
+    nombre: "Camisa Nami #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2995,7 +2995,7 @@ const List<Product> productos = [
     subcategoria: "One Piece",
   ),
   Product(
-    nombre: "Camisa Trafalgar Law #1",
+    nombre: "Camisa Trafalgar Law #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3025,7 +3025,7 @@ const List<Product> productos = [
     subcategoria: "One Piece",
   ),
   Product(
-    nombre: "Camisa Zoro #1",
+    nombre: "Camisa Zoro #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3035,7 +3035,7 @@ const List<Product> productos = [
     subcategoria: "One Piece",
   ),
   Product(
-    nombre: "Camisa Zoro #2",
+    nombre: "Camisa Zoro #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3045,7 +3045,7 @@ const List<Product> productos = [
     subcategoria: "One Piece",
   ),
   Product(
-    nombre: "Camisa Zoro #3",
+    nombre: "Camisa Zoro #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3065,7 +3065,7 @@ const List<Product> productos = [
     subcategoria: "Solo Leveling",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo #1",
+    nombre: "Camisa Sung Jinwoo #2",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3075,7 +3075,7 @@ const List<Product> productos = [
     subcategoria: "Solo Leveling",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo #2",
+    nombre: "Camisa Sung Jinwoo #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3085,7 +3085,7 @@ const List<Product> productos = [
     subcategoria: "Solo Leveling",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo #3",
+    nombre: "Camisa Sung Jinwoo #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3095,7 +3095,7 @@ const List<Product> productos = [
     subcategoria: "Solo Leveling",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo #4",
+    nombre: "Camisa Sung Jinwoo #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3105,7 +3105,7 @@ const List<Product> productos = [
     subcategoria: "Solo Leveling",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo #5",
+    nombre: "Camisa Sung Jinwoo #6",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3115,7 +3115,7 @@ const List<Product> productos = [
     subcategoria: "Solo Leveling",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo #6",
+    nombre: "Camisa Sung Jinwoo #7",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3125,7 +3125,7 @@ const List<Product> productos = [
     subcategoria: "Solo Leveling",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo #7",
+    nombre: "Camisa Sung Jinwoo #8",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3135,7 +3135,7 @@ const List<Product> productos = [
     subcategoria: "Solo Leveling",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo #8",
+    nombre: "Camisa Sung Jinwoo #9",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3145,7 +3145,7 @@ const List<Product> productos = [
     subcategoria: "Solo Leveling",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo #9",
+    nombre: "Camisa Sung Jinwoo #10",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3155,7 +3155,7 @@ const List<Product> productos = [
     subcategoria: "Solo Leveling",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo #10",
+    nombre: "Camisa Sung Jinwoo #11",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3165,7 +3165,7 @@ const List<Product> productos = [
     subcategoria: "Solo Leveling",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo #11",
+    nombre: "Camisa Sung Jinwoo #12",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3175,7 +3175,7 @@ const List<Product> productos = [
     subcategoria: "Solo Leveling",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo #12",
+    nombre: "Camisa Sung Jinwoo #13",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3185,7 +3185,7 @@ const List<Product> productos = [
     subcategoria: "Solo Leveling",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo #13",
+    nombre: "Camisa Sung Jinwoo #14",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3195,7 +3195,7 @@ const List<Product> productos = [
     subcategoria: "Solo Leveling",
   ),
   Product(
-    nombre: "Camisa Sung Jinwoo #14",
+    nombre: "Camisa Sung Jinwoo #15",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3829,7 +3829,7 @@ const List<Product> productos = [
     subcategoria: "Kimetsu no Yaiba",
   ),
   Product(
-    nombre: "Suéter Okarun&Momo #1",
+    nombre: "Suéter Okarun&Momo #2",
     precio: "500",
     descripcion: "Suéter cómodo y duradero con diseños únicos de tus animes favoritos. Ideal para mantenerte abrigado con estilo otaku.",
     categoria: "Sueters",
@@ -3839,7 +3839,7 @@ const List<Product> productos = [
     subcategoria: "Dandadan",
   ),
   Product(
-    nombre: "Suéter Okarun&Momo #2",
+    nombre: "Suéter Okarun&Momo #3",
     precio: "500",
     descripcion: "Suéter cómodo y duradero con diseños únicos de tus animes favoritos. Ideal para mantenerte abrigado con estilo otaku.",
     categoria: "Sueters",

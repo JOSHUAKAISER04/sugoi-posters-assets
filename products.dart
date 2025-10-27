@@ -150,6 +150,746 @@ const List<Product> productos = [
     subcategoria: "Bleach",
   ),
   Product(
+    nombre: "Camisa Aki #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Aki/Aki.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Aki #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Aki_2/Aki_2.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Aki #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Aki_3/Aki_3.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Aki #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Aki_4/Aki_4.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Aki #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Aki_5/Aki_5.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Chainsaw Demon #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Chainsaw_Demon/Chainsaw_Demon.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Chainsaw man reze arc #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Chainsaw_man_reze_arc/Chainsaw_man_reze_arc.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Chainsaw man reze arc #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Chainsaw_man_reze_arc_2/Chainsaw_man_reze_arc_2.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Chainsaw Man Waifus #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Chainsaw_Man_Waifus/Chainsaw_Man_Waifus.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji/Denji.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_2/Denji_2.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_3/Denji_3.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_4/Denji_4.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_5/Denji_5.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_6/Denji_6.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_7/Denji_7.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_8/Denji_8.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #9",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_9/Denji_9.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #10",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_10/Denji_10.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #11",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_11/Denji_11.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #12",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_12/Denji_12.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #13",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_13/Denji_13.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #14",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_14/Denji_14.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #15",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_15/Denji_15.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #16",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_16/Denji_16.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #17",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_17/Denji_17.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #18",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_18/Denji_18.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #19",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_19/Denji_19.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #20",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_20/Denji_20.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #21",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_21/Denji_21.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #22",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_22/Denji_22.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #23",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_23/Denji_23.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji #24",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji_24/Denji_24.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji&Makima #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji&Makima/Denji&Makima.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji&Makima #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji&Makima_2/Denji&Makima_2.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji&Makima #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji&Makima_3/Denji&Makima_3.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji&Pochita #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji&Pochita/Denji&Pochita.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji&Power #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji&Power/Denji&Power.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji&Power&Makima #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji&Power&Makima/Denji&Power&Makima.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Denji&Power&Pochita #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Denji&Power&Pochita/Denji&Power&Pochita.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Himeno #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Himeno/Himeno.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Kanata-Man #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Kanata-Man/Kanata-Man.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Kishibe #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Kishibe/Kishibe.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Kobeni #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Kobeni/Kobeni.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Makima #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Makima/Makima.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Makima #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Makima_2/Makima_2.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Makima #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Makima_3/Makima_3.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power/Power.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_2/Power_2.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_3/Power_3.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_4/Power_4.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_5/Power_5.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_6/Power_6.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_7/Power_7.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_8/Power_8.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #9",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_9/Power_9.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #10",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_10/Power_10.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #11",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_11/Power_11.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #12",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_12/Power_12.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #13",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_13/Power_13.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #14",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_14/Power_14.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #15",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_15/Power_15.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #16",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_16/Power_16.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Power #17",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Power_17/Power_17.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Reze #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Reze/Reze.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Reze #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Reze_2/Reze_2.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Reze #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Reze_3/Reze_3.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Reze #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Reze_4/Reze_4.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Seccion- #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Seccion-4/Seccion-4.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Seccion-4 #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Seccion-4_2/Seccion-4_2.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Seccion-4 #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Seccion-4_3/Seccion-4_3.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Yoru #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Yoru/Yoru.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Yoru #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Yoru_2/Yoru_2.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
+    nombre: "Camisa Yoru #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Chainsaw_Man/Yoru_3/Yoru_3.png"
+    ],
+    subcategoria: "Chainsaw Man",
+  ),
+  Product(
     nombre: "Camisa Dandadan #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",

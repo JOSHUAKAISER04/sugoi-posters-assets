@@ -59,21 +59,19 @@ def limpiar_subcategoria(nombre_carpeta):
     """Formatea los nombres de las subcarpetas correctamente."""
     nombre = nombre_carpeta.replace("_", " ")
     nombre = re.sub(r"\s{2,}", " ", nombre).strip()
-    return nombre
+    return nombre.title()
 
 def extraer_variante(nombre_carpeta):
     """Devuelve (nombre_base, numero_variante o None si no hay número explícito)."""
-    # Primero intentamos extraer número al final
     match = re.match(r"^(.+?)[_\s]*(\d+)$", nombre_carpeta)
     if match:
         nombre_personaje = match.group(1).replace("_", " ").strip()
         numero_variante = int(match.group(2))
         return nombre_personaje, numero_variante
-    
-    # Si no hay número, devolvemos el nombre completo
     return nombre_carpeta.replace("_", " ").strip(), None
 
-# Recorremos la estructura de directorios
+
+# --- RECORRIDO DE CARPETAS ---
 for categoria_dir in os.listdir(carpeta_base):
     if categoria_dir not in categorias:
         continue
@@ -90,64 +88,53 @@ for categoria_dir in os.listdir(carpeta_base):
 
     # --- CAMISAS Y SUÉTERES ---
     if categoria_dir in ("C-a", "S-u"):
-        for subcategoria_dir in os.listdir(categoria_path):
+        for subcategoria_dir in sorted(os.listdir(categoria_path)):
             subcategoria_path = os.path.join(categoria_path, subcategoria_dir)
             if not os.path.isdir(subcategoria_path):
                 continue
 
             subcategoria_limpia = limpiar_subcategoria(subcategoria_dir)
-            
-            # Recolectamos todas las variantes primero
-            todas_variantes = []
-            for variante_dir in os.listdir(subcategoria_path):
+
+            # 🔹 Listamos carpetas internas y ordenamos personalizadas primero
+            internas = [v for v in os.listdir(subcategoria_path) if os.path.isdir(os.path.join(subcategoria_path, v))]
+            personalizadas = [v for v in internas if "personalizada" in v.lower()]
+            otras = [v for v in internas if "personalizada" not in v.lower()]
+            orden_final = personalizadas + otras  # siempre primero las personalizadas
+
+            # 🔸 Procesamos cada variante
+            for variante_dir in orden_final:
                 variante_path = os.path.join(subcategoria_path, variante_dir)
                 if not os.path.isdir(variante_path):
                     continue
-                
+
+                es_personalizada = "personalizada" in variante_dir.lower()
                 nombre_base, numero = extraer_variante(variante_dir)
-                todas_variantes.append({
-                    'nombre_base': nombre_base,
-                    'numero': numero,
-                    'nombre_original': variante_dir,
-                    'path': variante_path
-                })
-            
-            # Agrupamos por nombre base
-            variantes_agrupadas = {}
-            for variante in todas_variantes:
-                nombre_base = variante['nombre_base']
-                if nombre_base not in variantes_agrupadas:
-                    variantes_agrupadas[nombre_base] = []
-                variantes_agrupadas[nombre_base].append(variante)
-            
-            # Procesamos cada grupo
-            for nombre_base, lista_variantes in variantes_agrupadas.items():
-                # Ordenamos las variantes: primero las que no tienen número, luego por número
-                lista_variantes.sort(key=lambda x: (x['numero'] is not None, x['numero'] if x['numero'] is not None else 0))
-                
-                # Asignamos números consecutivos empezando desde 1
-                for i, variante in enumerate(lista_variantes, 1):
-                    variante_path = variante['path']
-                    imagenes_variante = [
-                        base_url + os.path.relpath(os.path.join(variante_path, file), carpeta_base).replace("\\", "/")
-                        for file in sorted(os.listdir(variante_path))
-                        if file.lower().endswith((".png", ".jpg", ".jpeg", ".webp"))
-                    ]
-                    if not imagenes_variante:
-                        continue
 
-                    # Siempre usamos el número consecutivo, ignorando el número original
-                    nombre_producto = f"{nombre_categoria} {nombre_base} #{i}"
+                imagenes_variante = [
+                    base_url + os.path.relpath(os.path.join(variante_path, file), carpeta_base).replace("\\", "/")
+                    for file in sorted(os.listdir(variante_path))
+                    if file.lower().endswith((".png", ".jpg", ".jpeg", ".webp"))
+                ]
+                if not imagenes_variante:
+                    continue
 
-                    imagenes_dart = "[\n" + ",\n".join([f'      "{img}"' for img in imagenes_variante]) + "\n    ]"
+                # 🩵 Corrección del nombre
+                if es_personalizada:
+                    nombre_producto = f"{nombre_categoria} Personalizada #1"
+                    subcategoria_final = ""
+                else:
+                    nombre_producto = f"{nombre_categoria} {nombre_base} #1"
+                    subcategoria_final = subcategoria_limpia
 
-                    productos.append(f'''  Product(
+                imagenes_dart = "[\n" + ",\n".join([f'      \"{img}\"' for img in imagenes_variante]) + "\n    ]"
+
+                productos.append(f'''  Product(
     nombre: "{nombre_producto}",
     precio: "{precio}",
     descripcion: "{descripcion}",
     categoria: "{categoria_plural}",
     imagenes: {imagenes_dart},
-    subcategoria: "{subcategoria_limpia}",
+    subcategoria: "{subcategoria_final}",
   ),''')
 
     # --- OTROS PRODUCTOS ---
@@ -205,6 +192,6 @@ print("\n📁 Estructura procesada:")
 print("   - Camisas (C-a) y Sueters (S-u): Categoría → Subcategoría → Variante → Múltiples imágenes")
 print("   - Otros productos: Categoría → Subcategoría → Archivos individuales")
 print("\n📝 Ejemplo corregido:")
+print("   - 1_Personalizada → Camisa Personalizada (sin subcategoría y aparece primero)")
 print("   - Tomioka → Camisa Tomioka #1")
 print("   - Tomioka_1 → Camisa Tomioka #2")
-print("   - Tomioka_2 → Camisa Tomioka #3")

@@ -1,0 +1,913 @@
+📁 C-a
+┣━ Bleach
+┃  ┣━ 1_Personalizada
+┃  ┃  ┗━ Camisa_personalizada.png
+┃  ┣━ Grimmjow
+┃  ┃  ┗━ Grimmjow.png
+┃  ┣━ Ichigo_1
+┃  ┃  ┗━ Ichigo_1.png
+┃  ┣━ Ichigo_2
+┃  ┃  ┗━ Ichigo_2.png
+┃  ┣━ Ichigo_3
+┃  ┃  ┗━ Ichigo_3.png
+┃  ┣━ Ichigo_4
+┃  ┃  ┗━ Ichigo_4.png
+┃  ┣━ Ichigo_Hollow
+┃  ┃  ┗━ Ichigo_Hollow.png
+┃  ┣━ Ichigo_Hollow_1
+┃  ┃  ┗━ Ichigo_Hollow_1.png
+┃  ┣━ Ichigo_Hollow_2
+┃  ┃  ┗━ Ichigo_Hollow_2.png
+┃  ┣━ Ichigo_Hollow_3
+┃  ┃  ┗━ Ichigo_Hollow_3.png
+┃  ┣━ Ichigo_Hollow_4
+┃  ┃  ┗━ Ichigo_Hollow_4.png
+┃  ┣━ Ichigo_Hollow_5
+┃  ┃  ┗━ Ichigo_Hollow_5.png
+┃  ┣━ Kenpachi_1
+┃  ┃  ┗━ Kenpachi_1.png
+┃  ┣━ Kenpachi_2
+┃  ┃  ┗━ Kenpachi_2.png
+┃  ┣━ Rangiku
+┃  ┃  ┗━ Rangiku.png
+┃  ┗━ Shiba
+┃     ┗━ Shiba.png
+┣━ Chainsaw_Man
+┃  ┣━ Aki
+┃  ┃  ┗━ Aki.png
+┃  ┣━ Aki_2
+┃  ┃  ┗━ Aki_2.png
+┃  ┣━ Aki_3
+┃  ┃  ┗━ Aki_3.png
+┃  ┣━ Aki_4
+┃  ┃  ┗━ Aki_4.png
+┃  ┣━ Aki_5
+┃  ┃  ┗━ Aki_5.png
+┃  ┣━ Chainsaw_Demon
+┃  ┃  ┗━ Chainsaw_Demon.png
+┃  ┣━ Chainsaw_Man_Waifus
+┃  ┃  ┗━ Chainsaw_Man_Waifus.png
+┃  ┣━ Chainsaw_man_reze_arc
+┃  ┃  ┗━ Chainsaw_man_reze_arc.png
+┃  ┣━ Chainsaw_man_reze_arc_2
+┃  ┃  ┗━ Chainsaw_man_reze_arc_2.png
+┃  ┣━ Denji
+┃  ┃  ┗━ Denji.png
+┃  ┣━ Denji&Makima
+┃  ┃  ┗━ Denji&Makima.png
+┃  ┣━ Denji&Makima_2
+┃  ┃  ┗━ Denji&Makima_2.png
+┃  ┣━ Denji&Makima_3
+┃  ┃  ┗━ Denji&Makima_3.png
+┃  ┣━ Denji&Pochita
+┃  ┃  ┗━ Denji&Pochita.png
+┃  ┣━ Denji&Power
+┃  ┃  ┗━ Denji&Power.png
+┃  ┣━ Denji&Power&Makima
+┃  ┃  ┗━ Denji&Power&Makima.png
+┃  ┣━ Denji&Power&Pochita
+┃  ┃  ┗━ Denji&Power&Pochita.png
+┃  ┣━ Denji_10
+┃  ┃  ┗━ Denji_10.png
+┃  ┣━ Denji_11
+┃  ┃  ┗━ Denji_11.png
+┃  ┣━ Denji_12
+┃  ┃  ┗━ Denji_12.png
+┃  ┣━ Denji_13
+┃  ┃  ┗━ Denji_13.png
+┃  ┣━ Denji_14
+┃  ┃  ┗━ Denji_14.png
+┃  ┣━ Denji_15
+┃  ┃  ┗━ Denji_15.png
+┃  ┣━ Denji_16
+┃  ┃  ┗━ Denji_16.png
+┃  ┣━ Denji_17
+┃  ┃  ┗━ Denji_17.png
+┃  ┣━ Denji_18
+┃  ┃  ┗━ Denji_18.png
+┃  ┣━ Denji_19
+┃  ┃  ┗━ Denji_19.png
+┃  ┣━ Denji_2
+┃  ┃  ┗━ Denji_2.png
+┃  ┣━ Denji_20
+┃  ┃  ┗━ Denji_20.png
+┃  ┣━ Denji_21
+┃  ┃  ┗━ Denji_21.png
+┃  ┣━ Denji_22
+┃  ┃  ┗━ Denji_22.png
+┃  ┣━ Denji_23
+┃  ┃  ┗━ Denji_23.png
+┃  ┣━ Denji_24
+┃  ┃  ┗━ Denji_24.png
+┃  ┣━ Denji_3
+┃  ┃  ┗━ Denji_3.png
+┃  ┣━ Denji_4
+┃  ┃  ┗━ Denji_4.png
+┃  ┣━ Denji_5
+┃  ┃  ┗━ Denji_5.png
+┃  ┣━ Denji_6
+┃  ┃  ┗━ Denji_6.png
+┃  ┣━ Denji_7
+┃  ┃  ┗━ Denji_7.png
+┃  ┣━ Denji_8
+┃  ┃  ┗━ Denji_8.png
+┃  ┣━ Denji_9
+┃  ┃  ┗━ Denji_9.png
+┃  ┣━ Himeno
+┃  ┃  ┗━ Himeno.png
+┃  ┣━ Kanata-Man
+┃  ┃  ┗━ Kanata-Man.png
+┃  ┣━ Kishibe
+┃  ┃  ┗━ Kishibe.png
+┃  ┣━ Kobeni
+┃  ┃  ┗━ Kobeni.png
+┃  ┣━ Makima
+┃  ┃  ┗━ Makima.png
+┃  ┣━ Makima_2
+┃  ┃  ┗━ Makima_2.png
+┃  ┣━ Makima_3
+┃  ┃  ┗━ Makima_3.png
+┃  ┣━ Power
+┃  ┃  ┗━ Power.png
+┃  ┣━ Power_10
+┃  ┃  ┗━ Power_10.png
+┃  ┣━ Power_11
+┃  ┃  ┗━ Power_11.png
+┃  ┣━ Power_12
+┃  ┃  ┗━ Power_12.png
+┃  ┣━ Power_13
+┃  ┃  ┗━ Power_13.png
+┃  ┣━ Power_14
+┃  ┃  ┗━ Power_14.png
+┃  ┣━ Power_15
+┃  ┃  ┗━ Power_15.png
+┃  ┣━ Power_16
+┃  ┃  ┗━ Power_16.png
+┃  ┣━ Power_17
+┃  ┃  ┗━ Power_17.png
+┃  ┣━ Power_2
+┃  ┃  ┗━ Power_2.png
+┃  ┣━ Power_3
+┃  ┃  ┗━ Power_3.png
+┃  ┣━ Power_4
+┃  ┃  ┗━ Power_4.png
+┃  ┣━ Power_5
+┃  ┃  ┗━ Power_5.png
+┃  ┣━ Power_6
+┃  ┃  ┗━ Power_6.png
+┃  ┣━ Power_7
+┃  ┃  ┗━ Power_7.png
+┃  ┣━ Power_8
+┃  ┃  ┗━ Power_8.png
+┃  ┣━ Power_9
+┃  ┃  ┗━ Power_9.png
+┃  ┣━ Reze
+┃  ┃  ┗━ Reze.png
+┃  ┣━ Reze_2
+┃  ┃  ┗━ Reze_2.png
+┃  ┣━ Reze_3
+┃  ┃  ┗━ Reze_3.png
+┃  ┣━ Reze_4
+┃  ┃  ┗━ Reze_4.png
+┃  ┣━ Seccion-4
+┃  ┃  ┗━ Seccion-4.png
+┃  ┣━ Seccion-4_2
+┃  ┃  ┗━ Seccion-4_2.png
+┃  ┣━ Seccion-4_3
+┃  ┃  ┗━ Seccion-4_3.png
+┃  ┣━ Yoru
+┃  ┃  ┗━ Yoru.png
+┃  ┣━ Yoru_2
+┃  ┃  ┗━ Yoru_2.png
+┃  ┗━ Yoru_3
+┃     ┗━ Yoru_3.png
+┣━ Dandadan
+┃  ┣━ Dandadan_1
+┃  ┃  ┗━ Dandadan_1.png
+┃  ┣━ Dandadan_Team
+┃  ┃  ┗━ Dandadan_Team.png
+┃  ┣━ Okarun&Momo
+┃  ┃  ┣━ Okarun&Momo.png
+┃  ┃  ┗━ Okarun&Momo_doble.png
+┃  ┣━ Okarun&Momo&Aliens
+┃  ┃  ┣━ Okarun&Momo&Aliens.png
+┃  ┃  ┗━ Okarun&Momo&Aliens_doble.png
+┃  ┣━ Okarun&Momo_1
+┃  ┃  ┗━ Okarun&Momo_1.png
+┃  ┣━ Okarun&Momo_2
+┃  ┃  ┣━ Okarun&Momo_2.png
+┃  ┃  ┗━ Okarun&Momo_2_doble.png
+┃  ┣━ Okarun_1
+┃  ┃  ┣━ Okarun_1.png
+┃  ┃  ┗━ Okarun_1_doble.png
+┃  ┣━ Okarun_2
+┃  ┃  ┗━ Okarun_2.png
+┃  ┣━ Okarun_3
+┃  ┃  ┗━ Okarun_3.png
+┃  ┣━ Okarun_4
+┃  ┃  ┗━ Okarun_4.png
+┃  ┣━ Okarun_5
+┃  ┃  ┗━ Okarun_5.png
+┃  ┣━ Okarun_6
+┃  ┃  ┗━ Okarun_6.png
+┃  ┣━ Okarun_7
+┃  ┃  ┗━ Okarun_7.png
+┃  ┣━ Seiko_Ayase
+┃  ┃  ┣━ Seiko_Ayase.png
+┃  ┃  ┗━ Seiko_Ayase_doble.png
+┃  ┗━ Turbo_Cat
+┃     ┗━ Turbo_Cat.png
+┣━ Dragon_Ball
+┃  ┣━ Androide_18
+┃  ┃  ┗━ Androide_18.png
+┃  ┣━ Bardock
+┃  ┃  ┗━ Bardock.png
+┃  ┣━ Broly
+┃  ┃  ┗━ Broly.png
+┃  ┣━ Bulma
+┃  ┃  ┗━ Bulma.png
+┃  ┣━ Buu
+┃  ┃  ┗━ Buu.png
+┃  ┣━ Cell Saga
+┃  ┃  ┗━ Cell Saga.png
+┃  ┣━ Daima
+┃  ┃  ┗━ Daima.png
+┃  ┣━ Fantasmas Kamikase
+┃  ┃  ┗━ Fantasmas Kamikase.png
+┃  ┣━ Frezzer
+┃  ┃  ┗━ Frezzer.png
+┃  ┣━ Frezzer_2
+┃  ┃  ┗━ Frezzer_2.png
+┃  ┣━ Gogeta_1
+┃  ┃  ┗━ Gogeta_1.png
+┃  ┣━ Gogeta_2
+┃  ┃  ┗━ Gogeta_2.png
+┃  ┣━ Gohan&Dragon
+┃  ┃  ┗━ Gohan&Dragon.png
+┃  ┣━ Gohan_1
+┃  ┃  ┗━ Gohan_1.png
+┃  ┣━ Gohan_2
+┃  ┃  ┗━ Gohan_2.png
+┃  ┣━ Gohan_SSJ1
+┃  ┃  ┗━ Gohan_SSJ1.png
+┃  ┣━ Gohan_SSJ2
+┃  ┃  ┗━ Gohan_SSJ2.png
+┃  ┣━ Gohan_SSJ2_1
+┃  ┃  ┗━ Gohan_SSJ2_1.png
+┃  ┣━ Goku
+┃  ┃  ┗━ Goku.png
+┃  ┣━ Goku&Gohan&Goten
+┃  ┃  ┗━ Goku&Gohan&Goten.png
+┃  ┣━ Goku_1
+┃  ┃  ┗━ Goku_1.png
+┃  ┣━ Goku_2
+┃  ┃  ┗━ Goku_2.png
+┃  ┣━ Goku_SSJ4
+┃  ┃  ┗━ Goku_SSJ4.png
+┃  ┣━ Goku_Ultra_Instict
+┃  ┃  ┗━ Goku_Ultra_Instict.png
+┃  ┣━ Golden_Freezer
+┃  ┃  ┗━ Golden_Freezer.png
+┃  ┣━ Kid_Goku
+┃  ┃  ┗━ Kid_Goku.png
+┃  ┣━ Majin_Buu
+┃  ┃  ┗━ Majin_Buu.png
+┃  ┣━ Majin_Vegeta
+┃  ┃  ┗━ Majin_Vegeta.png
+┃  ┣━ Piccolo
+┃  ┃  ┗━ Piccolo.png
+┃  ┣━ Roshi
+┃  ┃  ┗━ Roshi.png
+┃  ┣━ Trunks
+┃  ┃  ┗━ Trunks.png
+┃  ┣━ Vegeta&Kid_Trunks&Trunks
+┃  ┃  ┗━ Vegeta&Kid_Trunks&Trunks.png
+┃  ┣━ Vegeta_1
+┃  ┃  ┗━ Vegeta_1.png
+┃  ┣━ Vegeta_2
+┃  ┃  ┗━ Vegeta_2.png
+┃  ┗━ Vegeta_SSJ4
+┃     ┗━ Vegeta_SSJ4.png
+┣━ Jujutsu_Kaisen
+┃  ┣━ Choso_1
+┃  ┃  ┗━ Choso_1.png
+┃  ┣━ Choso_2
+┃  ┃  ┗━ Choso_2.png
+┃  ┣━ Choso_3
+┃  ┃  ┗━ Choso_3.png
+┃  ┣━ Choso_4
+┃  ┃  ┗━ Choso_4.png
+┃  ┣━ Clase 1
+┃  ┃  ┗━ Clase 1.png
+┃  ┣━ Geto
+┃  ┃  ┗━ Geto.png
+┃  ┣━ Geto_1
+┃  ┃  ┗━ Geto_1.png
+┃  ┣━ Geto_2
+┃  ┃  ┗━ Geto_2.png
+┃  ┣━ Geto_3
+┃  ┃  ┗━ Geto_3.png
+┃  ┣━ Geto_4
+┃  ┃  ┗━ Geto_4.png
+┃  ┣━ Geto_5
+┃  ┃  ┗━ Geto_5.png
+┃  ┣━ Geto_6
+┃  ┃  ┗━ Geto_6.png
+┃  ┣━ Geto_7
+┃  ┃  ┗━ Geto_7.png
+┃  ┣━ Gojo
+┃  ┃  ┗━ Gojo.png
+┃  ┣━ Gojo & Geto
+┃  ┃  ┗━ Gojo & Geto.png
+┃  ┣━ Gojo_1
+┃  ┃  ┗━ Gojo_1.png
+┃  ┣━ Gojo_10
+┃  ┃  ┗━ Gojo_10.png
+┃  ┣━ Gojo_11
+┃  ┃  ┗━ Gojo_11.png
+┃  ┣━ Gojo_12
+┃  ┃  ┗━ Gojo_12.png
+┃  ┣━ Gojo_2
+┃  ┃  ┗━ Gojo_2.png
+┃  ┣━ Gojo_3
+┃  ┃  ┗━ Gojo_3.png
+┃  ┣━ Gojo_4
+┃  ┃  ┗━ Gojo_4.png
+┃  ┣━ Gojo_5
+┃  ┃  ┗━ Gojo_5.png
+┃  ┣━ Gojo_6
+┃  ┃  ┗━ Gojo_6.png
+┃  ┣━ Gojo_7
+┃  ┃  ┗━ Gojo_7.png
+┃  ┣━ Gojo_8
+┃  ┃  ┗━ Gojo_8.png
+┃  ┣━ Gojo_9
+┃  ┃  ┗━ Gojo_9.png
+┃  ┣━ Inventario_Oculto
+┃  ┃  ┗━ Inventario_Oculto.png
+┃  ┣━ Itadori
+┃  ┃  ┗━ Itadori.png
+┃  ┣━ Itadori&Sukuna
+┃  ┃  ┗━ Itadori&Sukuna.png
+┃  ┣━ Itadori_1
+┃  ┃  ┗━ Itadori_1.png
+┃  ┣━ Mahito
+┃  ┃  ┗━ Mahito.png
+┃  ┣━ Maki
+┃  ┃  ┗━ Maki.png
+┃  ┣━ Maki_1
+┃  ┃  ┗━ Maki_1.png
+┃  ┣━ Maki_2
+┃  ┃  ┗━ Maki_2.png
+┃  ┣━ Megumi_1
+┃  ┃  ┗━ Megumi_1.png
+┃  ┣━ Megumi_2
+┃  ┃  ┗━ Megumi_2.png
+┃  ┣━ Megumi_3
+┃  ┃  ┗━ Megumi_3.png
+┃  ┣━ Megumi_4
+┃  ┃  ┗━ Megumi_4.png
+┃  ┣━ Mei_Mei
+┃  ┃  ┗━ Mei_Mei.png
+┃  ┣━ Mei_Mei_2
+┃  ┃  ┗━ Mei_Mei_2.png
+┃  ┣━ Mekamaru
+┃  ┃  ┗━ Mekamaru.png
+┃  ┣━ Nanami
+┃  ┃  ┗━ Nanami.png
+┃  ┣━ Nanami&Itadori
+┃  ┃  ┗━ Nanami&Itadori.png
+┃  ┣━ Nanami_1
+┃  ┃  ┗━ Nanami_1.png
+┃  ┣━ Nanami_2
+┃  ┃  ┗━ Nanami_2.png
+┃  ┣━ Nanami_3
+┃  ┃  ┗━ Nanami_3.png
+┃  ┣━ Nanami_4
+┃  ┃  ┗━ Nanami_4.png
+┃  ┣━ Nanami_5
+┃  ┃  ┗━ Nanami_5.png
+┃  ┣━ Nobara
+┃  ┃  ┗━ Nobara.png
+┃  ┣━ Nobara_1
+┃  ┃  ┗━ Nobara_1.png
+┃  ┣━ Nobara_2
+┃  ┃  ┗━ Nobara_2.png
+┃  ┣━ Nobara_3
+┃  ┃  ┗━ Nobara_3.png
+┃  ┣━ Nobara_4
+┃  ┃  ┗━ Nobara_4.png
+┃  ┣━ Panda
+┃  ┃  ┗━ Panda.png
+┃  ┣━ Shibuya_Incident
+┃  ┃  ┗━ Shibuya_Incident.png
+┃  ┣━ Sukuna
+┃  ┃  ┗━ Sukuna.png
+┃  ┣━ Sukuna_1
+┃  ┃  ┗━ Sukuna_1.png
+┃  ┣━ Sukuna_10
+┃  ┃  ┗━ Sukuna_10.png
+┃  ┣━ Sukuna_2
+┃  ┃  ┗━ Sukuna_2.png
+┃  ┣━ Sukuna_3
+┃  ┃  ┗━ Sukuna_3.png
+┃  ┣━ Sukuna_4
+┃  ┃  ┗━ Sukuna_4.png
+┃  ┣━ Sukuna_5
+┃  ┃  ┗━ Sukuna_5.png
+┃  ┣━ Sukuna_6
+┃  ┃  ┗━ Sukuna_6.png
+┃  ┣━ Sukuna_7
+┃  ┃  ┗━ Sukuna_7.png
+┃  ┣━ Sukuna_8
+┃  ┃  ┗━ Sukuna_8.png
+┃  ┣━ Sukuna_9
+┃  ┃  ┗━ Sukuna_9.png
+┃  ┣━ Todo
+┃  ┃  ┗━ Todo.png
+┃  ┣━ Todo&Itadori
+┃  ┃  ┗━ Todo&Itadori.png
+┃  ┣━ Todo&Itadori_1
+┃  ┃  ┗━ Todo&Itadori_1.png
+┃  ┣━ Toge
+┃  ┃  ┗━ Toge.png
+┃  ┣━ Toge_1
+┃  ┃  ┗━ Toge_1.png
+┃  ┣━ Toji_1
+┃  ┃  ┗━ Toji_1.png
+┃  ┣━ Toji_2
+┃  ┃  ┗━ Toji_2.png
+┃  ┣━ Toji_3
+┃  ┃  ┗━ Toji_3.png
+┃  ┣━ Toji_4
+┃  ┃  ┗━ Toji_4.png
+┃  ┣━ Toji_5
+┃  ┃  ┗━ Toji_5.png
+┃  ┣━ Toji_6
+┃  ┃  ┗━ Toji_6.png
+┃  ┣━ Toji_7
+┃  ┃  ┗━ Toji_7.png
+┃  ┣━ Toji_8
+┃  ┃  ┗━ Toji_8.png
+┃  ┣━ Young_Gojo
+┃  ┃  ┗━ Young_Gojo.png
+┃  ┣━ Yuta
+┃  ┃  ┗━ Yuta.png
+┃  ┣━ Yuta_1
+┃  ┃  ┗━ Yuta_1.png
+┃  ┣━ Yuta_2
+┃  ┃  ┗━ Yuta_2.png
+┃  ┗━ Yuta_3
+┃     ┗━ Yuta_3.png
+┣━ Kaiju_N°8
+┃  ┣━ Comandante_Yosida
+┃  ┃  ┗━ Comandante_Yosida.png
+┃  ┣━ Hina
+┃  ┃  ┗━ Hina.png
+┃  ┣━ Kafka
+┃  ┃  ┗━ Kafka.png
+┃  ┣━ Kafka_1
+┃  ┃  ┗━ Kafka_1.png
+┃  ┣━ Kaiju_Kawai
+┃  ┃  ┗━ Kaiju_Kawai.png
+┃  ┣━ Kaiju_N°8
+┃  ┃  ┗━ Kaiju_N°8.png
+┃  ┣━ Kaiju_N°8_1
+┃  ┃  ┗━ Kaiju_N°8_1.png
+┃  ┣━ Kaiju_N°8_2
+┃  ┃  ┗━ Kaiju_N°8_2.png
+┃  ┣━ Kaiju_N°8_3
+┃  ┃  ┗━ Kaiju_N°8_3.png
+┃  ┣━ Kaiju_N°8_4
+┃  ┃  ┗━ Kaiju_N°8_4.png
+┃  ┣━ Kaiju_N°8_5
+┃  ┃  ┗━ Kaiju_N°8_5.png
+┃  ┗━ Reno_Ichikawa
+┃     ┗━ Reno_Ichikawa.png
+┣━ Kimetsu_no_Yaiba
+┃  ┣━ Akaza
+┃  ┃  ┣━ Akaza.png
+┃  ┃  ┣━ Akaza_doble.png
+┃  ┃  ┗━ Akaza_doble_2.png
+┃  ┣━ Douma
+┃  ┃  ┣━ Douma.png
+┃  ┃  ┣━ Douma_doble.png
+┃  ┃  ┣━ Douma_doble_2.png
+┃  ┃  ┗━ Douma_doble_3.png
+┃  ┣━ Douma_1
+┃  ┃  ┣━ Douma_1.png
+┃  ┃  ┣━ Douma_1_doble.png
+┃  ┃  ┣━ Douma_1_doble_2.png
+┃  ┃  ┗━ Douma_1_doble_3.png
+┃  ┣━ Genya
+┃  ┃  ┣━ Genya.png
+┃  ┃  ┗━ Genya_doble.png
+┃  ┣━ Haganezuka
+┃  ┃  ┣━ Haganezuka.png
+┃  ┃  ┗━ Haganezuka_doble.png
+┃  ┣━ Haganezuka_1
+┃  ┃  ┣━ Haganezuka_1.png
+┃  ┃  ┗━ Mesa de trabajo 1.png
+┃  ┣━ Haganezuka_2
+┃  ┃  ┣━ Haganezuka_2.png
+┃  ┃  ┗━ Haganezuka_2_doble.png
+┃  ┣━ Hashira
+┃  ┃  ┣━ Hashira.png
+┃  ┃  ┗━ Hashira_doble.png
+┃  ┣━ Hashira_1
+┃  ┃  ┣━ Hashira_1.png
+┃  ┃  ┗━ Hashira_1_doble.png
+┃  ┣━ Hashiras
+┃  ┃  ┣━ Hashiras.png
+┃  ┃  ┗━ Hashiras_doble.png
+┃  ┣━ Hashiras_1
+┃  ┃  ┣━ Hashiras_1.png
+┃  ┃  ┗━ Hashiras_1_doble.png
+┃  ┣━ Hashiras_2
+┃  ┃  ┣━ Hashiras_2.png
+┃  ┃  ┗━ Hashiras_2_doble.png
+┃  ┣━ Hashiras_3
+┃  ┃  ┣━ Hashiras_3.png
+┃  ┃  ┗━ Hashiras_3_doble.png
+┃  ┣━ Inosuke
+┃  ┃  ┣━ Inosuke.png
+┃  ┃  ┗━ Inosuke_doble.png
+┃  ┣━ Inosuke_1
+┃  ┃  ┣━ Inosuke_1.png
+┃  ┃  ┗━ Inosuke_1_doble.png
+┃  ┣━ Inosuke_2
+┃  ┃  ┣━ Inosuke_2.png
+┃  ┃  ┣━ Inosuke_2_doble.png
+┃  ┃  ┗━ Inosuke_2_doble_2.png
+┃  ┣━ Kaigaku
+┃  ┃  ┣━ Kaigaku.png
+┃  ┃  ┣━ Kaigaku_doble.png
+┃  ┃  ┗━ Kaigaku_doble_2.png
+┃  ┣━ Kanao
+┃  ┃  ┣━ Kanao.png
+┃  ┃  ┣━ Kanao_doble.png
+┃  ┃  ┗━ Kanao_doble_2.png
+┃  ┣━ Kimetsu_Halloween
+┃  ┃  ┣━ Kimetsu_Halloween.png
+┃  ┃  ┗━ Kimetsu_Halloween_doble.png
+┃  ┣━ Kokushibo
+┃  ┃  ┣━ Kokushibo.png
+┃  ┃  ┣━ Kokushibo_doble.png
+┃  ┃  ┗━ Kokushibo_doble_2.png
+┃  ┣━ Kokushibo_2
+┃  ┃  ┣━ Kokushibo_2.png
+┃  ┃  ┣━ Kokushibo_2_doble.png
+┃  ┃  ┗━ Kokushibo_2_doble_2.png
+┃  ┣━ Luna_Superior_4
+┃  ┃  ┣━ Luna_Superior_4_doble.png
+┃  ┃  ┗━ Luna_Superior_4_doble_2.png
+┃  ┣━ Lunas_Superiores
+┃  ┃  ┗━ Lunas_Superiores.png
+┃  ┣━ Lunas_Superiores_1
+┃  ┃  ┗━ Lunas_Superiores_1.png
+┃  ┣━ Mitsuri
+┃  ┃  ┣━ Mitsuri.png
+┃  ┃  ┣━ Mitsuri_doble.png
+┃  ┃  ┗━ Mitsuri_doble_2.png
+┃  ┣━ Mitsuri_1
+┃  ┃  ┣━ Mitsuri_1.png
+┃  ┃  ┣━ Mitsuri_1_doble.png
+┃  ┃  ┗━ Mitsuri_1_doble_2.png
+┃  ┣━ Mitsuri_2
+┃  ┃  ┣━ Mitsuri_2.png
+┃  ┃  ┣━ Mitsuri_2_doble.png
+┃  ┃  ┗━ Mitsuri_2_doble_2.png
+┃  ┣━ Mitsuri_3
+┃  ┃  ┣━ Mitsuri_3.png
+┃  ┃  ┣━ Mitsuri_3_doble.png
+┃  ┃  ┗━ Mitsuri_3_doble_2.png
+┃  ┣━ Mitsuri_4
+┃  ┃  ┣━ Mitsuri_4.png
+┃  ┃  ┣━ Mitsuri_4_doble.png
+┃  ┃  ┗━ Mitsuri_4_doble_2.png
+┃  ┣━ Mitsuri_Kanroji
+┃  ┃  ┣━ Mitsuri_Kanroji.png
+┃  ┃  ┣━ Mitsuri_Kanroji_doble.png
+┃  ┃  ┗━ Mitsuri_Kanroji_doble_2.png
+┃  ┣━ Muzan
+┃  ┃  ┣━ Muzan.png
+┃  ┃  ┗━ Muzan_doble.png
+┃  ┣━ Muzan_1
+┃  ┃  ┣━ Muzan_1.png
+┃  ┃  ┗━ Muzan_1_doble.png
+┃  ┣━ Nezuko
+┃  ┃  ┣━ Nezuko.png
+┃  ┃  ┣━ Nezuko_doble.png
+┃  ┃  ┗━ Nezuko_doble_2.png
+┃  ┣━ Nezuko_1
+┃  ┃  ┣━ Nezuko_1.png
+┃  ┃  ┣━ Nezuko_1_doble.png
+┃  ┃  ┗━ Nezuko_1_doble_2.png
+┃  ┣━ Nezuko_2
+┃  ┃  ┣━ Nezuko_2.png
+┃  ┃  ┣━ Nezuko_2_doble.png
+┃  ┃  ┗━ Nezuko_2_doble_2.png
+┃  ┣━ Nezuko_3
+┃  ┃  ┣━ Nezuko_3.png
+┃  ┃  ┣━ Nezuko_3_doble.png
+┃  ┃  ┗━ Nezuko_3_doble_2.png
+┃  ┣━ Nezuko_4
+┃  ┃  ┣━ Nezuko_4.png
+┃  ┃  ┣━ Nezuko_4_doble.png
+┃  ┃  ┗━ Nezuko_4_doble_2.png
+┃  ┣━ Rengoku
+┃  ┃  ┣━ Rengoku.png
+┃  ┃  ┣━ Rengoku_doble.png
+┃  ┃  ┗━ Rengoku_doble_2.png
+┃  ┣━ Rengoku_1
+┃  ┃  ┣━ Rengoku_1.png
+┃  ┃  ┣━ Rengoku_1_doble.png
+┃  ┃  ┗━ Rengoku_1_doble_2.png
+┃  ┣━ Rengoku_2
+┃  ┃  ┣━ Rengoku_2.png
+┃  ┃  ┣━ Rengoku_2_doble.png
+┃  ┃  ┗━ Rengoku_2_doble_2.png
+┃  ┣━ Rengoku_3
+┃  ┃  ┣━ Rengoku_3.png
+┃  ┃  ┣━ Rengoku_3_doble.png
+┃  ┃  ┗━ Rengoku_3_doble_2.png
+┃  ┣━ Rengoku_4
+┃  ┃  ┣━ Rengoku_4.png
+┃  ┃  ┣━ Rengoku_4_doble.png
+┃  ┃  ┗━ Rengoku_4_doble_2.png
+┃  ┣━ Sanemi
+┃  ┃  ┣━ Sanemi.png
+┃  ┃  ┣━ Sanemi_doble.png
+┃  ┃  ┗━ Sanemi_doble_2.png
+┃  ┣━ Sanemi&Genya
+┃  ┃  ┣━ Sanemi&Genya.png
+┃  ┃  ┣━ Sanemi&Genya_doble.png
+┃  ┃  ┗━ Sanemi&Genya_doble_2.png
+┃  ┣━ Shinobu
+┃  ┃  ┣━ Shinobu.png
+┃  ┃  ┣━ Shinobu_doble.png
+┃  ┃  ┗━ Shinobu_doble_2.png
+┃  ┣━ Shinobu&Douma
+┃  ┃  ┣━ Shinobu&Douma.png
+┃  ┃  ┣━ Shinobu&Douma_doble.png
+┃  ┃  ┗━ Shinobu&Douma_doble_2.png
+┃  ┣━ Shinobu_1
+┃  ┃  ┣━ Shinobu_1.png
+┃  ┃  ┣━ Shinobu_1_doble.png
+┃  ┃  ┗━ Shinobu_1_doble_2.png
+┃  ┣━ Shinobu_2
+┃  ┃  ┣━ Shinobu_2.png
+┃  ┃  ┣━ Shinobu_2_doble.png
+┃  ┃  ┗━ Shinobu_2_doble_2.png
+┃  ┣━ Shinobu_3
+┃  ┃  ┗━ Shinobu_3_doble.png
+┃  ┣━ Shinobu_Kocho
+┃  ┃  ┣━ Shinobu_Kocho.png
+┃  ┃  ┣━ Shinobu_Kocho_doble.png
+┃  ┃  ┗━ Shinobu_Kocho_doble_2.png
+┃  ┣━ Shinobu_Kocho_1
+┃  ┃  ┣━ Shinobu_Kocho_1.png
+┃  ┃  ┣━ Shinobu_Kocho_1_doble.png
+┃  ┃  ┗━ Shinobu_Kocho_1_doble_2.png
+┃  ┣━ Tanjiro
+┃  ┃  ┣━ Tanjiro.png
+┃  ┃  ┣━ Tanjiro_doble.png
+┃  ┃  ┗━ Tanjiro_doble_2.png
+┃  ┣━ Tanjiro&Inosuke&Zenitsu
+┃  ┃  ┣━ Tanjiro&Inosuke&Zenitsu.png
+┃  ┃  ┣━ Tanjiro&Inosuke&Zenitsu_doble.png
+┃  ┃  ┗━ Tanjiro&Inosuke&Zenitsu_doble_2.png
+┃  ┣━ Tanjiro&Nezuko&Inosuke&Zenitsu
+┃  ┃  ┣━ Tanjiro&Nezuko&Inosuke&Zenitsu.png
+┃  ┃  ┣━ Tanjiro&Nezuko&Inosuke&Zenitsu_doble.png
+┃  ┃  ┗━ Tanjiro&Nezuko&Inosuke&Zenitsu_doble_2.png
+┃  ┣━ Tanjiro&Yorichi
+┃  ┃  ┣━ Tanjiro&Yorichi.png
+┃  ┃  ┣━ Tanjiro&Yorichi_doble.png
+┃  ┃  ┣━ Tanjiro&Yorichi_doble_2.png
+┃  ┃  ┗━ Tanjiro&Yorichi_doble_3.png
+┃  ┣━ Tanjiro_2
+┃  ┃  ┣━ Tanjiro_2.png
+┃  ┃  ┗━ Tanjiro_2_doble.png
+┃  ┣━ Tanjiro_3
+┃  ┃  ┣━ Tanjiro_3_doble.png
+┃  ┃  ┗━ Tanjiro_3_doble_2.png
+┃  ┣━ Tengen_Uzui
+┃  ┃  ┣━ Tengen_Uzui.png
+┃  ┃  ┗━ Tengen_Uzui_doble.png
+┃  ┣━ Tomioka
+┃  ┃  ┣━ Tomioka.png
+┃  ┃  ┣━ Tomioka_doble.png
+┃  ┃  ┣━ Tomioka_doble_2.png
+┃  ┃  ┗━ Tomioka_doble_3.png
+┃  ┣━ Tomioka_1
+┃  ┃  ┣━ Tomioka_doble.png
+┃  ┃  ┣━ Tomioka_doble_2.png
+┃  ┃  ┗━ Tomioka_doble_3.png
+┃  ┣━ Tomioka_2
+┃  ┃  ┣━ Tomioka_2_doble.png
+┃  ┃  ┣━ Tomioka_2_doble_2.png
+┃  ┃  ┗━ Tomioka_2_doble_3.png
+┃  ┣━ Uzui
+┃  ┃  ┣━ Uzui.png
+┃  ┃  ┣━ Uzui_doble.png
+┃  ┃  ┣━ Uzui_doble_2.png
+┃  ┃  ┗━ Uzui_doble_3.png
+┃  ┣━ Villa_de_los_Herreros
+┃  ┃  ┣━ Villa_de_los_Herreros.png
+┃  ┃  ┗━ Villa_de_los_Herreros_doble.png
+┃  ┣━ Yorichi
+┃  ┃  ┣━ Yorichi.png
+┃  ┃  ┗━ Yorichi_doble.png
+┃  ┣━ Zenitsu
+┃  ┃  ┣━ Zenitsu.png
+┃  ┃  ┣━ Zenitsu_doble.png
+┃  ┃  ┣━ Zenitsu_doble_2.png
+┃  ┃  ┗━ Zenitsu_doble_3.png
+┃  ┣━ Zenitsu_1
+┃  ┃  ┣━ Zenitsu_1.png
+┃  ┃  ┣━ Zenitsu_1_doble.png
+┃  ┃  ┣━ Zenitsu_1_doble_2.png
+┃  ┃  ┗━ Zenitsu_1_doble_3.png
+┃  ┗━ Zenitsu_2
+┃     ┣━ Zenitsu_2.png
+┃     ┣━ Zenitsu_2_doble.png
+┃     ┣━ Zenitsu_2_doble_2.png
+┃     ┗━ Zenitsu_2_doble_3.png
+┣━ Mascotas
+┃  ┣━ Bailey
+┃  ┃  ┗━ Bailey.png
+┃  ┣━ Rocky
+┃  ┃  ┗━ Rocky.png
+┃  ┣━ Scott
+┃  ┃  ┗━ Scott.png
+┃  ┣━ Thor
+┃  ┃  ┗━ Thor.png
+┃  ┗━ Totti
+┃     ┗━ Totti.png
+┣━ Naruto
+┃  ┣━ Equipo_Kakashi
+┃  ┃  ┗━ Equipo_Kakashi.png
+┃  ┣━ Itachi
+┃  ┃  ┗━ Itachi.png
+┃  ┣━ Jiraiya
+┃  ┃  ┗━ Jiraiya.png
+┃  ┣━ Jiraiya_1
+┃  ┃  ┗━ Jiraiya_1.png
+┃  ┣━ Jiraiya_2
+┃  ┃  ┗━ Jiraiya_2.png
+┃  ┣━ Kaguya
+┃  ┃  ┗━ Kaguya.png
+┃  ┣━ Kakashi
+┃  ┃  ┗━ Kakashi.png
+┃  ┣━ Madara
+┃  ┃  ┗━ Madara.png
+┃  ┣━ Minato
+┃  ┃  ┗━ Minato.png
+┃  ┣━ Naruto
+┃  ┃  ┗━ Naruto.png
+┃  ┣━ Naruto_1
+┃  ┃  ┗━ Naruto_1.png
+┃  ┣━ Naruto_Sennin
+┃  ┃  ┗━ Naruto_Sennin.png
+┃  ┣━ Orochimaru
+┃  ┃  ┗━ Orochimaru.png
+┃  ┣━ Pain
+┃  ┃  ┗━ Pain.png
+┃  ┗━ Shikamaru
+┃     ┗━ Shikamaru.png
+┣━ One_Piece
+┃  ┣━ Ace
+┃  ┃  ┗━ Ace.png
+┃  ┣━ Ace_1
+┃  ┃  ┗━ Ace_1.png
+┃  ┣━ Ace_2
+┃  ┃  ┗━ Ace_2.png
+┃  ┣━ Ace_3
+┃  ┃  ┗━ Ace_3.png
+┃  ┣━ Boa_Hancock
+┃  ┃  ┗━ Boa_Hancock.png
+┃  ┣━ Bonney
+┃  ┃  ┗━ Bonney.png
+┃  ┣━ Chopper
+┃  ┃  ┗━ Chopper.png
+┃  ┣━ Chopper_1
+┃  ┃  ┗━ Chopper_1.png
+┃  ┣━ Franky
+┃  ┃  ┗━ Franky.png
+┃  ┣━ Gol_D_Roger
+┃  ┃  ┗━ Gol_D_Roger.png
+┃  ┣━ Jinbe
+┃  ┃  ┗━ Jinbe.png
+┃  ┣━ Kaido
+┃  ┃  ┗━ Kaido.png
+┃  ┣━ Katakuri
+┃  ┃  ┗━ Katakuri.png
+┃  ┣━ Luffy_1
+┃  ┃  ┗━ Luffy_1.png
+┃  ┣━ Luffy_10
+┃  ┃  ┗━ Luffy_10.png
+┃  ┣━ Luffy_11
+┃  ┃  ┗━ Luffy_11.png
+┃  ┣━ Luffy_12
+┃  ┃  ┗━ Luffy_12.png
+┃  ┣━ Luffy_2
+┃  ┃  ┗━ Luffy_2.png
+┃  ┣━ Luffy_3
+┃  ┃  ┗━ Luffy_3.png
+┃  ┣━ Luffy_4
+┃  ┃  ┗━ Luffy_4.png
+┃  ┣━ Luffy_5
+┃  ┃  ┗━ Luffy_5.png
+┃  ┣━ Luffy_6
+┃  ┃  ┗━ Luffy_6.png
+┃  ┣━ Luffy_7
+┃  ┃  ┗━ Luffy_7.png
+┃  ┣━ Luffy_8
+┃  ┃  ┗━ Luffy_8.png
+┃  ┣━ Luffy_9
+┃  ┃  ┗━ Luffy_9.png
+┃  ┣━ Luffy_EggHead
+┃  ┃  ┗━ Luffy_EggHead.png
+┃  ┣━ Luffy_EggHead_1
+┃  ┃  ┗━ Luffy_EggHead_1.png
+┃  ┣━ Luffy_Gear_4_Bounce-Man
+┃  ┃  ┗━ Luffy_Gear_4_Bounce-Man.png
+┃  ┣━ Luffy_Gear_4_Snake-Man
+┃  ┃  ┗━ Luffy_Gear_4_Snake-Man.png
+┃  ┣━ Luffy_Gear_4_Snake-Man_1
+┃  ┃  ┗━ Luffy_Gear_4_Snake-Man_1.png
+┃  ┣━ Luffy_Gear_5
+┃  ┃  ┗━ Luffy_Gear_5.png
+┃  ┣━ Luffy_Gear_5_1
+┃  ┃  ┗━ Luffy_Gear_5_1.png
+┃  ┣━ Luffy_Gear_5_2
+┃  ┃  ┗━ Luffy_Gear_5_2.png
+┃  ┣━ Luffy_Gear_5_3
+┃  ┃  ┗━ Luffy_Gear_5_3.png
+┃  ┣━ Luffy_Gear_5_4
+┃  ┃  ┗━ Luffy_Gear_5_4.png
+┃  ┣━ Luffy_Wano
+┃  ┃  ┗━ Luffy_Wano.png
+┃  ┣━ Luffy_Yonko_Poster
+┃  ┃  ┗━ Luffy_Yonko_Poster.png
+┃  ┣━ Marco
+┃  ┃  ┗━ Marco.png
+┃  ┣━ Mihawk
+┃  ┃  ┗━ Mihawk.png
+┃  ┣━ Nami
+┃  ┃  ┗━ Nami.png
+┃  ┣━ Nami_1
+┃  ┃  ┗━ Nami_1.png
+┃  ┣━ Sanji
+┃  ┃  ┗━ Sanji.png
+┃  ┣━ Shanks
+┃  ┃  ┗━ Shanks.png
+┃  ┣━ Teach
+┃  ┃  ┗━ Teach.png
+┃  ┣━ Trafalgar_Law
+┃  ┃  ┗━ Trafalgar_Law.png
+┃  ┣━ Trafalgar_Law_1
+┃  ┃  ┗━ Trafalgar_Law_1.png
+┃  ┣━ Usopp&Zoro&Luffy
+┃  ┃  ┗━ Usopp&Zoro&Luffy.png
+┃  ┣━ Zoro
+┃  ┃  ┗━ Zoro.png
+┃  ┣━ Zoro_1
+┃  ┃  ┗━ Zoro_1.png
+┃  ┣━ Zoro_2
+┃  ┃  ┗━ Zoro_2.png
+┃  ┗━ Zoro_3
+┃     ┗━ Zoro_3.png
+┣━ Personalizada
+┗━ Solo_Leveling
+   ┣━ Sung_Jinwoo
+   ┃  ┗━ Sung_Jinwoo.png
+   ┣━ Sung_Jinwoo_1
+   ┃  ┗━ Sung_Jinwoo_1.png
+   ┣━ Sung_Jinwoo_10
+   ┃  ┗━ Sung_Jinwoo_10.png
+   ┣━ Sung_Jinwoo_11
+   ┃  ┗━ Sung_Jinwoo_11.png
+   ┣━ Sung_Jinwoo_12
+   ┃  ┗━ Sung_Jinwoo_12.png
+   ┣━ Sung_Jinwoo_13
+   ┃  ┗━ Sung_Jinwoo_13.png
+   ┣━ Sung_Jinwoo_14
+   ┃  ┗━ Sung_Jinwoo_14.png
+   ┣━ Sung_Jinwoo_2
+   ┃  ┗━ Sung_Jinwoo_2.png
+   ┣━ Sung_Jinwoo_3
+   ┃  ┗━ Sung_Jinwoo_3.png
+   ┣━ Sung_Jinwoo_4
+   ┃  ┗━ Sung_Jinwoo_4.png
+   ┣━ Sung_Jinwoo_5
+   ┃  ┗━ Sung_Jinwoo_5.png
+   ┣━ Sung_Jinwoo_6
+   ┃  ┗━ Sung_Jinwoo_6.png
+   ┣━ Sung_Jinwoo_7
+   ┃  ┗━ Sung_Jinwoo_7.png
+   ┣━ Sung_Jinwoo_8
+   ┃  ┗━ Sung_Jinwoo_8.png
+   ┗━ Sung_Jinwoo_9
+      ┗━ Sung_Jinwoo_9.png

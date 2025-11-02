@@ -1,6 +1,6 @@
 import os
 import tkinter as tk
-from tkinter import filedialog
+from tkinter import filedialog, messagebox
 from PIL import Image, ImageTk
 
 class ImageRenamer:
@@ -54,7 +54,7 @@ class ImageRenamer:
     def rename_image(self, event):
         new_name = self.entry.get().strip()
         if not new_name:
-            return "break"  # evita que tkinter agregue tabulaciones o cambie foco
+            return "break"
 
         old_path = self.image_paths[self.index]
         folder = os.path.dirname(old_path)
@@ -80,30 +80,64 @@ class ImageRenamer:
         """Salta la imagen actual sin renombrar."""
         self.index += 1
         self.show_image()
-        return "break"  # evita que Tab cambie el foco
+        return "break"
 
-def get_image_files(base_path):
+def get_image_files(base_path, recursive=True):
     exts = (".jpg", ".jpeg", ".png", ".bmp", ".gif")
     image_files = []
-    for root, _, files in os.walk(base_path):
-        for file in files:
+    if recursive:
+        for root, _, files in os.walk(base_path):
+            for file in files:
+                if file.lower().endswith(exts):
+                    image_files.append(os.path.join(root, file))
+    else:
+        for file in os.listdir(base_path):
             if file.lower().endswith(exts):
-                image_files.append(os.path.join(root, file))
+                image_files.append(os.path.join(base_path, file))
     return image_files
+
+def start_selection():
+    """Ventana para seleccionar el modo de trabajo"""
+    selection_window = tk.Toplevel()
+    selection_window.title("Seleccionar Modo")
+    selection_window.geometry("400x200")
+    selection_window.resizable(False, False)
+
+    tk.Label(selection_window, text="¿Qué desea hacer?", font=("Arial", 14)).pack(pady=20)
+
+    def renombrar_todo():
+        selection_window.destroy()
+        folder_selected = filedialog.askdirectory(title="Selecciona la carpeta base con imágenes")
+        if folder_selected:
+            images = get_image_files(folder_selected, recursive=True)
+            if images:
+                app = ImageRenamer(root, images)
+            else:
+                messagebox.showinfo("Sin imágenes", "No se encontraron imágenes en la carpeta seleccionada.")
+        else:
+            messagebox.showinfo("Cancelado", "No se seleccionó ninguna carpeta.")
+
+    def renombrar_subcarpeta():
+        selection_window.destroy()
+        folder_selected = filedialog.askdirectory(title="Selecciona la subcarpeta que deseas usar")
+        if folder_selected:
+            images = get_image_files(folder_selected, recursive=False)
+            if images:
+                app = ImageRenamer(root, images)
+            else:
+                messagebox.showinfo("Sin imágenes", "No se encontraron imágenes en esa subcarpeta.")
+        else:
+            messagebox.showinfo("Cancelado", "No se seleccionó ninguna carpeta.")
+
+    tk.Button(selection_window, text="Renombrar TODAS las imágenes (recursivo)", font=("Arial", 12),
+              width=40, command=renombrar_todo).pack(pady=5)
+
+    tk.Button(selection_window, text="Renombrar SOLO una subcarpeta", font=("Arial", 12),
+              width=40, command=renombrar_subcarpeta).pack(pady=5)
 
 if __name__ == "__main__":
     root = tk.Tk()
     root.withdraw()
-
-    folder_selected = filedialog.askdirectory(title="Selecciona la carpeta base con imágenes")
-
-    if folder_selected:
-        images = get_image_files(folder_selected)
-        if images:
-            root.deiconify()
-            app = ImageRenamer(root, images)
-            root.mainloop()
-        else:
-            print("No se encontraron imágenes en la carpeta seleccionada.")
-    else:
-        print("No se seleccionó carpeta.")
+    root.after(200, start_selection)
+    root.deiconify()
+    root.mainloop()

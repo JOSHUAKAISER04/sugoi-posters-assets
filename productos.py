@@ -49,12 +49,19 @@ def formatear_subcategoria(nombre_carpeta):
     return " ".join(partes_formateadas)
 
 def extraer_variante(nombre_carpeta):
+    """
+    Extrae el nombre base y el número de variante.
+    - 'Ichigo_Hollow' -> ('Ichigo Hollow', 0)  <- sin número = variante 0
+    - 'Ichigo_Hollow_1' -> ('Ichigo Hollow', 1)
+    - 'Ichigo_Hollow_2' -> ('Ichigo Hollow', 2)
+    """
     match = re.match(r"^(.+?)[_\s]*(\d+)$", nombre_carpeta)
     if match:
         nombre_personaje = match.group(1).replace("_", " ").strip()
         numero_variante = int(match.group(2))
         return nombre_personaje, numero_variante
-    return nombre_carpeta.replace("_", " ").strip(), None
+    # Si no tiene número, es variante 0
+    return nombre_carpeta.replace("_", " ").strip(), 0
 
 
 # --- RECORRIDO DE CARPETAS ---
@@ -123,13 +130,18 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
 
                     archivos_variante = [f for f in sorted(os.listdir(variante_path)) if f.lower().endswith((".png", ".jpg", ".jpeg", ".webp"))]
                     if archivos_variante:
-                        nombre_base, numero = extraer_variante(variante_dir)
+                        nombre_base, numero_carpeta = extraer_variante(variante_dir)
                         imagenes_variante = [
                             base_url + os.path.relpath(os.path.join(variante_path, f), carpeta_base).replace("\\", "/")
                             for f in archivos_variante
                         ]
-                        sufijo = f" #{numero}" if numero else " #1"
-                        nombre_producto = f"{nombre_categoria} {nombre_base}{sufijo}"
+                        # Para camisas (C-a) y suéteres (S-u): sumar 1 al número de carpeta
+                        if categoria_dir in ("C-a", "S-u"):
+                            numero_display = numero_carpeta + 1
+                        else:
+                            numero_display = numero_carpeta if numero_carpeta > 0 else 1
+                        
+                        nombre_producto = f"{nombre_categoria} {nombre_base} #{numero_display}"
                         imagenes_dart = "[\n" + ",\n".join([f'      "{img}"' for img in imagenes_variante]) + "\n    ]"
                         productos.append(f'''  Product(
     nombre: "{nombre_producto}",
@@ -195,7 +207,7 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
   ),''')
 
                 else:
-                    # Camisas/Suéters: agrupar archivos directos en UN producto por subcategoria
+                    # Camisas/Suéteres: agrupar archivos directos en UN producto por subcategoria
                     imagenes = [
                         base_url + os.path.relpath(os.path.join(subcategoria_path, f), carpeta_base).replace("\\", "/")
                         for f in archivos_directos

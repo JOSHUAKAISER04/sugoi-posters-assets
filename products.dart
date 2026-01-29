@@ -1516,13 +1516,432 @@ const List<Product> productos = [
     subcategoria: "Dragon Ball",
   ),
   Product(
+    nombre: "Camisa Asuka #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Asuka/Asuka.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Asuka-y-Rei # #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Asuka-y-Rei_#2/Asuka-y-Rei_#2.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Asuka # #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Asuka_#2/Asuka_#2.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Asuka # #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Asuka_#3/Asuka_#3.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Asuka # #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Asuka_#4/Asuka_#4.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Asuka # #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Asuka_#5/Asuka_#5.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Asuka # #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Asuka_#6/Asuka_#6.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Asuka # #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Asuka_#7/Asuka_#7.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa AsukayRei #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/AsukayRei/AsukayRei.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Eva- #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Eva-01/Eva-01.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 # #11",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Eva-01_#10/Eva-01_#10.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 # #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Eva-01_#2/Eva-01_#2.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 # #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Eva-01_#3/Eva-01_#3.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 # #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Eva-01_#4/Eva-01_#4.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 # #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Eva-01_#5/Eva-01_#5.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 # #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Eva-01_#6/Eva-01_#6.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 # #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Eva-01_#7/Eva-01_#7.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 # #9",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Eva-01_#8/Eva-01_#8.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 # #10",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Eva-01_#9/Eva-01_#9.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
     nombre: "Camisa Evangelion #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
-      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Eva-01.png",
-      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Rei.png"
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Evangelion/Evangelion.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Kowaru #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Kowaru/Kowaru.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Mari #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Mari/Mari.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Mari # #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Mari_#2/Mari_#2.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Mari # #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Mari_#3/Mari_#3.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Mari # #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Mari_#4/Mari_#4.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Misato #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Misato/Misato.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Misato # #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Misato_#2/Misato_#2.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Misato # #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Misato_#3/Misato_#3.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Nerv #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Nerv/Nerv.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Rei #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Rei/Rei.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Rei # #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Rei_#2/Rei_#2.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Rei # #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Rei_#3/Rei_#3.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Rei # #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Rei_#4/Rei_#4.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Rei # #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Rei_#5/Rei_#5.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Rei # #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Rei_#6/Rei_#6.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Rei # #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Rei_#7/Rei_#7.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Rei # #9",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Rei_#8/Rei_#8.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Rei # #10",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Rei_#9/Rei_#9.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Shinji #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Shinji/Shinji.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Shinji-Asuka-y-Rei #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Shinji-Asuka-y-Rei/Shinji-Asuka-y-Rei.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Shinji-Eva- #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Shinji-Eva-01/Shinji-Eva-01.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Shinji # #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Shinji_#2/Shinji_#2.png"
+    ],
+    subcategoria: "Evangelion",
+  ),
+  Product(
+    nombre: "Camisa Shinji # #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://raw.githubusercontent.com/JOSHUAKAISER04/sugoi-posters-assets/main/C-a/Evangelion/Shinji_#3/Shinji_#3.png"
     ],
     subcategoria: "Evangelion",
   ),

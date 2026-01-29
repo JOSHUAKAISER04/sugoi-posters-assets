@@ -1526,7 +1526,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Asuka-y-Rei # #3",
+    nombre: "Camisa Asuka-y-Rei #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1536,7 +1536,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Asuka # #3",
+    nombre: "Camisa Asuka #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1546,7 +1546,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Asuka # #4",
+    nombre: "Camisa Asuka #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1556,7 +1556,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Asuka # #5",
+    nombre: "Camisa Asuka #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1566,7 +1566,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Asuka # #6",
+    nombre: "Camisa Asuka #6",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1576,7 +1576,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Asuka # #7",
+    nombre: "Camisa Asuka #7",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1586,7 +1586,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Asuka # #8",
+    nombre: "Camisa Asuka #8",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1616,7 +1616,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Eva-01 # #11",
+    nombre: "Camisa Eva-01 #11",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1626,7 +1626,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Eva-01 # #3",
+    nombre: "Camisa Eva-01 #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1636,7 +1636,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Eva-01 # #4",
+    nombre: "Camisa Eva-01 #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1646,7 +1646,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Eva-01 # #5",
+    nombre: "Camisa Eva-01 #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1656,7 +1656,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Eva-01 # #6",
+    nombre: "Camisa Eva-01 #6",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1666,7 +1666,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Eva-01 # #7",
+    nombre: "Camisa Eva-01 #7",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1676,7 +1676,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Eva-01 # #8",
+    nombre: "Camisa Eva-01 #8",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1686,7 +1686,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Eva-01 # #9",
+    nombre: "Camisa Eva-01 #9",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1696,7 +1696,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Eva-01 # #10",
+    nombre: "Camisa Eva-01 #10",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1736,7 +1736,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Mari # #3",
+    nombre: "Camisa Mari #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1746,7 +1746,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Mari # #4",
+    nombre: "Camisa Mari #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1756,7 +1756,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Mari # #5",
+    nombre: "Camisa Mari #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1776,7 +1776,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Misato # #3",
+    nombre: "Camisa Misato #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1786,7 +1786,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Misato # #4",
+    nombre: "Camisa Misato #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1816,7 +1816,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Rei # #3",
+    nombre: "Camisa Rei #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1826,7 +1826,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Rei # #4",
+    nombre: "Camisa Rei #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1836,7 +1836,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Rei # #5",
+    nombre: "Camisa Rei #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1846,7 +1846,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Rei # #6",
+    nombre: "Camisa Rei #6",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1856,7 +1856,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Rei # #7",
+    nombre: "Camisa Rei #7",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1866,7 +1866,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Rei # #8",
+    nombre: "Camisa Rei #8",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1876,7 +1876,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Rei # #9",
+    nombre: "Camisa Rei #9",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1886,7 +1886,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Rei # #10",
+    nombre: "Camisa Rei #10",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1926,7 +1926,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Shinji # #3",
+    nombre: "Camisa Shinji #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1936,7 +1936,7 @@ const List<Product> productos = [
     subcategoria: "Evangelion",
   ),
   Product(
-    nombre: "Camisa Shinji # #4",
+    nombre: "Camisa Shinji #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1956,7 +1956,7 @@ const List<Product> productos = [
     subcategoria: "Frieren Beyond The Journey",
   ),
   Product(
-    nombre: "Camisa Fern # #3",
+    nombre: "Camisa Fern #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1976,7 +1976,7 @@ const List<Product> productos = [
     subcategoria: "Frieren Beyond The Journey",
   ),
   Product(
-    nombre: "Camisa Frieren # #3",
+    nombre: "Camisa Frieren #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1986,7 +1986,7 @@ const List<Product> productos = [
     subcategoria: "Frieren Beyond The Journey",
   ),
   Product(
-    nombre: "Camisa Frieren # #4",
+    nombre: "Camisa Frieren #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -1996,7 +1996,7 @@ const List<Product> productos = [
     subcategoria: "Frieren Beyond The Journey",
   ),
   Product(
-    nombre: "Camisa Frieren # #5",
+    nombre: "Camisa Frieren #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2006,7 +2006,7 @@ const List<Product> productos = [
     subcategoria: "Frieren Beyond The Journey",
   ),
   Product(
-    nombre: "Camisa Frieren # #6",
+    nombre: "Camisa Frieren #6",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2026,7 +2026,7 @@ const List<Product> productos = [
     subcategoria: "Frieren Beyond The Journey",
   ),
   Product(
-    nombre: "Camisa Frieren & Fern # #3",
+    nombre: "Camisa Frieren & Fern #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2036,7 +2036,7 @@ const List<Product> productos = [
     subcategoria: "Frieren Beyond The Journey",
   ),
   Product(
-    nombre: "Camisa Frieren & Fern # #4",
+    nombre: "Camisa Frieren & Fern #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2056,7 +2056,7 @@ const List<Product> productos = [
     subcategoria: "Frieren Beyond The Journey",
   ),
   Product(
-    nombre: "Camisa Sōsō no Frieren # #3",
+    nombre: "Camisa Sōsō no Frieren #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2126,7 +2126,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Geto # #9",
+    nombre: "Camisa Geto #9",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2226,7 +2226,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo # #14",
+    nombre: "Camisa Gojo #14",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2236,7 +2236,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo # #15",
+    nombre: "Camisa Gojo #15",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2246,7 +2246,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo # #16",
+    nombre: "Camisa Gojo #16",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2256,7 +2256,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo # #17",
+    nombre: "Camisa Gojo #17",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2266,7 +2266,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo # #18",
+    nombre: "Camisa Gojo #18",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2276,7 +2276,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo # #19",
+    nombre: "Camisa Gojo #19",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2286,7 +2286,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo # #20",
+    nombre: "Camisa Gojo #20",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2296,7 +2296,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Gojo # #21",
+    nombre: "Camisa Gojo #21",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2456,7 +2456,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Itadori # #4",
+    nombre: "Camisa Itadori #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2516,7 +2516,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Maki # #5",
+    nombre: "Camisa Maki #5",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2546,7 +2546,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Megumi # #6",
+    nombre: "Camisa Megumi #6",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2556,7 +2556,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Megumi # #7",
+    nombre: "Camisa Megumi #7",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2716,7 +2716,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Nobara # #7",
+    nombre: "Camisa Nobara #7",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2806,7 +2806,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Shibuya Incident Arc # #3",
+    nombre: "Camisa Shibuya Incident Arc #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2826,7 +2826,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Sukuna # #12",
+    nombre: "Camisa Sukuna #12",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2836,7 +2836,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Sukuna # #13",
+    nombre: "Camisa Sukuna #13",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -2856,7 +2856,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Sukuna & Gojo # #3",
+    nombre: "Camisa Sukuna & Gojo #3",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3016,7 +3016,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Toji # #11",
+    nombre: "Camisa Toji #11",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3026,7 +3026,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Toji # #12",
+    nombre: "Camisa Toji #12",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3036,7 +3036,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Toji # #13",
+    nombre: "Camisa Toji #13",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3046,7 +3046,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Toji # #10",
+    nombre: "Camisa Toji #10",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3166,7 +3166,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Yuta # #6",
+    nombre: "Camisa Yuta #6",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
@@ -3176,7 +3176,7 @@ const List<Product> productos = [
     subcategoria: "Jujutsu Kaisen",
   ),
   Product(
-    nombre: "Camisa Yuta # #7",
+    nombre: "Camisa Yuta #7",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",

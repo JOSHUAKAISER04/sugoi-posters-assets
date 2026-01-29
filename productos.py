@@ -30,6 +30,22 @@ def limpiar_nombre(nombre_archivo):
     nombre = re.sub(r"\s{2,}", " ", nombre).strip()
     return nombre
 
+def normalize_hashes(name):
+    """
+    Normaliza usos de '#' en un nombre para evitar duplicados como 'Name # #3':
+    - transforma '# #' -> '#'
+    - elimina '#' que NO estén seguidos por un dígito (ej. un '#' suelto)
+    - limpia espacios repetidos
+    """
+    s = name
+    # Colapsar secuencias de '# #' a '#'
+    s = re.sub(r"#\s+#", "#", s)
+    # Eliminar '#' que no van seguidos de un dígito (preserva '#3', '#10', etc.)
+    s = re.sub(r"#(?!\d)", "", s)
+    # Limpiar espacios sobrantes
+    s = re.sub(r"\s{2,}", " ", s).strip()
+    return s
+
 def formatear_subcategoria(nombre_carpeta):
     """
     Formatea subcategorías conservando acrónimos (todos en mayúscula) y Title Case para el resto.
@@ -131,6 +147,9 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
                     archivos_variante = [f for f in sorted(os.listdir(variante_path)) if f.lower().endswith((".png", ".jpg", ".jpeg", ".webp"))]
                     if archivos_variante:
                         nombre_base, numero_carpeta = extraer_variante(variante_dir)
+                        # Normalizar hashes en el nombre base (evita cosas como 'Name # #3')
+                        nombre_base = normalize_hashes(nombre_base)
+
                         imagenes_variante = [
                             base_url + os.path.relpath(os.path.join(variante_path, f), carpeta_base).replace("\\", "/")
                             for f in archivos_variante
@@ -160,6 +179,8 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
                         relative_path = os.path.relpath(os.path.join(subcategoria_path, file), carpeta_base).replace("\\", "/")
                         url = base_url + relative_path
                         personaje = limpiar_nombre(file)
+                        # Normalizar hashes en el personaje para evitar duplicados
+                        personaje = normalize_hashes(personaje)
                         subcategoria_final = personaje if subcategoria_dir.lower() == "anime" else subcategoria_limpia
 
                         clave = f"{categoria_dir}-{subcategoria_final.lower()}-{personaje.lower()}"
@@ -186,6 +207,8 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
                         relative_path = os.path.relpath(os.path.join(subcategoria_path, file), carpeta_base).replace("\\", "/")
                         url = base_url + relative_path
                         personaje = limpiar_nombre(file)               # e.g. "Superman"
+                        # Normalizar hashes en personaje
+                        personaje = normalize_hashes(personaje)
                         subcategoria_final = subcategoria_limpia       # e.g. "DC Comics"
 
                         clave = f"{categoria_dir}-{subcategoria_final.lower()}-{personaje.lower()}"
@@ -239,6 +262,8 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
                 relative_path = os.path.relpath(os.path.join(subcategoria_path, file), carpeta_base).replace("\\", "/")
                 url = base_url + relative_path
                 personaje = limpiar_nombre(file)
+                # Normalizar hashes en personaje
+                personaje = normalize_hashes(personaje)
 
                 subcategoria_final = subcategoria_limpia
                 personaje_final = personaje

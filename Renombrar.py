@@ -1,272 +1,395 @@
 import os
 import re
+import tempfile
+import shutil
+from pathlib import Path
 from collections import defaultdict
 
-# Extensiones de imagen que se procesarán
-IMAGE_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp')
-
 def normalize_name(name):
-    """Normaliza un nombre reemplazando espacios y # por _"""
-    name = re.sub(r'[ #]+', '_', name)
-    name = re.sub(r'_+', '_', name)  # Reemplazar múltiples _ consecutivos
-    return name.strip('_')
-
-def extract_base_and_number(filename):
-    """Extrae el nombre base y número de un archivo o carpeta"""
-    # Para archivos, quitar extensión primero
-    name, ext = os.path.splitext(filename) if '.' in filename else (filename, '')
+    """
+    Normaliza un nombre eliminando separadores múltiples y caracteres problemáticos
+    """
+    # Reemplazar múltiples guiones bajos consecutivos por uno solo
+    name = re.sub(r'_+', '_', name)
+    # Reemplazar múltiples # consecutivos por uno solo
+    name = re.sub(r'#+', '#', name)
+    # Eliminar guiones bajos o # al final
+    name = re.sub(r'[_#]+$', '', name)
+    # Eliminar guiones bajos o # al inicio
+    name = re.sub(r'^[_#]+', '', name)
     
-    # Buscar número al final del nombre
-    match = re.search(r'_(\d+)$', name)
+    return name
+
+
+def extract_base_name_and_number(name):
+    """
+    Extrae el nombre base y número de un nombre que puede tener varios formatos
+    Ejemplos:
+    - foto__1 -> (foto, 1)
+    - foto_#_3 -> (foto, 3)
+    - foto___2 -> (foto, 2)
+    - foto -> (foto, None)
+    """
+    # Primero normalizar el nombre
+    normalized = normalize_name(name)
+    
+    # Intentar extraer número al final (después de _ o #)
+    match = re.match(r'^(.+?)[_#](\d+)$', normalized)
     if match:
-        base = name[:match.start()]
-        number = int(match.group(1))
+        return match.group(1), int(match.group(2))
+    
+    # Si no hay número, devolver el nombre normalizado
+    return normalized, None
+
+
+def analyze_changes(directory_path):
+    """
+    Analiza y retorna todos los cambios que se harían sin ejecutarlos
+    """
+    image_extensions = {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp', '.svg'}
+    
+    folder_changes = []
+    image_changes = []
+    
+    # Analizar cambios en carpetas
+    for root, dirs, files in os.walk(directory_path, topdown=False):
+        folder_groups = defaultdict(list)
+        
+        for folder_name in dirs:
+            folder_path = os.path.join(root, folder_name)
+            base_name, number = extract_base_name_and_number(folder_name)
+            
+            folder_groups[base_name].append({
+                'original_name': folder_name,
+                'base_name': base_name,
+                'number': number,
+                'path': folder_path
+            })
+        
+        # Procesar grupos de carpetas
+        for base_name, folders in folder_groups.items():
+            if len(folders) > 1 or (len(folders) == 1 and folders[0]['original_name'] != base_name):
+                # Ordenar carpetas
+                def sort_folder_key(folder):
+                    if folder['number'] is not None:
+                        return (0, folder['number'])
+                    else:
+                        return (-1, 0)
+                
+                folders.sort(key=sort_folder_key)
+                
+                # Generar nuevos nombres
+                for i, folder in enumerate(folders, 1):
+                    if len(folders) == 1:
+                        # Si solo hay una carpeta, normalizarla sin número
+                        new_name = base_name
+                    else:
+                        # Si hay múltiples, agregar número
+                        new_name = f"{base_name}_{i}"
+                    
+                    if folder['original_name'] != new_name:
+                        folder_changes.append({
+                            'type': 'folder',
+                            'directory': root,
+                            'old_name': folder['original_name'],
+                            'new_name': new_name,
+                            'old_path': folder['path'],
+                            'new_path': os.path.join(root, new_name),
+                            'reason': 'normalización' if '__' in folder['original_name'] or '##' in folder['original_name'] else 'renumeración'
+                        })
+    
+    # Analizar cambios en imágenes
+    for root, dirs, files in os.walk(directory_path):
+        image_files = [f for f in files if Path(f).suffix.lower() in image_extensions]
+        
+        if image_files:
+            image_groups = defaultdict(list)
+            
+            for image_file in image_files:
+                name_without_ext = Path(image_file).stem
+                extension = Path(image_file).suffix
+                
+                base_name, number = extract_base_name_and_number(name_without_ext)
+                
+                image_groups[base_name].append({
+                    'original_name': image_file,
+                    'name_without_ext': name_without_ext,
+                    'base_name': base_name,
+                    'number': number,
+                    'extension': extension,
+                    'full_path': os.path.join(root, image_file)
+                })
+            
+            # Procesar grupos de imágenes
+            for base_name, images in image_groups.items():
+                if len(images) > 1 or (len(images) == 1 and images[0]['name_without_ext'] != base_name):
+                    # Ordenar imágenes
+                    def sort_key(image):
+                        if image['number'] is not None:
+                            return (0, image['number'])
+                        else:
+                            return (-1, 0)
+                    
+                    images.sort(key=sort_key)
+                    
+                    # Generar nuevos nombres
+                    for i, image in enumerate(images, 1):
+                        if len(images) == 1:
+                            # Si solo hay una imagen, normalizarla sin número
+                            new_name = f"{base_name}{image['extension']}"
+                        else:
+                            # Si hay múltiples, agregar número
+                            new_name = f"{base_name}_{i}{image['extension']}"
+                        
+                        if image['original_name'] != new_name:
+                            image_changes.append({
+                                'type': 'image',
+                                'directory': root,
+                                'old_name': image['original_name'],
+                                'new_name': new_name,
+                                'old_path': image['full_path'],
+                                'new_path': os.path.join(root, new_name),
+                                'base_name': base_name,
+                                'reason': 'normalización' if '__' in image['original_name'] or '##' in image['original_name'] else 'renumeración'
+                            })
+    
+    return folder_changes, image_changes
+
+
+def print_analysis(folder_changes, image_changes):
+    """
+    Imprime el análisis de cambios de forma organizada
+    """
+    print("\n" + "=" * 70)
+    print("🔍 ANÁLISIS COMPLETO DE CAMBIOS")
+    print("=" * 70)
+    
+    # Mostrar cambios en carpetas
+    print("\n📁 CARPETAS A RENOMBRAR:")
+    if folder_changes:
+        current_dir = None
+        normalization_count = 0
+        renumbering_count = 0
+        
+        for change in folder_changes:
+            if current_dir != change['directory']:
+                current_dir = change['directory']
+                print(f"\n   📂 En: {current_dir}")
+            
+            # Indicador especial para normalizaciones
+            indicator = "🔧" if change['reason'] == 'normalización' else "🔢"
+            print(f"      {indicator} {change['old_name']} → {change['new_name']}")
+            
+            if change['reason'] == 'normalización':
+                normalization_count += 1
+            else:
+                renumbering_count += 1
+        
+        print(f"\n   📊 Total de carpetas a renombrar: {len(folder_changes)}")
+        if normalization_count > 0:
+            print(f"      🔧 Por normalización (__, ##, etc.): {normalization_count}")
+        if renumbering_count > 0:
+            print(f"      🔢 Por renumeración: {renumbering_count}")
     else:
-        base = name
-        number = 0  # 0 significa sin número
+        print("   ✅ No se requieren cambios en carpetas")
     
-    return base, number, ext
+    # Mostrar cambios en imágenes
+    print("\n🖼️  IMÁGENES A RENOMBRAR:")
+    if image_changes:
+        current_dir = None
+        current_group = None
+        normalization_count = 0
+        renumbering_count = 0
+        
+        for change in image_changes:
+            if current_dir != change['directory']:
+                current_dir = change['directory']
+                print(f"\n   📁 En: {current_dir}")
+                current_group = None
+            
+            if current_group != change['base_name']:
+                current_group = change['base_name']
+                group_count = sum(1 for c in image_changes 
+                                if c['directory'] == current_dir 
+                                and c['base_name'] == current_group)
+                print(f"      🖼️  Grupo '{current_group}' ({group_count} imágenes):")
+            
+            # Indicador especial para normalizaciones
+            indicator = "🔧" if change['reason'] == 'normalización' else "🔢"
+            print(f"         {indicator} {change['old_name']} → {change['new_name']}")
+            
+            if change['reason'] == 'normalización':
+                normalization_count += 1
+            else:
+                renumbering_count += 1
+        
+        print(f"\n   📊 Total de imágenes a renombrar: {len(image_changes)}")
+        if normalization_count > 0:
+            print(f"      🔧 Por normalización (__, ##, etc.): {normalization_count}")
+        if renumbering_count > 0:
+            print(f"      🔢 Por renumeración: {renumbering_count}")
+    else:
+        print("   ✅ No se requieren cambios en imágenes")
+    
+    # Resumen total
+    print("\n" + "=" * 70)
+    print("📊 RESUMEN:")
+    print(f"   • Carpetas a renombrar: {len(folder_changes)}")
+    print(f"   • Imágenes a renombrar: {len(image_changes)}")
+    print(f"   • Total de cambios: {len(folder_changes) + len(image_changes)}")
+    print("\n   ℹ️  Leyenda:")
+    print("      🔧 = Normalización de separadores (__, ##, etc.)")
+    print("      🔢 = Renumeración consecutiva")
+    print("=" * 70)
 
-def analyze_and_plan_changes(root_dir):
+
+def execute_renaming(folder_changes, image_changes):
     """
-    Analiza la estructura de directorios y planifica cambios necesarios
-    Retorna: (planificados_archivos, planificadas_carpetas, conflictos_encontrados)
+    Ejecuta el renombrado basado en los cambios analizados
     """
-    planificados_archivos = []  # (old_path, new_path)
-    planificadas_carpetas = []  # (old_path, new_path)
-    conflictos_encontrados = []
+    total_renamed_folders = 0
+    total_renamed_images = 0
     
-    # Primero analizamos la estructura actual
-    for root, dirs, files in os.walk(root_dir, topdown=False):
-        # Para cada directorio, analizar archivos
-        archivos_por_base = defaultdict(list)
+    # Renombrar carpetas
+    if folder_changes:
+        print("\n📁 Renombrando carpetas...")
+        temp_mappings = {}
         
-        for file in files:
-            if file.lower().endswith(IMAGE_EXTENSIONS):
-                base, number, ext = extract_base_and_number(file)
-                archivos_por_base[base].append((file, number, ext))
-        
-        # Analizar conflictos y planificar cambios para archivos
-        for base, archivos in archivos_por_base.items():
-            if len(archivos) > 1:
-                # Ordenar por número actual
-                archivos_ordenados = sorted(archivos, key=lambda x: x[1])
-                
-                # Recolectar información de conflicto
-                nombres_actuales = [a[0] for a in archivos_ordenados]
-                sugerencias = []
-                
-                # Planificar nuevos nombres con numeración consecutiva
-                for i, (nombre_actual, num_actual, ext) in enumerate(archivos_ordenados, 1):
-                    nuevo_nombre = f"{base}_{i}{ext}" if i > 0 else f"{base}{ext}"
-                    
-                    # Solo planificar cambio si el nombre es diferente
-                    if nuevo_nombre != nombre_actual:
-                        old_path = os.path.join(root, nombre_actual)
-                        new_path = os.path.join(root, nuevo_nombre)
-                        planificados_archivos.append((old_path, new_path))
-                    
-                    sugerencias.append(f"{nombre_actual} -> {nuevo_nombre}")
-                
-                conflictos_encontrados.append({
-                    'ruta': root,
-                    'tipo': 'archivos',
-                    'base': base,
-                    'nombres': nombres_actuales,
-                    'sugerencias': sugerencias
-                })
-        
-        # Analizar carpetas
-        carpetas_por_base = defaultdict(list)
-        for dir_name in dirs:
-            base, number, _ = extract_base_and_number(dir_name)
-            carpetas_por_base[base].append((dir_name, number))
-        
-        # Analizar conflictos y planificar cambios para carpetas
-        for base, carpetas in carpetas_por_base.items():
-            if len(carpetas) > 1:
-                # Ordenar por número actual
-                carpetas_ordenadas = sorted(carpetas, key=lambda x: x[1])
-                
-                # Recolectar información de conflicto
-                nombres_actuales = [c[0] for c in carpetas_ordenadas]
-                sugerencias = []
-                
-                # Planificar nuevos nombres con numeración consecutiva
-                for i, (nombre_actual, num_actual) in enumerate(carpetas_ordenadas, 1):
-                    nuevo_nombre = f"{base}_{i}" if i > 0 else base
-                    
-                    # Solo planificar cambio si el nombre es diferente
-                    if nuevo_nombre != nombre_actual:
-                        old_path = os.path.join(root, nombre_actual)
-                        new_path = os.path.join(root, nuevo_nombre)
-                        planificadas_carpetas.append((old_path, new_path))
-                    
-                    sugerencias.append(f"{nombre_actual} -> {nuevo_nombre}")
-                
-                conflictos_encontrados.append({
-                    'ruta': root,
-                    'tipo': 'carpetas',
-                    'base': base,
-                    'nombres': nombres_actuales,
-                    'sugerencias': sugerencias
-                })
-    
-    return planificados_archivos, planificadas_carpetas, conflictos_encontrados
-
-def show_conflicts(conflictos):
-    """Muestra los conflictos encontrados"""
-    if not conflictos:
-        print("\n✅ No se encontraron conflictos que resolver.")
-        return
-    
-    print(f"\n=== SE ENCONTRARON {len(conflictos)} CONFLICTOS ===")
-    
-    for i, conflicto in enumerate(conflictos, 1):
-        print(f"\n{i}. En '{conflicto['ruta']}' se encontraron estos nombres similares:")
-        for nombre in conflicto['nombres']:
-            print(f"   - {nombre}")
-        
-        print("   Sugerencias para evitar conflictos:")
-        for sugerencia in conflicto['sugerencias']:
-            print(f"     {sugerencia}")
-
-def apply_changes(archivos_planificados, carpetas_planificadas):
-    """Aplica los cambios planificados"""
-    cambios_exitosos = 0
-    cambios_fallidos = 0
-    
-    print("\n=== APLICANDO CAMBIOS ===")
-    
-    # Aplicar cambios en archivos primero
-    if archivos_planificados:
-        print("\n📁 Renombrando archivos:")
-        for old_path, new_path in archivos_planificados:
+        # Paso 1: Renombrar a nombres temporales
+        for change in folder_changes:
+            temp_name = f"TEMP_{change['old_name']}_{hash(change['old_path']) % 10000}"
+            temp_path = os.path.join(change['directory'], temp_name)
+            
             try:
-                # Verificar que el archivo aún existe
-                if os.path.exists(old_path):
-                    # Verificar que no estamos creando un duplicado
-                    if not os.path.exists(new_path):
-                        os.rename(old_path, new_path)
-                        print(f"   ✅ {os.path.basename(old_path)} -> {os.path.basename(new_path)}")
-                        cambios_exitosos += 1
-                    else:
-                        print(f"   ⚠️  {os.path.basename(old_path)} -> {os.path.basename(new_path)} (el destino ya existe, se omite)")
-                        cambios_fallidos += 1
-                else:
-                    print(f"   ❌ {old_path} (el archivo ya no existe)")
-                    cambios_fallidos += 1
+                os.rename(change['old_path'], temp_path)
+                temp_mappings[temp_path] = change['new_path']
+                print(f"   🔄 {change['old_name']} → {temp_name} (temporal)")
             except Exception as e:
-                print(f"   ❌ Error al renombrar {old_path}: {e}")
-                cambios_fallidos += 1
-    
-    # Aplicar cambios en carpetas (ordenar por profundidad primero)
-    if carpetas_planificadas:
-        print("\n📂 Renombrando carpetas:")
-        # Ordenar por profundidad (rutas más largas primero)
-        carpetas_planificadas.sort(key=lambda x: len(x[0]), reverse=True)
+                print(f"   ❌ Error renombrando carpeta {change['old_path']}: {e}")
         
-        for old_path, new_path in carpetas_planificadas:
+        # Paso 2: Renombrar de temporales a nombres finales
+        for temp_path, final_path in temp_mappings.items():
             try:
-                # Verificar que la carpeta aún existe
-                if os.path.exists(old_path):
-                    # Verificar que no estamos creando un duplicado
-                    if not os.path.exists(new_path):
-                        os.rename(old_path, new_path)
-                        print(f"   ✅ {os.path.basename(old_path)} -> {os.path.basename(new_path)}")
-                        cambios_exitosos += 1
-                    else:
-                        print(f"   ⚠️  {os.path.basename(old_path)} -> {os.path.basename(new_path)} (el destino ya existe, se omite)")
-                        cambios_fallidos += 1
-                else:
-                    print(f"   ❌ {old_path} (la carpeta ya no existe)")
-                    cambios_fallidos += 1
+                os.rename(temp_path, final_path)
+                print(f"   ✅ {os.path.basename(temp_path)} → {os.path.basename(final_path)}")
+                total_renamed_folders += 1
             except Exception as e:
-                print(f"   ❌ Error al renombrar {old_path}: {e}")
-                cambios_fallidos += 1
+                print(f"   ❌ Error en renombrado final {temp_path}: {e}")
     
-    return cambios_exitosos, cambios_fallidos
+    # Renombrar imágenes
+    if image_changes:
+        print("\n🖼️  Renombrando imágenes...")
+        
+        # Agrupar cambios por directorio
+        changes_by_dir = defaultdict(list)
+        for change in image_changes:
+            changes_by_dir[change['directory']].append(change)
+        
+        for directory, dir_changes in changes_by_dir.items():
+            print(f"\n   📁 Procesando: {directory}")
+            temp_mappings = {}
+            
+            # Paso 1: Renombrar a archivos temporales
+            for change in dir_changes:
+                temp_name = f"TEMP_{hash(change['old_path']) % 10000}{Path(change['old_name']).suffix}"
+                temp_path = os.path.join(directory, temp_name)
+                
+                try:
+                    os.rename(change['old_path'], temp_path)
+                    temp_mappings[temp_path] = change['new_path']
+                except Exception as e:
+                    print(f"      ❌ Error en renombrado temporal: {e}")
+            
+            # Paso 2: Renombrar de temporales a nombres finales
+            for temp_path, final_path in temp_mappings.items():
+                try:
+                    os.rename(temp_path, final_path)
+                    print(f"      ✅ {os.path.basename(temp_path)} → {os.path.basename(final_path)}")
+                    total_renamed_images += 1
+                except Exception as e:
+                    print(f"      ❌ Error en renombrado final: {e}")
+    
+    return total_renamed_images, total_renamed_folders
 
-def show_summary(conflictos, cambios_exitosos, cambios_fallidos):
-    """Muestra un resumen del proceso"""
-    print("\n" + "="*50)
-    print("📊 RESUMEN DEL PROCESO")
-    print("="*50)
-    
-    total_conflictos = len(conflictos)
-    total_cambios = cambios_exitosos + cambios_fallidos
-    
-    print(f"\n📈 Conflictos detectados: {total_conflictos}")
-    print(f"✅ Cambios aplicados exitosamente: {cambios_exitosos}")
-    print(f"⚠️  Cambios fallidos/omitidos: {cambios_fallidos}")
-    
-    if cambios_fallidos > 0:
-        print("\n💡 Nota: Algunos cambios no se pudieron aplicar porque:")
-        print("   - El archivo/carpeta ya no existe")
-        print("   - Ya existe un archivo/carpeta con el nuevo nombre")
-        print("   - Error de permisos")
-    
-    print("\n" + "="*50)
 
 def main():
-    print("="*50)
-    print("🔄 SCRIPT DE REORGANIZACIÓN DE NOMBRES")
-    print("="*50)
-    print("\nEste script analiza y reorganiza nombres para evitar conflictos.")
-    print("Ejemplo: Ace, Ace_1, Ace_2, Ace_3 -> Ace_1, Ace_2, Ace_3, Ace_4")
+    print("🚀 NORMALIZADOR COMPLETO - CARPETAS E IMÁGENES v5.0")
+    print("=" * 70)
+    print("✨ Renombra carpetas E imágenes con numeración consecutiva")
+    print("🛡️  Usa renombrado seguro para evitar conflictos")
+    print("🔧 Maneja separadores problemáticos: __, ##, _#, etc.")
+    print("🔍 Detecta y normaliza separadores múltiples")
+    print("📋 Análisis previo obligatorio antes de cualquier cambio\n")
     
-    root_directory = os.getcwd()
-    print(f"\n📂 Directorio actual: {root_directory}")
+    # Solicitar directorio
+    while True:
+        directory = input("📂 Ingresa la ruta del directorio: ").strip()
+        
+        if not directory:
+            print("❌ Por favor, ingresa una ruta válida.")
+            continue
+        
+        dir_path = Path(directory)
+        
+        if not dir_path.exists():
+            print("❌ El directorio no existe.")
+            continue
+        
+        if not dir_path.is_dir():
+            print("❌ La ruta no es un directorio.")
+            continue
+        
+        break
     
-    # Fase 1: Análisis
-    print("\n" + "-"*50)
-    print("🔍 ANALIZANDO ESTRUCTURA DE DIRECTORIOS...")
-    print("-"*50)
+    print(f"\n📁 Directorio seleccionado: {dir_path.absolute()}")
     
-    archivos_planificados, carpetas_planificadas, conflictos = analyze_and_plan_changes(root_directory)
-    
-    total_cambios = len(archivos_planificados) + len(carpetas_planificadas)
-    
-    if total_cambios == 0:
-        print("\n🎉 No se necesitan cambios. La estructura ya está organizada.")
+    # PASO 1: Analizar cambios
+    print("\n⏳ Analizando archivos y carpetas...")
+    try:
+        folder_changes, image_changes = analyze_changes(str(dir_path))
+    except Exception as e:
+        print(f"\n❌ Error durante el análisis: {str(e)}")
+        import traceback
+        traceback.print_exc()
         return
     
-    # Mostrar conflictos encontrados
-    show_conflicts(conflictos)
+    # PASO 2: Mostrar análisis
+    print_analysis(folder_changes, image_changes)
     
-    # Resumen de cambios planificados
-    print(f"\n📋 RESUMEN DE CAMBIOS PLANIFICADOS:")
-    print(f"   Archivos a renombrar: {len(archivos_planificados)}")
-    print(f"   Carpetas a renombrar: {len(carpetas_planificadas)}")
-    print(f"   Total de cambios: {total_cambios}")
-    
-    # Preguntar confirmación
-    print("\n" + "="*50)
-    confirmacion = input("\n¿Deseas aplicar estos cambios? (s/n): ").strip().lower()
-    
-    if confirmacion != 's':
-        print("\n❌ Operación cancelada por el usuario.")
+    # Si no hay cambios, terminar
+    if not folder_changes and not image_changes:
+        print("\n✅ No se requieren cambios. ¡Todo está normalizado!")
         return
     
-    # Fase 2: Aplicación
-    print("\n" + "-"*50)
-    print("⚡ APLICANDO CAMBIOS...")
-    print("-"*50)
+    # PASO 3: Confirmar ejecución
+    print("\n" + "⚠️ " * 35)
+    confirm = input("¿Deseas EJECUTAR el proceso de renombrado? (s/n): ").strip().lower()
+    print("⚠️ " * 35)
     
-    cambios_exitosos, cambios_fallidos = apply_changes(archivos_planificados, carpetas_planificadas)
+    if confirm not in ['s', 'si', 'sí', 'y', 'yes']:
+        print("\n❌ Operación cancelada. No se realizaron cambios.")
+        return
     
-    # Mostrar resumen final
-    show_summary(conflictos, cambios_exitosos, cambios_fallidos)
+    # PASO 4: Ejecutar renombrado
+    print("\n🔄 Iniciando proceso de renombrado...")
     
-    if cambios_exitosos > 0:
-        print("\n🎉 ¡Proceso completado exitosamente!")
-    else:
-        print("\n⚠️  No se realizaron cambios. Revisa los mensajes anteriores.")
+    try:
+        renamed_images, renamed_folders = execute_renaming(folder_changes, image_changes)
+        
+        print("\n" + "=" * 70)
+        print("✅ ¡PROCESO COMPLETADO EXITOSAMENTE!")
+        print("=" * 70)
+        print(f"📊 Carpetas renombradas: {renamed_folders}")
+        print(f"📊 Imágenes renombradas: {renamed_images}")
+        print("🎉 Todo normalizado con numeración consecutiva (_1, _2, _3...)")
+        print("🔧 Separadores múltiples (__, ##) normalizados correctamente")
+        print("=" * 70)
+        
+    except Exception as e:
+        print(f"\n❌ Error durante el renombrado: {str(e)}")
+        import traceback
+        traceback.print_exc()
+
 
 if __name__ == "__main__":
-    try:
-        main()
-    except KeyboardInterrupt:
-        print("\n\n❌ Proceso interrumpido por el usuario.")
-    except Exception as e:
-        print(f"\n❌ Error inesperado: {e}")
+    main()

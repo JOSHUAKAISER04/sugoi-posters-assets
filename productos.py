@@ -20,11 +20,10 @@ categorias = {
 base_url = f"https://raw.githubusercontent.com/{usuario}/{repositorio}/{rama}/"
 
 productos = []
-contadores = {}
 
 def limpiar_nombre(nombre_archivo):
     nombre = os.path.splitext(nombre_archivo)[0]
-    # quitar sufijos tipo (1) o _1 y convertir "Name_1" -> "Name #1" solo para mostrar si fuera necesario
+    # quitar sufijos tipo (1) o _1 y convertir "Name_1" -> "Name #1"
     nombre = re.sub(r"[_\s]*\(?(\d+)\)?$", r" #\1", nombre)
     nombre = re.sub(r"[_]+", " ", nombre)
     nombre = re.sub(r"\s{2,}", " ", nombre).strip()
@@ -34,14 +33,14 @@ def normalize_hashes(name):
     """
     Normaliza usos de '#' en un nombre para evitar duplicados como 'Name # #3':
     - transforma '# #' -> '#'
-    - elimina '#' que NO estén seguidos por un dígito (ej. un '#' suelto)
+    - elimina '#' que NO estén seguidos por un dígito (considerando espacios)
     - limpia espacios repetidos
     """
     s = name
     # Colapsar secuencias de '# #' a '#'
     s = re.sub(r"#\s+#", "#", s)
-    # Eliminar '#' que no van seguidos de un dígito (preserva '#3', '#10', etc.)
-    s = re.sub(r"#(?!\d)", "", s)
+    # Eliminar '#' que no van seguidos de un dígito (permite espacio entre # y dígito)
+    s = re.sub(r"#(?!\s*\d)", "", s)
     # Limpiar espacios sobrantes
     s = re.sub(r"\s{2,}", " ", s).strip()
     return s
@@ -67,11 +66,14 @@ def formatear_subcategoria(nombre_carpeta):
 def extraer_variante(nombre_carpeta):
     """
     Extrae el nombre base y el número de variante.
-    - 'Ichigo_Hollow' -> ('Ichigo Hollow', 0)  <- sin número = variante 0
-    - 'Ichigo_Hollow_1' -> ('Ichigo Hollow', 1)
-    - 'Ichigo_Hollow_2' -> ('Ichigo Hollow', 2)
+    Soporta formatos como:
+      - 'Ichigo_Hollow'        -> ('Ichigo Hollow', 0)
+      - 'Ichigo_Hollow_1'      -> ('Ichigo Hollow', 1)
+      - 'Guts #1'              -> ('Guts', 1)
+      - 'Guts-2'               -> ('Guts', 2)
     """
-    match = re.match(r"^(.+?)[_\s]*(\d+)$", nombre_carpeta)
+    # permitir separadores _, espacio, -, # antes del número
+    match = re.match(r"^(.+?)[_\s#\-]*(\d+)$", nombre_carpeta)
     if match:
         nombre_personaje = match.group(1).replace("_", " ").strip()
         numero_variante = int(match.group(2))
@@ -90,8 +92,8 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
         continue
 
     tipo = categorias[categoria_dir]
-    nombre_categoria = tipo["nombre"]       # "Camisa", "Suéter", "Poster", "Polaroid", ...
-    categoria_plural = tipo["categoria"]   # "Camisas", "Sueters", ...
+    nombre_categoria = tipo["nombre"]
+    categoria_plural = tipo["categoria"]
     precio = tipo["precio"]
     descripcion = tipo["descripcion"]
 
@@ -147,18 +149,14 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
                     archivos_variante = [f for f in sorted(os.listdir(variante_path)) if f.lower().endswith((".png", ".jpg", ".jpeg", ".webp"))]
                     if archivos_variante:
                         nombre_base, numero_carpeta = extraer_variante(variante_dir)
-                        # Normalizar hashes en el nombre base (evita cosas como 'Name # #3')
                         nombre_base = normalize_hashes(nombre_base)
 
                         imagenes_variante = [
                             base_url + os.path.relpath(os.path.join(variante_path, f), carpeta_base).replace("\\", "/")
                             for f in archivos_variante
                         ]
-                        # Para camisas (C-a) y suéteres (S-u): sumar 1 al número de carpeta
-                        if categoria_dir in ("C-a", "S-u"):
-                            numero_display = numero_carpeta + 1
-                        else:
-                            numero_display = numero_carpeta if numero_carpeta > 0 else 1
+                        # Mostrar el número tal cual si existe; si no existe, usar 1
+                        numero_display = numero_carpeta if numero_carpeta > 0 else 1
                         
                         nombre_producto = f"{nombre_categoria} {nombre_base} #{numero_display}"
                         imagenes_dart = "[\n" + ",\n".join([f'      "{img}"' for img in imagenes_variante]) + "\n    ]"
@@ -174,22 +172,15 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
             # 2) Archivos directos en la subcategoria
             if archivos_directos:
                 if categoria_dir == "Pol":
-                    # Polaroids: 1 product por archivo; si la carpeta es 'anime', subcategoria = personaje
+                    # Polaroids: 1 product por archivo
                     for file in archivos_directos:
                         relative_path = os.path.relpath(os.path.join(subcategoria_path, file), carpeta_base).replace("\\", "/")
                         url = base_url + relative_path
                         personaje = limpiar_nombre(file)
-                        # Normalizar hashes en el personaje para evitar duplicados
                         personaje = normalize_hashes(personaje)
                         subcategoria_final = personaje if subcategoria_dir.lower() == "anime" else subcategoria_limpia
 
-                        clave = f"{categoria_dir}-{subcategoria_final.lower()}-{personaje.lower()}"
-                        contadores[clave] = contadores.get(clave, 0) + 1
-                        numero = contadores[clave]
-                        if numero > 1 and f"#{numero}" not in personaje:
-                            nombre_producto = f"{nombre_categoria} {personaje} #{numero}"
-                        else:
-                            nombre_producto = f"{nombre_categoria} {personaje}"
+                        nombre_producto = f"{nombre_categoria} {personaje}"
 
                         imagenes_dart = "[\n" + f'      "{url}"' + "\n    ]"
                         productos.append(f'''  Product(
@@ -202,22 +193,15 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
   ),''')
 
                 elif categoria_dir == "P-o":
-                    # Posters: UN producto por archivo directo; subcategoria = carpeta padre (formateada)
+                    # Posters: UN producto por archivo directo
                     for file in archivos_directos:
                         relative_path = os.path.relpath(os.path.join(subcategoria_path, file), carpeta_base).replace("\\", "/")
                         url = base_url + relative_path
-                        personaje = limpiar_nombre(file)               # e.g. "Superman"
-                        # Normalizar hashes en personaje
+                        personaje = limpiar_nombre(file)
                         personaje = normalize_hashes(personaje)
-                        subcategoria_final = subcategoria_limpia       # e.g. "DC Comics"
+                        subcategoria_final = subcategoria_limpia
 
-                        clave = f"{categoria_dir}-{subcategoria_final.lower()}-{personaje.lower()}"
-                        contadores[clave] = contadores.get(clave, 0) + 1
-                        numero = contadores[clave]
-                        if numero > 1 and f"#{numero}" not in personaje:
-                            nombre_producto = f"{nombre_categoria} {personaje} #{numero}"
-                        else:
-                            nombre_producto = f"{nombre_categoria} {personaje}"
+                        nombre_producto = f"{nombre_categoria} {personaje}"
 
                         imagenes_dart = "[\n" + f'      "{url}"' + "\n    ]"
                         productos.append(f'''  Product(
@@ -246,7 +230,7 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
     subcategoria: "{subcategoria_limpia}",
   ),''')
 
-    # Resto de categorías (S-e, etc.) mantienen su lógica original
+    # Resto de categorías (S-e, etc.)
     else:
         for subcategoria_dir in sorted(os.listdir(categoria_path)):
             subcategoria_path = os.path.join(categoria_path, subcategoria_dir)
@@ -262,19 +246,9 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
                 relative_path = os.path.relpath(os.path.join(subcategoria_path, file), carpeta_base).replace("\\", "/")
                 url = base_url + relative_path
                 personaje = limpiar_nombre(file)
-                # Normalizar hashes en personaje
                 personaje = normalize_hashes(personaje)
 
-                subcategoria_final = subcategoria_limpia
-                personaje_final = personaje
-
-                clave = f"{categoria_dir}-{subcategoria_final.lower()}-{personaje_final.lower()}"
-                contadores[clave] = contadores.get(clave, 0) + 1
-                numero = contadores[clave]
-                if numero > 1 and f"#{numero}" not in personaje_final:
-                    nombre_producto = f"{nombre_categoria} {personaje_final} #{numero}"
-                else:
-                    nombre_producto = f"{nombre_categoria} {personaje_final}"
+                nombre_producto = f"{nombre_categoria} {personaje}"
 
                 imagenes_dart = "[\n" + f'      "{url}"' + "\n    ]"
                 productos.append(f'''  Product(
@@ -283,7 +257,7 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
     descripcion: "{descripcion}",
     categoria: "{categoria_plural}",
     imagenes: {imagenes_dart},
-    subcategoria: "{subcategoria_final}",
+    subcategoria: "{subcategoria_limpia}",
   ),''')
 
 # --- GENERAR ARCHIVO DART ---

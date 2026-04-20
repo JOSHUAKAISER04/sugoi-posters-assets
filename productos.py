@@ -17,7 +17,7 @@ categorias = {
 }
 
 # URL base
-base_url = f"https://raw.githubusercontent.com/{usuario}/{repositorio}/{rama}/"
+base_url = f"https://cdn.jsdelivr.net/gh/{usuario}/{repositorio}@{rama}/"
 
 productos = []
 
@@ -266,4 +266,4 @@ with open("products.dart", "w", encoding="utf-8") as f:
     f.write("\n".join(productos))
     f.write("\n];\n")
 
-print(f"✅ Archivo 'products.dart' generado correctamente con {len(productos)} productos.")
+print(f" Archivo 'products.dart' generado correctamente con {len(productos)} productos.")

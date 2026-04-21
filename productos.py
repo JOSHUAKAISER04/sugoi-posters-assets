@@ -67,7 +67,8 @@ categorias = {
 }
 
 # URL base
-base_url = f"https://raw.githubusercontent.com/{usuario}/{repositorio}/{rama}/"
+base_url = f"https://cdn.jsdelivr.net/gh/{usuario}/{repositorio}@{rama}/"
+
 
 productos = []
 

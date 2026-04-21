@@ -1,11 +1,61 @@
 import os
 import re
+from datetime import date, datetime
 
 # Configuración del repo
 usuario = "JOSHUAKAISER04"
 repositorio = "sugoi-posters-assets"
 rama = "main"
 carpeta_base = "."
+
+# Ruta al products.dart existente (para conservar fechas ya registradas).
+# Puede ser relativa al lugar desde donde se ejecuta el script.
+PRODUCTOS_DART_EXISTENTE = os.path.join(
+    os.path.dirname(__file__), "..", "lib", "data", "products.dart"
+)
+
+# ── Cargar fechas ya registradas ─────────────────────────────────────────────
+def _leer_fechas_existentes(path: str) -> dict[str, str]:
+    """Devuelve {nombre_producto: dateAdded} del products.dart actual."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            content = f.read()
+        result = {}
+        # Busca pares nombre / dateAdded dentro del mismo bloque Product(...)
+        for bloque in re.finditer(r'Product\s*\(.*?\n  \)', content, re.DOTALL):
+            b = bloque.group(0)
+            n = re.search(r'nombre:\s*"([^"]+)"', b)
+            d = re.search(r'dateAdded:\s*"([^"]+)"', b)
+            if n and d:
+                result[n.group(1)] = d.group(1)
+        return result
+    except FileNotFoundError:
+        return {}
+
+_fechas_existentes: dict[str, str] = _leer_fechas_existentes(PRODUCTOS_DART_EXISTENTE)
+
+def _fecha_para(nombre_producto: str, rutas_locales: list[str]) -> str:
+    """
+    Retorna la fecha ISO para dateAdded:
+      - Si el producto YA existe en products.dart → conserva su fecha.
+      - Si es NUEVO → usa el mtime más reciente de sus imágenes locales.
+      - Fallback: fecha de hoy.
+    """
+    if nombre_producto in _fechas_existentes:
+        return _fechas_existentes[nombre_producto]
+
+    # Producto nuevo: tomar la fecha de modificación más reciente de los archivos
+    tiempos = []
+    for ruta in rutas_locales:
+        try:
+            tiempos.append(os.path.getmtime(ruta))
+        except OSError:
+            pass
+    if tiempos:
+        return datetime.fromtimestamp(max(tiempos)).strftime("%Y-%m-%d")
+
+    return date.today().isoformat()
+# ─────────────────────────────────────────────────────────────────────────────
 
 # Definición de categorías, precios y descripciones
 categorias = {
@@ -17,7 +67,7 @@ categorias = {
 }
 
 # URL base
-base_url = f"https://cdn.jsdelivr.net/gh/{usuario}/{repositorio}@{rama}/"
+base_url = f"https://raw.githubusercontent.com/{usuario}/{repositorio}/{rama}/"
 
 productos = []
 
@@ -112,10 +162,13 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
             es_personalizada_directa = subcategoria_dir.lower().startswith("1_") or "personaliz" in subcategoria_dir.lower()
 
             if es_personalizada_directa:
+                archivos_pers = sorted(
+                    f for f in os.listdir(subcategoria_path)
+                    if f.lower().endswith((".png", ".jpg", ".jpeg", ".webp"))
+                )
                 imagenes = [
                     base_url + os.path.relpath(os.path.join(subcategoria_path, f), carpeta_base).replace("\\", "/")
-                    for f in sorted(os.listdir(subcategoria_path))
-                    if f.lower().endswith((".png", ".jpg", ".jpeg", ".webp"))
+                    for f in archivos_pers
                 ]
                 if not imagenes:
                     continue
@@ -123,6 +176,8 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
                 adj = "Personalizada" if categoria_dir == "C-a" else "Personalizado"
                 nombre_producto = f"{nombre_categoria} {adj} #1"
                 imagenes_dart = "[\n" + ",\n".join([f'      "{img}"' for img in imagenes]) + "\n    ]"
+                rutas_locales = [os.path.join(subcategoria_path, f) for f in archivos_pers]
+                fecha = _fecha_para(nombre_producto, rutas_locales)
                 productos.append(f'''  Product(
     nombre: "{nombre_producto}",
     precio: "{precio}",
@@ -130,6 +185,7 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
     categoria: "{categoria_plural}",
     imagenes: {imagenes_dart},
     subcategoria: "",
+    dateAdded: "{fecha}",
   ),''')
                 continue
 
@@ -157,9 +213,11 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
                         ]
                         # Mostrar el número tal cual si existe; si no existe, usar 1
                         numero_display = numero_carpeta if numero_carpeta > 0 else 1
-                        
+
                         nombre_producto = f"{nombre_categoria} {nombre_base} #{numero_display}"
                         imagenes_dart = "[\n" + ",\n".join([f'      "{img}"' for img in imagenes_variante]) + "\n    ]"
+                        rutas_locales = [os.path.join(variante_path, f) for f in archivos_variante]
+                        fecha = _fecha_para(nombre_producto, rutas_locales)
                         productos.append(f'''  Product(
     nombre: "{nombre_producto}",
     precio: "{precio}",
@@ -167,6 +225,7 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
     categoria: "{categoria_plural}",
     imagenes: {imagenes_dart},
     subcategoria: "{subcategoria_limpia}",
+    dateAdded: "{fecha}",
   ),''')
 
             # 2) Archivos directos en la subcategoria
@@ -174,15 +233,16 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
                 if categoria_dir == "Pol":
                     # Polaroids: 1 product por archivo
                     for file in archivos_directos:
-                        relative_path = os.path.relpath(os.path.join(subcategoria_path, file), carpeta_base).replace("\\", "/")
+                        ruta_local = os.path.join(subcategoria_path, file)
+                        relative_path = os.path.relpath(ruta_local, carpeta_base).replace("\\", "/")
                         url = base_url + relative_path
                         personaje = limpiar_nombre(file)
                         personaje = normalize_hashes(personaje)
                         subcategoria_final = personaje if subcategoria_dir.lower() == "anime" else subcategoria_limpia
 
                         nombre_producto = f"{nombre_categoria} {personaje}"
-
                         imagenes_dart = "[\n" + f'      "{url}"' + "\n    ]"
+                        fecha = _fecha_para(nombre_producto, [ruta_local])
                         productos.append(f'''  Product(
     nombre: "{nombre_producto}",
     precio: "{precio}",
@@ -190,20 +250,22 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
     categoria: "{categoria_plural}",
     imagenes: {imagenes_dart},
     subcategoria: "{subcategoria_final}",
+    dateAdded: "{fecha}",
   ),''')
 
                 elif categoria_dir == "P-o":
                     # Posters: UN producto por archivo directo
                     for file in archivos_directos:
-                        relative_path = os.path.relpath(os.path.join(subcategoria_path, file), carpeta_base).replace("\\", "/")
+                        ruta_local = os.path.join(subcategoria_path, file)
+                        relative_path = os.path.relpath(ruta_local, carpeta_base).replace("\\", "/")
                         url = base_url + relative_path
                         personaje = limpiar_nombre(file)
                         personaje = normalize_hashes(personaje)
                         subcategoria_final = subcategoria_limpia
 
                         nombre_producto = f"{nombre_categoria} {personaje}"
-
                         imagenes_dart = "[\n" + f'      "{url}"' + "\n    ]"
+                        fecha = _fecha_para(nombre_producto, [ruta_local])
                         productos.append(f'''  Product(
     nombre: "{nombre_producto}",
     precio: "{precio}",
@@ -211,16 +273,19 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
     categoria: "{categoria_plural}",
     imagenes: {imagenes_dart},
     subcategoria: "{subcategoria_final}",
+    dateAdded: "{fecha}",
   ),''')
 
                 else:
                     # Camisas/Suéteres: agrupar archivos directos en UN producto por subcategoria
+                    rutas_locales = [os.path.join(subcategoria_path, f) for f in archivos_directos]
                     imagenes = [
-                        base_url + os.path.relpath(os.path.join(subcategoria_path, f), carpeta_base).replace("\\", "/")
-                        for f in archivos_directos
+                        base_url + os.path.relpath(r, carpeta_base).replace("\\", "/")
+                        for r in rutas_locales
                     ]
                     nombre_producto = f"{nombre_categoria} {subcategoria_limpia} #1"
                     imagenes_dart = "[\n" + ",\n".join([f'      "{img}"' for img in imagenes]) + "\n    ]"
+                    fecha = _fecha_para(nombre_producto, rutas_locales)
                     productos.append(f'''  Product(
     nombre: "{nombre_producto}",
     precio: "{precio}",
@@ -228,6 +293,7 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
     categoria: "{categoria_plural}",
     imagenes: {imagenes_dart},
     subcategoria: "{subcategoria_limpia}",
+    dateAdded: "{fecha}",
   ),''')
 
     # Resto de categorías (S-e, etc.)
@@ -243,14 +309,15 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
                 if not file.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
                     continue
 
-                relative_path = os.path.relpath(os.path.join(subcategoria_path, file), carpeta_base).replace("\\", "/")
+                ruta_local = os.path.join(subcategoria_path, file)
+                relative_path = os.path.relpath(ruta_local, carpeta_base).replace("\\", "/")
                 url = base_url + relative_path
                 personaje = limpiar_nombre(file)
                 personaje = normalize_hashes(personaje)
 
                 nombre_producto = f"{nombre_categoria} {personaje}"
-
                 imagenes_dart = "[\n" + f'      "{url}"' + "\n    ]"
+                fecha = _fecha_para(nombre_producto, [ruta_local])
                 productos.append(f'''  Product(
     nombre: "{nombre_producto}",
     precio: "{precio}",
@@ -258,12 +325,22 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
     categoria: "{categoria_plural}",
     imagenes: {imagenes_dart},
     subcategoria: "{subcategoria_limpia}",
+    dateAdded: "{fecha}",
   ),''')
 
 # --- GENERAR ARCHIVO DART ---
 with open("products.dart", "w", encoding="utf-8") as f:
+    f.write("import '../models/product.dart';\n\n")
     f.write("const List<Product> productos = [\n")
     f.write("\n".join(productos))
     f.write("\n];\n")
 
-print(f" Archivo 'products.dart' generado correctamente con {len(productos)} productos.")
+nuevos = [p for p in productos if p.split('dateAdded: "')[1].split('"')[0] not in _fechas_existentes.values()
+          or any(n not in _fechas_existentes for n in [p.split('nombre: "')[1].split('"')[0]])]
+n_nuevos = sum(1 for p in productos
+               if p.split('nombre: "')[1].split('"')[0] not in _fechas_existentes)
+print(f"✅ Archivo 'products.dart' generado con {len(productos)} productos.")
+if n_nuevos:
+    print(f"   🆕 {n_nuevos} producto(s) nuevo(s) → dateAdded asignado por mtime de archivos.")
+else:
+    print(f"   ✔  Sin productos nuevos detectados.")

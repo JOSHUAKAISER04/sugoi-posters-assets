@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
 """
-comprimir.py — PNG → WebP (85% calidad)
-=========================================
-Convierte todas las imágenes PNG a WebP con calidad 85%.
-- El archivo original PNG se elimina
-- El nuevo .webp queda en la misma carpeta con el mismo nombre
-- Recorre todos los subdirectorios recursivamente
+comprimir.py — PNG/JPG/JPEG → WebP (85% calidad)
+=================================================
+Convierte imágenes (PNG, JPG, JPEG) a WebP con calidad 85%.
+- Los archivos .webp existentes se ignoran por completo.
+- El archivo original se elimina tras la conversión exitosa.
+- El nuevo .webp queda en la misma carpeta con el mismo nombre.
+- Recorre todos los subdirectorios recursivamente.
 
 Uso:
     python comprimir.py                  # directorio actual
     python comprimir.py ruta/carpeta     # carpeta específica
     python comprimir.py --calidad 90     # cambiar calidad (default: 85)
     python comprimir.py --dry-run        # simular sin tocar nada
-    python comprimir.py --backup         # guardar PNG originales antes
+    python comprimir.py --backup         # guardar originales antes
 """
 
 import sys
@@ -52,6 +53,11 @@ def convertir(ruta: Path, calidad: int, backup_dir: Path | None, dry_run: bool) 
         "error": None,
     }
 
+    # Control de seguridad: Si por algún motivo se coló un .webp, no hacer nada.
+    if ruta.suffix.lower() == ".webp":
+        res["error"] = "El archivo ya es WebP"
+        return res
+
     try:
         with Image.open(ruta) as img:
             img.load()
@@ -71,7 +77,7 @@ def convertir(ruta: Path, calidad: int, backup_dir: Path | None, dry_run: bool) 
                 res["tam_nuevo"] = len(buf.getvalue())
                 return res
 
-            # Backup del PNG original
+            # Backup del archivo original
             if backup_dir:
                 dest = backup_dir / ruta.relative_to(ruta.anchor)
                 dest.parent.mkdir(parents=True, exist_ok=True)
@@ -82,8 +88,9 @@ def convertir(ruta: Path, calidad: int, backup_dir: Path | None, dry_run: bool) 
             img.save(webp_path, format="WEBP", quality=calidad, method=6)
             res["tam_nuevo"] = webp_path.stat().st_size
 
-            # Eliminar PNG original
-            ruta.unlink()
+            # Eliminar archivo original (solo si la extensión cambia)
+            if ruta != webp_path:
+                ruta.unlink()
 
     except Exception as e:
         res["error"] = str(e)
@@ -91,10 +98,14 @@ def convertir(ruta: Path, calidad: int, backup_dir: Path | None, dry_run: bool) 
     return res
 
 
-def buscar_png(directorio: Path, excluir: Path | None = None) -> list[Path]:
+def buscar_imagenes(directorio: Path, excluir: Path | None = None) -> list[Path]:
     imgs = []
-    for ext in ("*.png", "*.PNG"):
+    # Extensiones soportadas (Se excluye explícitamente .webp de la búsqueda)
+    patrones = ("*.png", "*.PNG", "*.jpg", "*.jpeg", "*.JPG", "*.JPEG")
+    
+    for ext in patrones:
         imgs.extend(directorio.rglob(ext))
+        
     imgs = sorted(set(imgs))
     if excluir:
         imgs = [i for i in imgs if excluir not in i.parents]
@@ -103,7 +114,7 @@ def buscar_png(directorio: Path, excluir: Path | None = None) -> list[Path]:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Convierte PNG a WebP con calidad 85% recursivamente.",
+        description="Convierte PNG/JPG/JPEG a WebP con calidad 85% recursivamente.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__,
     )
@@ -117,7 +128,7 @@ def main():
     )
     parser.add_argument(
         "--backup", action="store_true",
-        help="Guardar PNG originales en _backup_imagenes/ antes de convertir"
+        help="Guardar imágenes originales en _backup_imagenes/ antes de convertir"
     )
     parser.add_argument(
         "--dry-run", action="store_true",
@@ -137,28 +148,28 @@ def main():
             backup_dir.mkdir(exist_ok=True)
 
     print(f"\n{'═'*60}")
-    print(f"  🖼️  Conversor PNG → WebP")
+    print(f"   🖼️  Conversor Multiformato → WebP")
     print(f"{'═'*60}")
-    print(f"  📁 Directorio  : {raiz}")
-    print(f"  🎯 Calidad     : {args.calidad}%")
-    print(f"  💾 Backup PNG  : {'Sí → _backup_imagenes/' if args.backup else 'No'}")
-    print(f"  🧪 Dry-run     : {'SÍ — sin cambios reales' if args.dry_run else 'No'}")
+    print(f"   📁 Directorio  : {raiz}")
+    print(f"   🎯 Calidad     : {args.calidad}%")
+    print(f"   💾 Backup      : {'Sí → _backup_imagenes/' if args.backup else 'No'}")
+    print(f"   🧪 Dry-run     : {'SÍ — sin cambios reales' if args.dry_run else 'No'}")
     print(f"{'═'*60}\n")
 
-    imagenes = buscar_png(raiz, excluir=backup_dir)
+    imagenes = buscar_imagenes(raiz, excluir=backup_dir)
 
     if not imagenes:
-        print("⚠️  No se encontraron archivos PNG.")
+        print("⚠️  No se encontraron archivos nuevos para convertir (PNG, JPG o JPEG).")
         sys.exit(0)
 
-    print(f"📸 {len(imagenes)} PNG encontrados\n")
+    print(f"📸 {len(imagenes)} imágenes encontradas listas para procesar\n")
 
     total_orig = total_nuevo = procesadas = errores = 0
     inicio = datetime.now()
 
     for n, ruta in enumerate(imagenes, 1):
         rel = ruta.relative_to(raiz)
-        print(f"  [{n:>4}/{len(imagenes)}] {rel}", end=" ... ", flush=True)
+        print(f"   [{n:>4}/{len(imagenes)}] {rel}", end=" ... ", flush=True)
 
         res = convertir(ruta, args.calidad, backup_dir, args.dry_run)
         total_orig += res["tam_orig"]
@@ -181,20 +192,20 @@ def main():
     pct_total = (ahorro / total_orig * 100) if total_orig else 0
 
     print(f"\n{'═'*60}")
-    print(f"  📊 RESUMEN {'[DRY-RUN]' if args.dry_run else 'FINAL'}")
+    print(f"   📊 RESUMEN {'[DRY-RUN]' if args.dry_run else 'FINAL'}")
     print(f"{'═'*60}")
-    print(f"  ✅ Convertidas  : {procesadas}")
-    print(f"  ❌ Errores      : {errores}")
-    print(f"  ⏱️  Tiempo       : {elapsed:.1f}s")
-    print(f"  📦 Antes (PNG)  : {fmt(total_orig)}")
-    print(f"  📦 Después(WebP): {fmt(total_nuevo)}")
-    print(f"  💾 Ahorro total : {fmt(ahorro)}  ({pct_total:.1f}%)")
+    print(f"   ✅ Convertidas  : {procesadas}")
+    print(f"   ❌ Errores      : {errores}")
+    print(f"   ⏱️  Tiempo       : {elapsed:.1f}s")
+    print(f"   📦 Antes        : {fmt(total_orig)}")
+    print(f"   📦 Después(WebP): {fmt(total_nuevo)}")
+    print(f"   💾 Ahorro total : {fmt(ahorro)}  ({pct_total:.1f}%)")
     if backup_dir and not args.dry_run:
-        print(f"  🗂️  Originales   : {backup_dir}")
+        print(f"   🗂️  Originales   : {backup_dir}")
     print(f"{'═'*60}\n")
 
     if not args.dry_run and procesadas > 0:
-        print("🎉 ¡Conversión completa! Recuerda actualizar las rutas en tu web de .png a .webp\n")
+        print("🎉 ¡Conversión completa! Recuerda actualizar las referencias de tus imágenes a .webp\n")
 
 
 if __name__ == "__main__":

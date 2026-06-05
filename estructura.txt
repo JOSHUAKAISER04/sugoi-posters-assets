@@ -1,54 +1,1366 @@
-    📁 P-o
-    ┣━ 1_Personalizado
-    ┃  ┗━ Personalizado.png
-    ┣━ DC_Comics
-    ┃  ┣━ Superman
-    ┃  ┗━ Superman.png
-    ┣━ Jujutsu_Kaisen
-    ┃  ┣━ Itadori_Yuji
-    ┃  ┗━ Itadori_Yuji.jpg
-    ┣━ Kimetsu_no_Yaiba
-    ┃  ┣━ Mitsuri
-    ┃  ┣━ Mitsuri.jpg
-    ┃  ┣━ Rengoku
-    ┃  ┗━ Rengoku.jpg
-    ┣━ One_Piece
-    ┃  ┣━ Brook Wanted
-    ┃  ┣━ Brook Wanted.jpg
-    ┃  ┣━ Brook Wanted.png
-    ┃  ┣━ Chopper Wanted
-    ┃  ┣━ Chopper Wanted.jpg
-    ┃  ┣━ Chopper Wanted.png
-    ┃  ┣━ Franky Wanted
-    ┃  ┣━ Franky Wanted.jpg
-    ┃  ┣━ Franky Wanted.png
-    ┃  ┣━ God Usopp Wanted
-    ┃  ┣━ God Usopp Wanted.jpg
-    ┃  ┣━ Jinbe Wanted
-    ┃  ┣━ Jinbe Wanted.jpg
-    ┃  ┣━ Monkey D Luffy Wanted
-    ┃  ┣━ Monkey D Luffy Wanted.png
-    ┃  ┣━ Monkey D. Luffy Wanted
-    ┃  ┣━ Monkey D. Luffy Wanted.png
-    ┃  ┣━ Monkey D. Luffy Wanted_1
-    ┃  ┣━ Monkey D. Luffy Wanted_1.png
-    ┃  ┣━ Nami
-    ┃  ┣━ Nami Wanted
-    ┃  ┣━ Nami Wanted.png
-    ┃  ┣━ Nami.jpg
-    ┃  ┣━ Nico Robin Wanted
-    ┃  ┣━ Nico Robin Wanted.jpg
-    ┃  ┣━ Nico Robin Wanted.png
-    ┃  ┣━ Sanji Only Alive Wanted
-    ┃  ┣━ Sanji Only Alive Wanted.jpg
-    ┃  ┣━ Sanji Wanted
-    ┃  ┣━ Sanji Wanted.png
-    ┃  ┣━ Sogeking (Usopp) Wanted
-    ┃  ┣━ Sogeking (Usopp) Wanted.png
-    ┃  ┣━ Zoro Wanted
-    ┃  ┣━ Zoro Wanted.jpg
-    ┃  ┗━ Zoro Wanted.png
-    ┣━ The_Legend_of_Zelda
-    ┃  ┣━ The_Legend_of_Zelda_Tears_of_the_Kingdom
-    ┃  ┗━ The_Legend_of_Zelda_Tears_of_the_Kingdom.jpg
-    ┗━ desktop.ini
+📁 C-a
+┣━ 1_Personalizada
+┃  ┣━ Camisa_Personalizada.webp
+┃  ┗━ Camisa_Personalizada_Doble.webp
+┣━ Berserk
+┃  ┣━ Casca_1
+┃  ┃  ┗━ Casca.webp
+┃  ┣━ Eclipse_Arc
+┃  ┃  ┗━ Eclipse_Arc.webp
+┃  ┣━ Guts_1
+┃  ┃  ┗━ Guts.webp
+┃  ┣━ Guts_2
+┃  ┃  ┗━ Guts.webp
+┃  ┣━ Guts_3
+┃  ┃  ┗━ Guts.webp
+┃  ┣━ Guts_4
+┃  ┃  ┗━ Guts.webp
+┃  ┣━ Guts_5
+┃  ┃  ┗━ Guts.webp
+┃  ┣━ Guts_6
+┃  ┃  ┗━ Guts.webp
+┃  ┣━ Guts_7
+┃  ┃  ┗━ Guts.webp
+┃  ┣━ Guts_Berserk_Armor
+┃  ┃  ┗━ Guts_Berserk_Armor.webp
+┃  ┗━ Marca_del_Sacrificio
+┃     ┗━ Marca_del_Sacrificio.webp
+┣━ Black_Clover
+┃  ┣━ Asta_&_Liebe_1.png
+┃  ┣━ Asta_1.png
+┃  ┣━ Asta_10.png
+┃  ┣━ Asta_11.png
+┃  ┣━ Asta_12.png
+┃  ┣━ Asta_13.png
+┃  ┣━ Asta_14.png
+┃  ┣━ Asta_15.png
+┃  ┣━ Asta_16.png
+┃  ┣━ Asta_17.png
+┃  ┣━ Asta_18.png
+┃  ┣━ Asta_19.png
+┃  ┣━ Asta_2.png
+┃  ┣━ Asta_3.png
+┃  ┣━ Asta_4.png
+┃  ┣━ Asta_5.png
+┃  ┣━ Asta_6.png
+┃  ┣━ Asta_7.png
+┃  ┣━ Asta_8.png
+┃  ┣━ Asta_9.png
+┃  ┣━ Magna_&_Luck_1.png
+┃  ┣━ Noelle_1.png
+┃  ┣━ Noelle_2.png
+┃  ┣━ Noelle_3.png
+┃  ┣━ Noelle_4.png
+┃  ┣━ Noelle_5.png
+┃  ┣━ Noelle_6.png
+┃  ┣━ Yami_1.png
+┃  ┣━ Yami_2.png
+┃  ┗━ Yami_Asta_Zenon_1.png
+┣━ Bleach
+┃  ┣━ Grimmjow
+┃  ┃  ┗━ Grimmjow.webp
+┃  ┣━ Ichigo_1
+┃  ┃  ┗━ Ichigo.webp
+┃  ┣━ Ichigo_2
+┃  ┃  ┗━ Ichigo.webp
+┃  ┣━ Ichigo_3
+┃  ┃  ┗━ Ichigo.webp
+┃  ┣━ Ichigo_4
+┃  ┃  ┗━ Ichigo.webp
+┃  ┣━ Ichigo_Hollow_1
+┃  ┃  ┗━ Ichigo_Hollow.webp
+┃  ┣━ Ichigo_Hollow_2
+┃  ┃  ┗━ Ichigo_Hollow.webp
+┃  ┣━ Ichigo_Hollow_3
+┃  ┃  ┗━ Ichigo_Hollow.webp
+┃  ┣━ Ichigo_Hollow_4
+┃  ┃  ┗━ Ichigo_Hollow.webp
+┃  ┣━ Ichigo_Hollow_5
+┃  ┃  ┗━ Ichigo_Hollow.webp
+┃  ┣━ Ichigo_Hollow_6
+┃  ┃  ┗━ Ichigo_Hollow.webp
+┃  ┣━ Kenpachi_1
+┃  ┃  ┗━ Kenpachi.webp
+┃  ┣━ Kenpachi_2
+┃  ┃  ┗━ Kenpachi.webp
+┃  ┣━ Rangiku
+┃  ┃  ┗━ Rangiku.webp
+┃  ┗━ Shiba
+┃     ┗━ Shiba.webp
+┣━ Boku_No_Hero_Academia
+┃  ┣━ Aizawa
+┃  ┃  ┗━ Aizawa.webp
+┃  ┣━ All_Might_1
+┃  ┃  ┗━ All_Might_1.webp
+┃  ┣━ All_Might_2
+┃  ┃  ┗━ All_Might_2.webp
+┃  ┣━ All_Might_3
+┃  ┃  ┗━ All_Might_3.webp
+┃  ┣━ All_Might_4
+┃  ┃  ┗━ All_Might_4.webp
+┃  ┣━ All_Might_5
+┃  ┃  ┗━ All_Might_5.webp
+┃  ┣━ All_Might_6
+┃  ┃  ┗━ All_Might_6.webp
+┃  ┣━ Bakugou_1
+┃  ┃  ┗━ Bakugou_1.webp
+┃  ┣━ Bakugou_10
+┃  ┃  ┗━ Bakugou_10.webp
+┃  ┣━ Bakugou_11
+┃  ┃  ┗━ Bakugou_11.webp
+┃  ┣━ Bakugou_2
+┃  ┃  ┗━ Bakugou_2.webp
+┃  ┣━ Bakugou_3
+┃  ┃  ┗━ Bakugou_3.webp
+┃  ┣━ Bakugou_4
+┃  ┃  ┗━ Bakugou_4.webp
+┃  ┣━ Bakugou_5
+┃  ┃  ┗━ Bakugou_5.webp
+┃  ┣━ Bakugou_6
+┃  ┃  ┗━ Bakugou_6.webp
+┃  ┣━ Bakugou_7
+┃  ┃  ┗━ Bakugou_7.webp
+┃  ┣━ Bakugou_8
+┃  ┃  ┗━ Bakugou_8.webp
+┃  ┣━ Bakugou_9
+┃  ┃  ┗━ Bakugou_9.webp
+┃  ┣━ Dabi_1
+┃  ┃  ┗━ Dabi_1.webp
+┃  ┣━ Dabi_2
+┃  ┃  ┗━ Dabi_2.webp
+┃  ┣━ Dabi_3
+┃  ┃  ┗━ Dabi_3.webp
+┃  ┣━ Dabi_4
+┃  ┃  ┗━ Dabi_4.webp
+┃  ┣━ Endeavor_1
+┃  ┃  ┗━ Endeavor_1.webp
+┃  ┣━ Endeavor_2
+┃  ┃  ┗━ Endeavor_2.webp
+┃  ┣━ Hawks
+┃  ┃  ┗━ Hawks.webp
+┃  ┣━ Izuku_&_All_Might
+┃  ┃  ┗━ Izuku_&_All_Might.webp
+┃  ┣━ Izuku_&_Bakugo_1
+┃  ┃  ┗━ Izuku_&_Bakugo_1.webp
+┃  ┣━ Izuku_&_Bakugo_2
+┃  ┃  ┗━ Izuku_&_Bakugo_2.webp
+┃  ┣━ Izuku_1
+┃  ┃  ┗━ Izuku_1.webp
+┃  ┣━ Izuku_10
+┃  ┃  ┗━ Izuku_10.webp
+┃  ┣━ Izuku_11
+┃  ┃  ┗━ Izuku_11.webp
+┃  ┣━ Izuku_12
+┃  ┃  ┗━ Izuku_12.webp
+┃  ┣━ Izuku_2
+┃  ┃  ┗━ Izuku_2.webp
+┃  ┣━ Izuku_3
+┃  ┃  ┗━ Izuku_3.webp
+┃  ┣━ Izuku_4
+┃  ┃  ┗━ Izuku_4.webp
+┃  ┣━ Izuku_5
+┃  ┃  ┗━ Izuku_5.webp
+┃  ┣━ Izuku_6
+┃  ┃  ┗━ Izuku_6.webp
+┃  ┣━ Izuku_7
+┃  ┃  ┗━ Izuku_7.webp
+┃  ┣━ Izuku_8
+┃  ┃  ┗━ Izuku_8.webp
+┃  ┣━ Izuku_9
+┃  ┃  ┗━ Izuku_9.webp
+┃  ┣━ Kirishima
+┃  ┃  ┗━ Kirishima.webp
+┃  ┣━ Mirio_1
+┃  ┃  ┗━ Mirio_1.webp
+┃  ┣━ Mirio_2
+┃  ┃  ┗━ Mirio_2.webp
+┃  ┣━ Mirko
+┃  ┃  ┗━ Mirko.webp
+┃  ┣━ Momo
+┃  ┃  ┗━ Momo.webp
+┃  ┣━ My_Hero_Acedemia_1
+┃  ┃  ┗━ My_Hero_Acedemia_1.webp
+┃  ┣━ My_Hero_Acedemia_2
+┃  ┃  ┗━ My_Hero_Acedemia_2.webp
+┃  ┣━ My_Hero_Acedemia_3
+┃  ┃  ┗━ My_Hero_Acedemia_3.webp
+┃  ┣━ My_Hero_Acedemia_4
+┃  ┃  ┗━ My_Hero_Acedemia_4.webp
+┃  ┣━ Over_Haul_Kai_Chisaki_1
+┃  ┃  ┗━ Over_Haul_Kai_Chisaki_1.webp
+┃  ┣━ Over_Haul_Kai_Chisaki_2
+┃  ┃  ┗━ Over_Haul_Kai_Chisaki_2.webp
+┃  ┣━ Red_Riot_1
+┃  ┃  ┗━ Red_Riot_1.webp
+┃  ┣━ Red_Riot_2
+┃  ┃  ┗━ Red_Riot_2.webp
+┃  ┣━ Red_Riot_3
+┃  ┃  ┗━ Red_Riot_3.webp
+┃  ┣━ Star_and_the_Stripes_1
+┃  ┃  ┗━ Star_and_the_Stripes_1.webp
+┃  ┣━ Star_and_the_Stripes_2
+┃  ┃  ┗━ Star_and_the_Stripes_2.webp
+┃  ┣━ Star_and_the_Stripes_3
+┃  ┃  ┗━ Star_and_the_Stripes_3.webp
+┃  ┣━ Todoroki_1
+┃  ┃  ┗━ Todoroki_1.webp
+┃  ┣━ Todoroki_2
+┃  ┃  ┗━ Todoroki_2.webp
+┃  ┣━ Todoroki_3
+┃  ┃  ┗━ Todoroki_3.webp
+┃  ┣━ Toga_1
+┃  ┃  ┗━ Toga_1.webp
+┃  ┣━ Toga_2
+┃  ┃  ┗━ Toga_2.webp
+┃  ┣━ Toga_3
+┃  ┃  ┗━ Toga_3.webp
+┃  ┣━ Toga_4
+┃  ┃  ┗━ Toga_4.webp
+┃  ┣━ Toga_5
+┃  ┃  ┗━ Toga_5.webp
+┃  ┣━ Toga_6
+┃  ┃  ┗━ Toga_6.webp
+┃  ┣━ Tokoyami
+┃  ┃  ┗━ Tokoyami.webp
+┃  ┣━ Tomura_Shigaraki_1
+┃  ┃  ┗━ Tomura_Shigaraki_1.webp
+┃  ┣━ Tomura_Shigaraki_2
+┃  ┃  ┗━ Tomura_Shigaraki_2.webp
+┃  ┣━ Tomura_Shigaraki_3
+┃  ┃  ┗━ Tomura_Shigaraki_3.webp
+┃  ┣━ Uraraka_1
+┃  ┃  ┗━ Uraraka_1.webp
+┃  ┣━ Uraraka_2
+┃  ┃  ┗━ Uraraka_2.webp
+┃  ┣━ Uraraka_3
+┃  ┃  ┗━ Uraraka_3.webp
+┃  ┗━ Uraraka_4
+┃     ┗━ Uraraka_4.webp
+┣━ Chainsaw_Man
+┃  ┣━ Aki_1
+┃  ┃  ┗━ Aki.webp
+┃  ┣━ Aki_2
+┃  ┃  ┗━ Aki.webp
+┃  ┣━ Aki_3
+┃  ┃  ┗━ Aki.webp
+┃  ┣━ Aki_4
+┃  ┃  ┗━ Aki.webp
+┃  ┣━ Aki_5
+┃  ┃  ┗━ Aki.webp
+┃  ┣━ Chainsaw_Demon
+┃  ┃  ┗━ Chainsaw_Demon.webp
+┃  ┣━ Chainsaw_Man_Waifus
+┃  ┃  ┗━ Chainsaw_Man_Waifus.webp
+┃  ┣━ Chainsaw_man_reze_arc_1
+┃  ┃  ┗━ Chainsaw_man_reze_arc.webp
+┃  ┣━ Chainsaw_man_reze_arc_2
+┃  ┃  ┗━ Chainsaw_man_reze_arc.webp
+┃  ┣━ Denji&Makima_1
+┃  ┃  ┗━ Denji&Makima.webp
+┃  ┣━ Denji&Makima_2
+┃  ┃  ┗━ Denji&Makima.webp
+┃  ┣━ Denji&Makima_3
+┃  ┃  ┗━ Denji&Makima.webp
+┃  ┣━ Denji&Pochita
+┃  ┃  ┗━ Denji&Pochita.webp
+┃  ┣━ Denji&Power
+┃  ┃  ┗━ Denji&Power.webp
+┃  ┣━ Denji&Power&Makima
+┃  ┃  ┗━ Denji&Power&Makima.webp
+┃  ┣━ Denji&Power&Pochita
+┃  ┃  ┗━ Denji&Power&Pochita.webp
+┃  ┣━ Denji_1
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_10
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_11
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_12
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_13
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_14
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_15
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_16
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_17
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_18
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_19
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_2
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_20
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_21
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_22
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_23
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_24
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_3
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_4
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_5
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_6
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_7
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_8
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Denji_9
+┃  ┃  ┗━ Denji.webp
+┃  ┣━ Himeno
+┃  ┃  ┗━ Himeno.webp
+┃  ┣━ Kanata-Man
+┃  ┃  ┗━ Kanata-Man.webp
+┃  ┣━ Kishibe
+┃  ┃  ┗━ Kishibe.webp
+┃  ┣━ Kobeni
+┃  ┃  ┗━ Kobeni.webp
+┃  ┣━ Makima_1
+┃  ┃  ┗━ Makima.webp
+┃  ┣━ Makima_2
+┃  ┃  ┗━ Makima.webp
+┃  ┣━ Makima_3
+┃  ┃  ┗━ Makima.webp
+┃  ┣━ Power_1
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_10
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_11
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_12
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_13
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_14
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_15
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_16
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_17
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_2
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_3
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_4
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_5
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_6
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_7
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_8
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Power_9
+┃  ┃  ┗━ Power.webp
+┃  ┣━ Reze_1
+┃  ┃  ┗━ Reze.webp
+┃  ┣━ Reze_2
+┃  ┃  ┗━ Reze.webp
+┃  ┣━ Reze_3
+┃  ┃  ┗━ Reze.webp
+┃  ┣━ Reze_4
+┃  ┃  ┗━ Reze.webp
+┃  ┣━ Seccion-4_1
+┃  ┃  ┗━ Seccion-4.webp
+┃  ┣━ Seccion-4_2
+┃  ┃  ┗━ Seccion-4.webp
+┃  ┣━ Seccion-4_3
+┃  ┃  ┗━ Seccion-4.webp
+┃  ┣━ Yoru_1
+┃  ┃  ┗━ Yoru.webp
+┃  ┣━ Yoru_2
+┃  ┃  ┗━ Yoru.webp
+┃  ┗━ Yoru_3
+┃     ┗━ Yoru.webp
+┣━ Dandadan
+┃  ┣━ Dandadan
+┃  ┃  ┗━ Dandadan_1.webp
+┃  ┣━ Dandadan_Team
+┃  ┃  ┗━ Dandadan_Team.webp
+┃  ┣━ Okarun&Momo&Aliens
+┃  ┃  ┣━ Okarun&Momo&Aliens.webp
+┃  ┃  ┗━ Okarun&Momo&Aliens_doble.webp
+┃  ┣━ Okarun&Momo_1
+┃  ┃  ┣━ Okarun&Momo.webp
+┃  ┃  ┗━ Okarun&Momo_doble.webp
+┃  ┣━ Okarun&Momo_2
+┃  ┃  ┗━ Okarun&Momo.webp
+┃  ┣━ Okarun&Momo_3
+┃  ┃  ┣━ Okarun&Momo.webp
+┃  ┃  ┗━ Okarun&Momo_2_doble.webp
+┃  ┣━ Okarun_1
+┃  ┃  ┣━ Okarun.webp
+┃  ┃  ┗━ Okarun_1_doble.webp
+┃  ┣━ Okarun_2
+┃  ┃  ┗━ Okarun.webp
+┃  ┣━ Okarun_3
+┃  ┃  ┗━ Okarun.webp
+┃  ┣━ Okarun_4
+┃  ┃  ┗━ Okarun.webp
+┃  ┣━ Okarun_5
+┃  ┃  ┗━ Okarun.webp
+┃  ┣━ Okarun_6
+┃  ┃  ┗━ Okarun.webp
+┃  ┣━ Okarun_7
+┃  ┃  ┗━ Okarun.webp
+┃  ┣━ Seiko_Ayase
+┃  ┃  ┣━ Seiko_Ayase.webp
+┃  ┃  ┗━ Seiko_Ayase_doble.webp
+┃  ┗━ Turbo_Cat
+┃     ┗━ Turbo_Cat.webp
+┣━ Devil_May_Cry
+┃  ┣━ Dante_1.png
+┃  ┣━ Dante_2.png
+┃  ┣━ Dante_3.png
+┃  ┣━ Devil_May_Cry_1.png
+┃  ┣━ Devil_May_Cry_2.png
+┃  ┣━ Devil_May_Cry_3.png
+┃  ┣━ Devil_May_Cry_4.png
+┃  ┗━ Devil_May_Cry_5.png
+┣━ Dr._Stone
+┃  ┣━ Dr.Stone_1.png
+┃  ┣━ Senku_&_Ryusui_1.png
+┃  ┣━ Senku_1.png
+┃  ┣━ Senku_2.png
+┃  ┗━ Senku_3.png
+┣━ Dragon_Ball
+┃  ┣━ Androide
+┃  ┃  ┗━ Androide_18.webp
+┃  ┣━ Bardock
+┃  ┃  ┗━ Bardock.webp
+┃  ┣━ Broly
+┃  ┃  ┗━ Broly.webp
+┃  ┣━ Bulma
+┃  ┃  ┗━ Bulma.webp
+┃  ┣━ Buu
+┃  ┃  ┗━ Buu.webp
+┃  ┣━ Cell_Saga
+┃  ┃  ┗━ Cell_Saga.webp
+┃  ┣━ Daima
+┃  ┃  ┗━ Daima.webp
+┃  ┣━ Fantasmas_Kamikase
+┃  ┃  ┗━ Fantasmas_Kamikase.webp
+┃  ┣━ Frezzer_1
+┃  ┃  ┗━ Frezzer.webp
+┃  ┣━ Frezzer_2
+┃  ┃  ┗━ Frezzer.webp
+┃  ┣━ Gogeta_1
+┃  ┃  ┗━ Gogeta.webp
+┃  ┣━ Gogeta_2
+┃  ┃  ┗━ Gogeta.webp
+┃  ┣━ Gohan&Dragon
+┃  ┃  ┗━ Gohan&Dragon.webp
+┃  ┣━ Gohan_1
+┃  ┃  ┗━ Gohan.webp
+┃  ┣━ Gohan_2
+┃  ┃  ┗━ Gohan.webp
+┃  ┣━ Gohan_SSJ1
+┃  ┃  ┗━ Gohan_SSJ1.webp
+┃  ┣━ Gohan_SSJ2_1
+┃  ┃  ┗━ Gohan_SSJ2.webp
+┃  ┣━ Gohan_SSJ2_2
+┃  ┃  ┗━ Gohan_SSJ2.webp
+┃  ┣━ Goku&Gohan&Goten
+┃  ┃  ┗━ Goku&Gohan&Goten.webp
+┃  ┣━ Goku_1
+┃  ┃  ┗━ Goku.webp
+┃  ┣━ Goku_2
+┃  ┃  ┗━ Goku.webp
+┃  ┣━ Goku_3
+┃  ┃  ┗━ Goku.webp
+┃  ┣━ Goku_SSJ4
+┃  ┃  ┗━ Goku_SSJ4.webp
+┃  ┣━ Goku_Ultra_Instict
+┃  ┃  ┗━ Goku_Ultra_Instict.webp
+┃  ┣━ Golden_Freezer
+┃  ┃  ┗━ Golden_Freezer.webp
+┃  ┣━ Kid_Goku
+┃  ┃  ┗━ Kid_Goku.webp
+┃  ┣━ Majin_Buu
+┃  ┃  ┗━ Majin_Buu.webp
+┃  ┣━ Majin_Vegeta
+┃  ┃  ┗━ Majin_Vegeta.webp
+┃  ┣━ Piccolo
+┃  ┃  ┗━ Piccolo.webp
+┃  ┣━ Roshi
+┃  ┃  ┗━ Roshi.webp
+┃  ┣━ Trunks
+┃  ┃  ┗━ Trunks.webp
+┃  ┣━ Vegeta&Kid_Trunks&Trunks
+┃  ┃  ┗━ Vegeta&Kid_Trunks&Trunks.webp
+┃  ┣━ Vegeta_1
+┃  ┃  ┗━ Vegeta.webp
+┃  ┣━ Vegeta_2
+┃  ┃  ┗━ Vegeta.webp
+┃  ┗━ Vegeta_SSJ4
+┃     ┗━ Vegeta_SSJ4.webp
+┣━ Evangelion
+┃  ┣━ Asuka-y-Rei
+┃  ┃  ┗━ Asuka-y-Rei__2.webp
+┃  ┣━ Asuka_1
+┃  ┃  ┗━ Asuka.webp
+┃  ┣━ Asuka_2
+┃  ┃  ┗━ Asuka__2.webp
+┃  ┣━ Asuka_3
+┃  ┃  ┗━ Asuka__3.webp
+┃  ┣━ Asuka_4
+┃  ┃  ┗━ Asuka__4.webp
+┃  ┣━ Asuka_5
+┃  ┃  ┗━ Asuka__5.webp
+┃  ┣━ Asuka_6
+┃  ┃  ┗━ Asuka__6.webp
+┃  ┣━ Asuka_7
+┃  ┃  ┗━ Asuka__7.webp
+┃  ┣━ AsukayRei
+┃  ┃  ┗━ AsukayRei.webp
+┃  ┣━ Eva-01_1
+┃  ┃  ┗━ Eva-01.webp
+┃  ┣━ Eva-01_10
+┃  ┃  ┗━ Eva-01__10.webp
+┃  ┣━ Eva-01_2
+┃  ┃  ┗━ Eva-01__2.webp
+┃  ┣━ Eva-01_3
+┃  ┃  ┗━ Eva-01__3.webp
+┃  ┣━ Eva-01_4
+┃  ┃  ┗━ Eva-01__4.webp
+┃  ┣━ Eva-01_5
+┃  ┃  ┗━ Eva-01__5.webp
+┃  ┣━ Eva-01_6
+┃  ┃  ┗━ Eva-01__6.webp
+┃  ┣━ Eva-01_7
+┃  ┃  ┗━ Eva-01__7.webp
+┃  ┣━ Eva-01_8
+┃  ┃  ┗━ Eva-01__8.webp
+┃  ┣━ Eva-01_9
+┃  ┃  ┗━ Eva-01__9.webp
+┃  ┣━ Evangelion
+┃  ┃  ┗━ Evangelion.webp
+┃  ┣━ Kowaru
+┃  ┃  ┗━ Kowaru.webp
+┃  ┣━ Mari_1
+┃  ┃  ┗━ Mari.webp
+┃  ┣━ Mari_2
+┃  ┃  ┗━ Mari__2.webp
+┃  ┣━ Mari_3
+┃  ┃  ┗━ Mari__3.webp
+┃  ┣━ Mari_4
+┃  ┃  ┗━ Mari__4.webp
+┃  ┣━ Misato_1
+┃  ┃  ┗━ Misato.webp
+┃  ┣━ Misato_2
+┃  ┃  ┗━ Misato__2.webp
+┃  ┣━ Misato_3
+┃  ┃  ┗━ Misato__3.webp
+┃  ┣━ Nerv
+┃  ┃  ┗━ Nerv.webp
+┃  ┣━ Rei_1
+┃  ┃  ┗━ Rei.webp
+┃  ┣━ Rei_2
+┃  ┃  ┗━ Rei__2.webp
+┃  ┣━ Rei_3
+┃  ┃  ┗━ Rei__3.webp
+┃  ┣━ Rei_4
+┃  ┃  ┗━ Rei__4.webp
+┃  ┣━ Rei_5
+┃  ┃  ┗━ Rei__5.webp
+┃  ┣━ Rei_6
+┃  ┃  ┗━ Rei__6.webp
+┃  ┣━ Rei_7
+┃  ┃  ┗━ Rei__7.webp
+┃  ┣━ Rei_8
+┃  ┃  ┗━ Rei__8.webp
+┃  ┣━ Rei_9
+┃  ┃  ┗━ Rei__9.webp
+┃  ┣━ Shinji-Asuka-y-Rei
+┃  ┃  ┗━ Shinji-Asuka-y-Rei.webp
+┃  ┣━ Shinji-Eva-01
+┃  ┃  ┗━ Shinji-Eva-01.webp
+┃  ┣━ Shinji_1
+┃  ┃  ┗━ Shinji.webp
+┃  ┣━ Shinji_2
+┃  ┃  ┗━ Shinji__2.webp
+┃  ┗━ Shinji_3
+┃     ┗━ Shinji__3.webp
+┣━ Frieren_Beyond_The_Journey
+┃  ┣━ Fern_1
+┃  ┃  ┗━ Fern.webp
+┃  ┣━ Fern_2
+┃  ┃  ┗━ Fern__2.webp
+┃  ┣━ Frieren_&_Fern_1
+┃  ┃  ┗━ Frieren_&_Fern.webp
+┃  ┣━ Frieren_&_Fern_2
+┃  ┃  ┗━ Frieren_&_Fern__2.webp
+┃  ┣━ Frieren_&_Fern_3
+┃  ┃  ┗━ Frieren_&_Fern__3.webp
+┃  ┣━ Frieren_1
+┃  ┃  ┗━ Frieren.webp
+┃  ┣━ Frieren_2
+┃  ┃  ┗━ Frieren__2.webp
+┃  ┣━ Frieren_3
+┃  ┃  ┗━ Frieren__3.webp
+┃  ┣━ Frieren_4
+┃  ┃  ┗━ Frieren__4.webp
+┃  ┣━ Frieren_5
+┃  ┃  ┗━ Frieren__5.webp
+┃  ┣━ Sōsō_no_Frieren_1
+┃  ┃  ┗━ Sōsō_no_Frieren.webp
+┃  ┗━ Sōsō_no_Frieren_2
+┃     ┗━ Sōsō_no_Frieren__2.webp
+┣━ Full_Metal_Alchemist_Brotherhood
+┃  ┣━ Alphonse_1.png
+┃  ┣━ Alphonse_2.png
+┃  ┣━ Alphonse_3.png
+┃  ┣━ Edward_&_Alphonse_1.png
+┃  ┣━ Edward_&_Alphonse_2.png
+┃  ┣━ Edward_&_Alphonse_3.png
+┃  ┣━ Edward_&_Alphonse_4.png
+┃  ┣━ Edward_&_Alphonse_5.png
+┃  ┣━ Edward_1.png
+┃  ┣━ Edward_2.png
+┃  ┣━ Edward_3.png
+┃  ┣━ Full_Metal_Alchemist_1.png
+┃  ┗━ Full_Metal_Alchemist_2.png
+┣━ Gachiakuta
+┃  ┣━ Enjin_1.png
+┃  ┣━ Enjin_2.png
+┃  ┣━ Gachiakuta_Team_1.png
+┃  ┣━ Gachiakuta_Team_2.png
+┃  ┣━ Gachiakuta_Team_3.png
+┃  ┣━ Gachiakuta_Team_4.png
+┃  ┣━ Gachiakuta_Team_5.png
+┃  ┣━ Jabber_Wonger_1.png
+┃  ┣━ Mask_Man_Gachiakuta_1.png
+┃  ┣━ Riyo_Reaper_1.png
+┃  ┣━ Riyo_Reaper_2.png
+┃  ┣━ Rudo_1.png
+┃  ┣━ Rudo_2.png
+┃  ┣━ Rudo_3.png
+┃  ┣━ Rudo_4.png
+┃  ┣━ Rudo_5.png
+┃  ┣━ Rudo_6.png
+┃  ┣━ Rudo_7.png
+┃  ┣━ Rudo_8.png
+┃  ┣━ Rudo_9.png
+┃  ┗━ Zanka_1.png
+┣━ Jujutsu_Kaisen
+┃  ┣━ Choso_1
+┃  ┃  ┗━ Choso.webp
+┃  ┣━ Choso_2
+┃  ┃  ┗━ Choso.webp
+┃  ┣━ Choso_3
+┃  ┃  ┗━ Choso.webp
+┃  ┣━ Choso_4
+┃  ┃  ┗━ Choso.webp
+┃  ┣━ Clase
+┃  ┃  ┗━ Clase_1.webp
+┃  ┣━ Geto_1
+┃  ┃  ┗━ Geto.webp
+┃  ┣━ Geto_2
+┃  ┃  ┗━ Geto.webp
+┃  ┣━ Geto_3
+┃  ┃  ┗━ Geto.webp
+┃  ┣━ Geto_4
+┃  ┃  ┗━ Geto.webp
+┃  ┣━ Geto_5
+┃  ┃  ┗━ Geto.webp
+┃  ┣━ Geto_6
+┃  ┃  ┗━ Geto.webp
+┃  ┣━ Geto_7
+┃  ┃  ┗━ Geto.webp
+┃  ┣━ Geto_8
+┃  ┃  ┗━ Geto.webp
+┃  ┣━ Geto_9
+┃  ┃  ┗━ Geto.webp
+┃  ┣━ Gojo_&_Geto
+┃  ┃  ┗━ Gojo_&_Geto.webp
+┃  ┣━ Gojo_1
+┃  ┃  ┗━ Gojo.webp
+┃  ┣━ Gojo_10
+┃  ┃  ┗━ Gojo__17.webp
+┃  ┣━ Gojo_11
+┃  ┃  ┗━ Gojo_5.webp
+┃  ┣━ Gojo_12
+┃  ┃  ┗━ Gojo__18.webp
+┃  ┣━ Gojo_13
+┃  ┃  ┗━ Gojo_6.webp
+┃  ┣━ Gojo_14
+┃  ┃  ┗━ Gojo__19.webp
+┃  ┣━ Gojo_15
+┃  ┃  ┗━ Gojo_7.webp
+┃  ┣━ Gojo_16
+┃  ┃  ┗━ Gojo__20.webp
+┃  ┣━ Gojo_17
+┃  ┃  ┗━ Gojo_8.webp
+┃  ┣━ Gojo_18
+┃  ┃  ┗━ Gojo_9.webp
+┃  ┣━ Gojo_19
+┃  ┃  ┗━ Gojo_10.webp
+┃  ┣━ Gojo_2
+┃  ┃  ┗━ Gojo__13.webp
+┃  ┣━ Gojo_20
+┃  ┃  ┗━ Gojo_11.webp
+┃  ┣━ Gojo_21
+┃  ┃  ┗━ Gojo_12.webp
+┃  ┣━ Gojo_3
+┃  ┃  ┗━ Gojo_1.webp
+┃  ┣━ Gojo_4
+┃  ┃  ┗━ Gojo__14.webp
+┃  ┣━ Gojo_5
+┃  ┃  ┗━ Gojo_2.webp
+┃  ┣━ Gojo_6
+┃  ┃  ┗━ Gojo__15.webp
+┃  ┣━ Gojo_7
+┃  ┃  ┗━ Gojo_3.webp
+┃  ┣━ Gojo_8
+┃  ┃  ┗━ Gojo__16.webp
+┃  ┣━ Gojo_9
+┃  ┃  ┗━ Gojo_4.webp
+┃  ┣━ Inventario_Oculto
+┃  ┃  ┗━ Inventario_Oculto.webp
+┃  ┣━ Itadori&Sukuna
+┃  ┃  ┗━ Itadori&Sukuna.webp
+┃  ┣━ Itadori_&_Yuta
+┃  ┃  ┗━ Itadori_&_Yuta.webp
+┃  ┣━ Itadori_1
+┃  ┃  ┗━ Itadori.webp
+┃  ┣━ Itadori_2
+┃  ┃  ┗━ Itadori.webp
+┃  ┣━ Itadori_3
+┃  ┃  ┗━ Itadori__3.webp
+┃  ┣━ Jujutsu_Kaisen_Clase-1_Halloween
+┃  ┃  ┗━ Jujutsu_Kaisen_Clase-1_Halloween.webp
+┃  ┣━ Mahito
+┃  ┃  ┗━ Mahito.webp
+┃  ┣━ Maki_1
+┃  ┃  ┗━ Maki.webp
+┃  ┣━ Maki_2
+┃  ┃  ┗━ Maki.webp
+┃  ┣━ Maki_3
+┃  ┃  ┗━ Maki.webp
+┃  ┣━ Maki_4
+┃  ┃  ┗━ Maki__4.webp
+┃  ┣━ Megumi_1
+┃  ┃  ┗━ Megumi.webp
+┃  ┣━ Megumi_2
+┃  ┃  ┗━ Megumi__5.webp
+┃  ┣━ Megumi_3
+┃  ┃  ┗━ Megumi_2.webp
+┃  ┣━ Megumi_4
+┃  ┃  ┗━ Megumi__6.webp
+┃  ┣━ Megumi_5
+┃  ┃  ┗━ Megumi_3.webp
+┃  ┣━ Megumi_6
+┃  ┃  ┗━ Megumi_4.webp
+┃  ┣━ Mei_Mei_1
+┃  ┃  ┗━ Mei_Mei.webp
+┃  ┣━ Mei_Mei_2
+┃  ┃  ┗━ Mei_Mei.webp
+┃  ┣━ Mekamaru
+┃  ┃  ┗━ Mekamaru.webp
+┃  ┣━ Nanami&Itadori
+┃  ┃  ┗━ Nanami&Itadori.webp
+┃  ┣━ Nanami_1
+┃  ┃  ┗━ Nanami.webp
+┃  ┣━ Nanami_2
+┃  ┃  ┗━ Nanami.webp
+┃  ┣━ Nanami_3
+┃  ┃  ┗━ Nanami.webp
+┃  ┣━ Nanami_4
+┃  ┃  ┗━ Nanami.webp
+┃  ┣━ Nanami_5
+┃  ┃  ┗━ Nanami.webp
+┃  ┣━ Nanami_6
+┃  ┃  ┗━ Nanami.webp
+┃  ┣━ Nobara_1
+┃  ┃  ┗━ Nobara.webp
+┃  ┣━ Nobara_2
+┃  ┃  ┗━ Nobara.webp
+┃  ┣━ Nobara_3
+┃  ┃  ┗━ Nobara.webp
+┃  ┣━ Nobara_4
+┃  ┃  ┗━ Nobara.webp
+┃  ┣━ Nobara_5
+┃  ┃  ┗━ Nobara.webp
+┃  ┣━ Nobara_6
+┃  ┃  ┗━ Nobara__6.webp
+┃  ┣━ Panda
+┃  ┃  ┗━ Panda.webp
+┃  ┣━ Rika
+┃  ┃  ┗━ Rika.webp
+┃  ┣━ Shibuya_Incident
+┃  ┃  ┗━ Shibuya_Incident.webp
+┃  ┣━ Shibuya_Incident_Arc_1
+┃  ┃  ┗━ Shibuya_Incident_Arc.webp
+┃  ┣━ Shibuya_Incident_Arc_2
+┃  ┃  ┗━ Shibuya_Incident_Arc__2.webp
+┃  ┣━ Sukuna_&_Gojo_1
+┃  ┃  ┗━ Sukuna_&_Gojo.webp
+┃  ┣━ Sukuna_&_Gojo_2
+┃  ┃  ┗━ Sukuna_&_Gojo__2.webp
+┃  ┣━ Sukuna_1
+┃  ┃  ┗━ Sukuna.webp
+┃  ┣━ Sukuna_10
+┃  ┃  ┗━ Sukuna_7.webp
+┃  ┣━ Sukuna_11
+┃  ┃  ┗━ Sukuna_8.webp
+┃  ┣━ Sukuna_12
+┃  ┃  ┗━ Sukuna_9.webp
+┃  ┣━ Sukuna_13
+┃  ┃  ┗━ Sukuna_10.webp
+┃  ┣━ Sukuna_2
+┃  ┃  ┗━ Sukuna__11.webp
+┃  ┣━ Sukuna_3
+┃  ┃  ┗━ Sukuna_1.webp
+┃  ┣━ Sukuna_4
+┃  ┃  ┗━ Sukuna__12.webp
+┃  ┣━ Sukuna_5
+┃  ┃  ┗━ Sukuna_2.webp
+┃  ┣━ Sukuna_6
+┃  ┃  ┗━ Sukuna_3.webp
+┃  ┣━ Sukuna_7
+┃  ┃  ┗━ Sukuna_4.webp
+┃  ┣━ Sukuna_8
+┃  ┃  ┗━ Sukuna_5.webp
+┃  ┣━ Sukuna_9
+┃  ┃  ┗━ Sukuna_6.webp
+┃  ┣━ Todo
+┃  ┃  ┗━ Todo.webp
+┃  ┣━ Todo&Itadori_1
+┃  ┃  ┗━ Todo&Itadori.webp
+┃  ┣━ Todo&Itadori_2
+┃  ┃  ┗━ Todo&Itadori.webp
+┃  ┣━ Toge_1
+┃  ┃  ┗━ Toge.webp
+┃  ┣━ Toge_2
+┃  ┃  ┗━ Toge.webp
+┃  ┣━ Toji_1
+┃  ┃  ┗━ Toji.webp
+┃  ┣━ Toji_10
+┃  ┃  ┗━ Toji_6.webp
+┃  ┣━ Toji_11
+┃  ┃  ┗━ Toji_7.webp
+┃  ┣━ Toji_12
+┃  ┃  ┗━ Toji_8.webp
+┃  ┣━ Toji_2
+┃  ┃  ┗━ Toji__9.webp
+┃  ┣━ Toji_3
+┃  ┃  ┗━ Toji_2.webp
+┃  ┣━ Toji_4
+┃  ┃  ┗━ Toji__10.webp
+┃  ┣━ Toji_5
+┃  ┃  ┗━ Toji_3.webp
+┃  ┣━ Toji_6
+┃  ┃  ┗━ Toji__11.webp
+┃  ┣━ Toji_7
+┃  ┃  ┗━ Toji_4.webp
+┃  ┣━ Toji_8
+┃  ┃  ┗━ Toji__12.webp
+┃  ┣━ Toji_9
+┃  ┃  ┗━ Toji_5.webp
+┃  ┣━ Young_Gojo
+┃  ┃  ┗━ Young_Gojo.webp
+┃  ┣━ Yuki_Tsukumo
+┃  ┃  ┗━ Yuki_Tsukumo.webp
+┃  ┣━ Yuta_1
+┃  ┃  ┗━ Yuta.webp
+┃  ┣━ Yuta_2
+┃  ┃  ┗━ Yuta__5.webp
+┃  ┣━ Yuta_3
+┃  ┃  ┗━ Yuta_1.webp
+┃  ┣━ Yuta_4
+┃  ┃  ┗━ Yuta__6.webp
+┃  ┣━ Yuta_5
+┃  ┃  ┗━ Yuta_2.webp
+┃  ┗━ Yuta_6
+┃     ┗━ Yuta_3.webp
+┣━ Kaiju_N°8
+┃  ┣━ Comandante_Yosida
+┃  ┃  ┗━ Comandante_Yosida.webp
+┃  ┣━ Hina
+┃  ┃  ┗━ Hina.webp
+┃  ┣━ Kafka_1
+┃  ┃  ┗━ Kafka.webp
+┃  ┣━ Kafka_2
+┃  ┃  ┗━ Kafka.webp
+┃  ┣━ Kaiju_Kawai
+┃  ┃  ┗━ Kaiju_Kawai.webp
+┃  ┣━ Kaiju_N°8_1
+┃  ┃  ┗━ Kaiju_N°8.webp
+┃  ┣━ Kaiju_N°8_2
+┃  ┃  ┗━ Kaiju_N°8.webp
+┃  ┣━ Kaiju_N°8_3
+┃  ┃  ┗━ Kaiju_N°8.webp
+┃  ┣━ Kaiju_N°8_4
+┃  ┃  ┗━ Kaiju_N°8.webp
+┃  ┣━ Kaiju_N°8_5
+┃  ┃  ┗━ Kaiju_N°8.webp
+┃  ┣━ Kaiju_N°8_6
+┃  ┃  ┗━ Kaiju_N°8.webp
+┃  ┗━ Reno_Ichikawa
+┃     ┗━ Reno_Ichikawa.webp
+┣━ Kimetsu_no_Yaiba
+┃  ┣━ Akaza
+┃  ┃  ┣━ Akaza.webp
+┃  ┃  ┣━ Akaza_doble_1.webp
+┃  ┃  ┗━ Akaza_doble_2.webp
+┃  ┣━ Douma_1
+┃  ┃  ┣━ Douma.webp
+┃  ┃  ┣━ Douma_doble_1.webp
+┃  ┃  ┣━ Douma_doble_2.webp
+┃  ┃  ┗━ Douma_doble_3.webp
+┃  ┣━ Douma_2
+┃  ┃  ┣━ Douma.webp
+┃  ┃  ┣━ Douma_1_doble_1.webp
+┃  ┃  ┣━ Douma_1_doble_2.webp
+┃  ┃  ┗━ Douma_1_doble_3.webp
+┃  ┣━ Genya
+┃  ┃  ┣━ Genya.webp
+┃  ┃  ┗━ Genya_doble.webp
+┃  ┣━ Haganezuka_1
+┃  ┃  ┣━ Haganezuka.webp
+┃  ┃  ┗━ Haganezuka_doble.webp
+┃  ┣━ Haganezuka_2
+┃  ┃  ┣━ Haganezuka.webp
+┃  ┃  ┗━ Mesa_de_trabajo.webp
+┃  ┣━ Haganezuka_3
+┃  ┃  ┣━ Haganezuka.webp
+┃  ┃  ┗━ Haganezuka_2_doble.webp
+┃  ┣━ Hashira_1
+┃  ┃  ┣━ Hashira.webp
+┃  ┃  ┗━ Hashira_doble.webp
+┃  ┣━ Hashira_2
+┃  ┃  ┣━ Hashira.webp
+┃  ┃  ┗━ Hashira_1_doble.webp
+┃  ┣━ Hashiras_1
+┃  ┃  ┣━ Hashiras.webp
+┃  ┃  ┗━ Hashiras_doble.webp
+┃  ┣━ Hashiras_2
+┃  ┃  ┣━ Hashiras.webp
+┃  ┃  ┗━ Hashiras_1_doble.webp
+┃  ┣━ Hashiras_3
+┃  ┃  ┣━ Hashiras.webp
+┃  ┃  ┗━ Hashiras_2_doble.webp
+┃  ┣━ Hashiras_4
+┃  ┃  ┣━ Hashiras.webp
+┃  ┃  ┗━ Hashiras_3_doble.webp
+┃  ┣━ Inosuke_1
+┃  ┃  ┣━ Inosuke.webp
+┃  ┃  ┗━ Inosuke_doble.webp
+┃  ┣━ Inosuke_2
+┃  ┃  ┣━ Inosuke.webp
+┃  ┃  ┗━ Inosuke_1_doble.webp
+┃  ┣━ Inosuke_3
+┃  ┃  ┣━ Inosuke.webp
+┃  ┃  ┣━ Inosuke_2_doble_1.webp
+┃  ┃  ┗━ Inosuke_2_doble_2.webp
+┃  ┣━ Kaigaku
+┃  ┃  ┣━ Kaigaku.webp
+┃  ┃  ┣━ Kaigaku_doble_1.webp
+┃  ┃  ┗━ Kaigaku_doble_2.webp
+┃  ┣━ Kanao
+┃  ┃  ┣━ Kanao.webp
+┃  ┃  ┣━ Kanao_doble_1.webp
+┃  ┃  ┗━ Kanao_doble_2.webp
+┃  ┣━ Kimetsu_Halloween
+┃  ┃  ┣━ Kimetsu_Halloween.webp
+┃  ┃  ┗━ Kimetsu_Halloween_doble.webp
+┃  ┣━ Kokushibo_1
+┃  ┃  ┣━ Kokushibo.webp
+┃  ┃  ┣━ Kokushibo_doble_1.webp
+┃  ┃  ┗━ Kokushibo_doble_2.webp
+┃  ┣━ Kokushibo_2
+┃  ┃  ┣━ Kokushibo.webp
+┃  ┃  ┣━ Kokushibo_2_doble_1.webp
+┃  ┃  ┗━ Kokushibo_2_doble_2.webp
+┃  ┣━ Luna_Superior
+┃  ┃  ┣━ Luna_Superior_4_doble_1.webp
+┃  ┃  ┗━ Luna_Superior_4_doble_2.webp
+┃  ┣━ Lunas_Superiores_1
+┃  ┃  ┗━ Lunas_Superiores.webp
+┃  ┣━ Lunas_Superiores_2
+┃  ┃  ┗━ Lunas_Superiores.webp
+┃  ┣━ Mitsuri_1
+┃  ┃  ┣━ Mitsuri.webp
+┃  ┃  ┣━ Mitsuri_doble_1.webp
+┃  ┃  ┗━ Mitsuri_doble_2.webp
+┃  ┣━ Mitsuri_2
+┃  ┃  ┣━ Mitsuri.webp
+┃  ┃  ┣━ Mitsuri_1_doble_1.webp
+┃  ┃  ┗━ Mitsuri_1_doble_2.webp
+┃  ┣━ Mitsuri_3
+┃  ┃  ┣━ Mitsuri.webp
+┃  ┃  ┣━ Mitsuri_2_doble_1.webp
+┃  ┃  ┗━ Mitsuri_2_doble_2.webp
+┃  ┣━ Mitsuri_4
+┃  ┃  ┣━ Mitsuri.webp
+┃  ┃  ┣━ Mitsuri_3_doble_1.webp
+┃  ┃  ┗━ Mitsuri_3_doble_2.webp
+┃  ┣━ Mitsuri_5
+┃  ┃  ┣━ Mitsuri.webp
+┃  ┃  ┣━ Mitsuri_4_doble_1.webp
+┃  ┃  ┗━ Mitsuri_4_doble_2.webp
+┃  ┣━ Mitsuri_Kanroji
+┃  ┃  ┣━ Mitsuri_Kanroji.webp
+┃  ┃  ┣━ Mitsuri_Kanroji_doble_1.webp
+┃  ┃  ┗━ Mitsuri_Kanroji_doble_2.webp
+┃  ┣━ Muzan_1
+┃  ┃  ┣━ Muzan.webp
+┃  ┃  ┗━ Muzan_doble.webp
+┃  ┣━ Muzan_2
+┃  ┃  ┣━ Muzan.webp
+┃  ┃  ┗━ Muzan_1_doble.webp
+┃  ┣━ Nezuko_1
+┃  ┃  ┣━ Nezuko.webp
+┃  ┃  ┣━ Nezuko_doble_1.webp
+┃  ┃  ┗━ Nezuko_doble_2.webp
+┃  ┣━ Nezuko_2
+┃  ┃  ┣━ Nezuko.webp
+┃  ┃  ┣━ Nezuko_1_doble_1.webp
+┃  ┃  ┗━ Nezuko_1_doble_2.webp
+┃  ┣━ Nezuko_3
+┃  ┃  ┣━ Nezuko.webp
+┃  ┃  ┣━ Nezuko_2_doble_1.webp
+┃  ┃  ┗━ Nezuko_2_doble_2.webp
+┃  ┣━ Nezuko_4
+┃  ┃  ┣━ Nezuko.webp
+┃  ┃  ┣━ Nezuko_3_doble_1.webp
+┃  ┃  ┗━ Nezuko_3_doble_2.webp
+┃  ┣━ Nezuko_5
+┃  ┃  ┣━ Nezuko.webp
+┃  ┃  ┣━ Nezuko_4_doble_1.webp
+┃  ┃  ┗━ Nezuko_4_doble_2.webp
+┃  ┣━ Rengoku_1
+┃  ┃  ┣━ Rengoku.webp
+┃  ┃  ┣━ Rengoku_doble_1.webp
+┃  ┃  ┗━ Rengoku_doble_2.webp
+┃  ┣━ Rengoku_2
+┃  ┃  ┣━ Rengoku.webp
+┃  ┃  ┣━ Rengoku_1_doble_1.webp
+┃  ┃  ┗━ Rengoku_1_doble_2.webp
+┃  ┣━ Rengoku_3
+┃  ┃  ┣━ Rengoku.webp
+┃  ┃  ┣━ Rengoku_2_doble_1.webp
+┃  ┃  ┗━ Rengoku_2_doble_2.webp
+┃  ┣━ Rengoku_4
+┃  ┃  ┣━ Rengoku.webp
+┃  ┃  ┣━ Rengoku_3_doble_1.webp
+┃  ┃  ┗━ Rengoku_3_doble_2.webp
+┃  ┣━ Rengoku_5
+┃  ┃  ┣━ Rengoku.webp
+┃  ┃  ┣━ Rengoku_4_doble_1.webp
+┃  ┃  ┗━ Rengoku_4_doble_2.webp
+┃  ┣━ Sanemi
+┃  ┃  ┣━ Sanemi.webp
+┃  ┃  ┣━ Sanemi_doble_1.webp
+┃  ┃  ┗━ Sanemi_doble_2.webp
+┃  ┣━ Sanemi&Genya
+┃  ┃  ┣━ Sanemi&Genya.webp
+┃  ┃  ┣━ Sanemi&Genya_doble_1.webp
+┃  ┃  ┗━ Sanemi&Genya_doble_2.webp
+┃  ┣━ Shinobu&Douma
+┃  ┃  ┣━ Shinobu&Douma.webp
+┃  ┃  ┣━ Shinobu&Douma_doble_1.webp
+┃  ┃  ┗━ Shinobu&Douma_doble_2.webp
+┃  ┣━ Shinobu_1
+┃  ┃  ┣━ Shinobu.webp
+┃  ┃  ┣━ Shinobu_doble_1.webp
+┃  ┃  ┗━ Shinobu_doble_2.webp
+┃  ┣━ Shinobu_2
+┃  ┃  ┣━ Shinobu.webp
+┃  ┃  ┣━ Shinobu_1_doble_1.webp
+┃  ┃  ┗━ Shinobu_1_doble_2.webp
+┃  ┣━ Shinobu_3
+┃  ┃  ┣━ Shinobu.webp
+┃  ┃  ┣━ Shinobu_2_doble_1.webp
+┃  ┃  ┗━ Shinobu_2_doble_2.webp
+┃  ┣━ Shinobu_4
+┃  ┃  ┗━ Shinobu_3_doble.webp
+┃  ┣━ Shinobu_Kocho_1
+┃  ┃  ┣━ Shinobu_Kocho.webp
+┃  ┃  ┣━ Shinobu_Kocho_doble_1.webp
+┃  ┃  ┗━ Shinobu_Kocho_doble_2.webp
+┃  ┣━ Shinobu_Kocho_2
+┃  ┃  ┣━ Shinobu_Kocho.webp
+┃  ┃  ┣━ Shinobu_Kocho_1_doble_1.webp
+┃  ┃  ┗━ Shinobu_Kocho_1_doble_2.webp
+┃  ┣━ Tanjiro&Inosuke&Zenitsu
+┃  ┃  ┣━ Tanjiro&Inosuke&Zenitsu.webp
+┃  ┃  ┣━ Tanjiro&Inosuke&Zenitsu_doble_1.webp
+┃  ┃  ┗━ Tanjiro&Inosuke&Zenitsu_doble_2.webp
+┃  ┣━ Tanjiro&Nezuko&Inosuke&Zenitsu
+┃  ┃  ┣━ Tanjiro&Nezuko&Inosuke&Zenitsu.webp
+┃  ┃  ┣━ Tanjiro&Nezuko&Inosuke&Zenitsu_doble_1.webp
+┃  ┃  ┗━ Tanjiro&Nezuko&Inosuke&Zenitsu_doble_2.webp
+┃  ┣━ Tanjiro&Yorichi
+┃  ┃  ┣━ Tanjiro&Yorichi.webp
+┃  ┃  ┣━ Tanjiro&Yorichi_doble_1.webp
+┃  ┃  ┣━ Tanjiro&Yorichi_doble_2.webp
+┃  ┃  ┗━ Tanjiro&Yorichi_doble_3.webp
+┃  ┣━ Tanjiro_1
+┃  ┃  ┣━ Tanjiro.webp
+┃  ┃  ┣━ Tanjiro_doble_1.webp
+┃  ┃  ┗━ Tanjiro_doble_2.webp
+┃  ┣━ Tanjiro_2
+┃  ┃  ┣━ Tanjiro.webp
+┃  ┃  ┗━ Tanjiro_2_doble.webp
+┃  ┣━ Tanjiro_3
+┃  ┃  ┣━ Tanjiro_3_doble_1.webp
+┃  ┃  ┗━ Tanjiro_3_doble_2.webp
+┃  ┣━ Tengen_Uzui
+┃  ┃  ┣━ Tengen_Uzui.webp
+┃  ┃  ┗━ Tengen_Uzui_doble.webp
+┃  ┣━ Tomioka_1
+┃  ┃  ┣━ Tomioka.webp
+┃  ┃  ┣━ Tomioka_doble_1.webp
+┃  ┃  ┣━ Tomioka_doble_2.webp
+┃  ┃  ┗━ Tomioka_doble_3.webp
+┃  ┣━ Tomioka_2
+┃  ┃  ┣━ Tomioka_doble_1.webp
+┃  ┃  ┣━ Tomioka_doble_2.webp
+┃  ┃  ┗━ Tomioka_doble_3.webp
+┃  ┣━ Tomioka_3
+┃  ┃  ┣━ Tomioka_2_doble_1.webp
+┃  ┃  ┣━ Tomioka_2_doble_2.webp
+┃  ┃  ┗━ Tomioka_2_doble_3.webp
+┃  ┣━ Uzui
+┃  ┃  ┣━ Uzui.webp
+┃  ┃  ┣━ Uzui_doble_1.webp
+┃  ┃  ┣━ Uzui_doble_2.webp
+┃  ┃  ┗━ Uzui_doble_3.webp
+┃  ┣━ Villa_de_los_Herreros
+┃  ┃  ┣━ Villa_de_los_Herreros.webp
+┃  ┃  ┗━ Villa_de_los_Herreros_doble.webp
+┃  ┣━ Yorichi
+┃  ┃  ┣━ Yorichi.webp
+┃  ┃  ┗━ Yorichi_doble.webp
+┃  ┣━ Zenitsu_1
+┃  ┃  ┣━ Zenitsu.webp
+┃  ┃  ┣━ Zenitsu_doble_1.webp
+┃  ┃  ┣━ Zenitsu_doble_2.webp
+┃  ┃  ┗━ Zenitsu_doble_3.webp
+┃  ┣━ Zenitsu_2
+┃  ┃  ┣━ Zenitsu.webp
+┃  ┃  ┣━ Zenitsu_1_doble_1.webp
+┃  ┃  ┣━ Zenitsu_1_doble_2.webp
+┃  ┃  ┗━ Zenitsu_1_doble_3.webp
+┃  ┗━ Zenitsu_3
+┃     ┣━ Zenitsu.webp
+┃     ┣━ Zenitsu_2_doble_1.webp
+┃     ┣━ Zenitsu_2_doble_2.webp
+┃     ┗━ Zenitsu_2_doble_3.webp
+┣━ Kuromi
+┃  ┣━ KURUMI_1
+┃  ┃  ┗━ KURUMI_1.webp
+┃  ┣━ KURUMI_10
+┃  ┃  ┗━ KURUMI_10.webp
+┃  ┣━ KURUMI_11
+┃  ┃  ┗━ KURUMI_11.webp
+┃  ┣━ KURUMI_12
+┃  ┃  ┗━ KURUMI_12.webp
+┃  ┣━ KURUMI_13
+┃  ┃  ┗━ KURUMI_13.webp
+┃  ┣━ KURUMI_2
+┃  ┃  ┗━ KURUMI_2.webp
+┃  ┣━ KURUMI_3
+┃  ┃  ┗━ KURUMI_3.webp
+┃  ┣━ KURUMI_4
+┃  ┃  ┗━ KURUMI_4.webp
+┃  ┣━ KURUMI_5
+┃  ┃  ┗━ KURUMI_5.webp
+┃  ┣━ KURUMI_6
+┃  ┃  ┗━ KURUMI_6.webp
+┃  ┣━ KURUMI_7
+┃  ┃  ┗━ KURUMI_7.webp
+┃  ┣━ KURUMI_8
+┃  ┃  ┗━ KURUMI_8.webp
+┃  ┗━ KURUMI_9
+┃     ┗━ KURUMI_9.webp
+┣━ Mascotas
+┃  ┣━ Bailey
+┃  ┃  ┗━ Bailey.webp
+┃  ┣━ Rocky
+┃  ┃  ┗━ Rocky.webp
+┃  ┣━ Scott
+┃  ┃  ┗━ Scott.webp
+┃  ┣━ Thor
+┃  ┃  ┗━ Thor.webp
+┃  ┗━ Totti
+┃     ┗━ Totti.webp
+┣━ Naruto
+┃  ┣━ Equipo_Kakashi
+┃  ┃  ┗━ Equipo_Kakashi.webp
+┃  ┣━ Itachi
+┃  ┃  ┗━ Itachi.webp
+┃  ┣━ Jiraiya_1
+┃  ┃  ┗━ Jiraiya.webp
+┃  ┣━ Jiraiya_2
+┃  ┃  ┗━ Jiraiya.webp
+┃  ┣━ Jiraiya_3
+┃  ┃  ┗━ Jiraiya.webp
+┃  ┣━ Kaguya
+┃  ┃  ┗━ Kaguya.webp
+┃  ┣━ Kakashi
+┃  ┃  ┗━ Kakashi.webp
+┃  ┣━ Madara
+┃  ┃  ┗━ Madara.webp
+┃  ┣━ Minato
+┃  ┃  ┗━ Minato.webp
+┃  ┣━ Naruto_1
+┃  ┃  ┗━ Naruto.webp
+┃  ┣━ Naruto_2
+┃  ┃  ┗━ Naruto.webp
+┃  ┣━ Naruto_Sennin
+┃  ┃  ┗━ Naruto_Sennin.webp
+┃  ┣━ Orochimaru
+┃  ┃  ┗━ Orochimaru.webp
+┃  ┣━ Pain
+┃  ┃  ┗━ Pain.webp
+┃  ┗━ Shikamaru
+┃     ┗━ Shikamaru.webp
+┣━ One_Piece
+┃  ┣━ Ace_1
+┃  ┃  ┗━ Ace.webp
+┃  ┣━ Ace_2
+┃  ┃  ┗━ Ace.webp
+┃  ┣━ Ace_3
+┃  ┃  ┗━ Ace.webp
+┃  ┣━ Ace_4
+┃  ┃  ┗━ Ace.webp
+┃  ┣━ Boa_Hancock
+┃  ┃  ┗━ Boa_Hancock.webp
+┃  ┣━ Bonney
+┃  ┃  ┗━ Bonney.webp
+┃  ┣━ Chopper_1
+┃  ┃  ┗━ Chopper.webp
+┃  ┣━ Chopper_2
+┃  ┃  ┗━ Chopper.webp
+┃  ┣━ Franky
+┃  ┃  ┗━ Franky.webp
+┃  ┣━ Gol_D_Roger
+┃  ┃  ┗━ Gol_D_Roger.webp
+┃  ┣━ Jinbe
+┃  ┃  ┗━ Jinbe.webp
+┃  ┣━ Kaido
+┃  ┃  ┗━ Kaido.webp
+┃  ┣━ Katakuri
+┃  ┃  ┗━ Katakuri.webp
+┃  ┣━ Luffy_1
+┃  ┃  ┗━ Luffy.webp
+┃  ┣━ Luffy_10
+┃  ┃  ┗━ Luffy.webp
+┃  ┣━ Luffy_11
+┃  ┃  ┗━ Luffy.webp
+┃  ┣━ Luffy_12
+┃  ┃  ┗━ Luffy.webp
+┃  ┣━ Luffy_2
+┃  ┃  ┗━ Luffy.webp
+┃  ┣━ Luffy_3
+┃  ┃  ┗━ Luffy.webp
+┃  ┣━ Luffy_4
+┃  ┃  ┗━ Luffy.webp
+┃  ┣━ Luffy_5
+┃  ┃  ┗━ Luffy.webp
+┃  ┣━ Luffy_6
+┃  ┃  ┗━ Luffy.webp
+┃  ┣━ Luffy_7
+┃  ┃  ┗━ Luffy.webp
+┃  ┣━ Luffy_8
+┃  ┃  ┗━ Luffy.webp
+┃  ┣━ Luffy_9
+┃  ┃  ┗━ Luffy.webp
+┃  ┣━ Luffy_EggHead_1
+┃  ┃  ┗━ Luffy_EggHead.webp
+┃  ┣━ Luffy_EggHead_2
+┃  ┃  ┗━ Luffy_EggHead.webp
+┃  ┣━ Luffy_Gear
+┃  ┃  ┗━ Luffy_Gear_5.webp
+┃  ┣━ Luffy_Gear_4_Bounce-Man
+┃  ┃  ┗━ Luffy_Gear_4_Bounce-Man.webp
+┃  ┣━ Luffy_Gear_4_Snake-Man_1
+┃  ┃  ┗━ Luffy_Gear_4_Snake-Man.webp
+┃  ┣━ Luffy_Gear_4_Snake-Man_2
+┃  ┃  ┗━ Luffy_Gear_4_Snake-Man.webp
+┃  ┣━ Luffy_Gear_5_1
+┃  ┃  ┗━ Luffy_Gear_5.webp
+┃  ┣━ Luffy_Gear_5_2
+┃  ┃  ┗━ Luffy_Gear_5.webp
+┃  ┣━ Luffy_Gear_5_3
+┃  ┃  ┗━ Luffy_Gear_5.webp
+┃  ┣━ Luffy_Gear_5_4
+┃  ┃  ┗━ Luffy_Gear_5.webp
+┃  ┣━ Luffy_Wano
+┃  ┃  ┗━ Luffy_Wano.webp
+┃  ┣━ Luffy_Yonko_Poster
+┃  ┃  ┗━ Luffy_Yonko_Poster.webp
+┃  ┣━ Marco
+┃  ┃  ┗━ Marco.webp
+┃  ┣━ Mihawk
+┃  ┃  ┗━ Mihawk.webp
+┃  ┣━ Nami_1
+┃  ┃  ┗━ Nami.webp
+┃  ┣━ Nami_2
+┃  ┃  ┗━ Nami.webp
+┃  ┣━ Sanji
+┃  ┃  ┗━ Sanji.webp
+┃  ┣━ Shanks
+┃  ┃  ┗━ Shanks.webp
+┃  ┣━ Teach
+┃  ┃  ┗━ Teach.webp
+┃  ┣━ Trafalgar_Law_1
+┃  ┃  ┗━ Trafalgar_Law.webp
+┃  ┣━ Trafalgar_Law_2
+┃  ┃  ┗━ Trafalgar_Law.webp
+┃  ┣━ Usopp&Zoro&Luffy
+┃  ┃  ┗━ Usopp&Zoro&Luffy.webp
+┃  ┣━ Zoro_1
+┃  ┃  ┗━ Zoro.webp
+┃  ┣━ Zoro_2
+┃  ┃  ┗━ Zoro.webp
+┃  ┣━ Zoro_3
+┃  ┃  ┗━ Zoro.webp
+┃  ┗━ Zoro_4
+┃     ┗━ Zoro.webp
+┗━ Solo_Leveling
+   ┣━ Sung_Jinwoo_1
+   ┃  ┗━ Sung_Jinwoo.webp
+   ┣━ Sung_Jinwoo_10
+   ┃  ┗━ Sung_Jinwoo.webp
+   ┣━ Sung_Jinwoo_11
+   ┃  ┗━ Sung_Jinwoo.webp
+   ┣━ Sung_Jinwoo_12
+   ┃  ┗━ Sung_Jinwoo.webp
+   ┣━ Sung_Jinwoo_13
+   ┃  ┗━ Sung_Jinwoo.webp
+   ┣━ Sung_Jinwoo_14
+   ┃  ┗━ Sung_Jinwoo.webp
+   ┣━ Sung_Jinwoo_15
+   ┃  ┗━ Sung_Jinwoo.webp
+   ┣━ Sung_Jinwoo_2
+   ┃  ┗━ Sung_Jinwoo.webp
+   ┣━ Sung_Jinwoo_3
+   ┃  ┗━ Sung_Jinwoo.webp
+   ┣━ Sung_Jinwoo_4
+   ┃  ┗━ Sung_Jinwoo.webp
+   ┣━ Sung_Jinwoo_5
+   ┃  ┗━ Sung_Jinwoo.webp
+   ┣━ Sung_Jinwoo_6
+   ┃  ┗━ Sung_Jinwoo.webp
+   ┣━ Sung_Jinwoo_7
+   ┃  ┗━ Sung_Jinwoo.webp
+   ┣━ Sung_Jinwoo_8
+   ┃  ┗━ Sung_Jinwoo.webp
+   ┗━ Sung_Jinwoo_9
+      ┗━ Sung_Jinwoo.webp

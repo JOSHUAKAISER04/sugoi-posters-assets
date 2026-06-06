@@ -2,12 +2,112 @@ import '../models/product.dart';
 
 const List<Product> productos = [
   Product(
+    nombre: "Camisa Personalizada #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/1_Personalizada/Camisa_Personalizada.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/1_Personalizada/Camisa_Personalizada_Doble.webp"
+    ],
+    subcategoria: "",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Casca #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Berserk/Casca_1/Casca/Casca.webp"
+    ],
+    subcategoria: "Berserk",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Eclipse Arc #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Berserk/Eclipse_Arc/Eclipse_Arc.webp"
+    ],
+    subcategoria: "Berserk",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Guts #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Berserk/Guts_1/Guts/Guts.webp"
+    ],
+    subcategoria: "Berserk",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Guts #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Berserk/Guts_2/Guts/Guts.webp"
+    ],
+    subcategoria: "Berserk",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Guts #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Berserk/Guts_3/Guts/Guts.webp"
+    ],
+    subcategoria: "Berserk",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Guts #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Berserk/Guts_4/Guts/Guts.webp"
+    ],
+    subcategoria: "Berserk",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Guts #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Berserk/Guts_5/Guts/Guts.webp"
+    ],
+    subcategoria: "Berserk",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Guts #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Berserk/Guts_6/Guts/Guts.webp"
+    ],
+    subcategoria: "Berserk",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Guts #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Berserk/Guts_7/Guts/Guts.webp"
     ],
     subcategoria: "Berserk",
     dateAdded: "2026-06-04",
@@ -371,6 +471,138 @@ const List<Product> productos = [
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Bleach/Grimmjow/Grimmjow.webp"
+    ],
+    subcategoria: "Bleach",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Ichigo #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Bleach/Ichigo_1/Ichigo/Ichigo.webp"
+    ],
+    subcategoria: "Bleach",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Ichigo #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Bleach/Ichigo_2/Ichigo/Ichigo.webp"
+    ],
+    subcategoria: "Bleach",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Ichigo #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Bleach/Ichigo_3/Ichigo/Ichigo.webp"
+    ],
+    subcategoria: "Bleach",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Ichigo #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Bleach/Ichigo_4/Ichigo/Ichigo.webp"
+    ],
+    subcategoria: "Bleach",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Ichigo Hollow #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Bleach/Ichigo_Hollow_1/Ichigo_Hollow/Ichigo_Hollow.webp"
+    ],
+    subcategoria: "Bleach",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Ichigo Hollow #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Bleach/Ichigo_Hollow_2/Ichigo_Hollow/Ichigo_Hollow.webp"
+    ],
+    subcategoria: "Bleach",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Ichigo Hollow #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Bleach/Ichigo_Hollow_3/Ichigo_Hollow/Ichigo_Hollow.webp"
+    ],
+    subcategoria: "Bleach",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Ichigo Hollow #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Bleach/Ichigo_Hollow_4/Ichigo_Hollow/Ichigo_Hollow.webp"
+    ],
+    subcategoria: "Bleach",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Ichigo Hollow #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Bleach/Ichigo_Hollow_5/Ichigo_Hollow/Ichigo_Hollow.webp"
+    ],
+    subcategoria: "Bleach",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Ichigo Hollow #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Bleach/Ichigo_Hollow_6/Ichigo_Hollow/Ichigo_Hollow.webp"
+    ],
+    subcategoria: "Bleach",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Kenpachi #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Bleach/Kenpachi_1/Kenpachi/Kenpachi.webp"
+    ],
+    subcategoria: "Bleach",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Kenpachi #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Bleach/Kenpachi_2/Kenpachi/Kenpachi.webp"
     ],
     subcategoria: "Bleach",
     dateAdded: "2026-06-04",
@@ -1212,6 +1444,61 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Aki #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Aki_1/Aki/Aki.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Aki #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Aki_2/Aki/Aki.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Aki #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Aki_3/Aki/Aki.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Aki #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Aki_4/Aki/Aki.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Aki #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Aki_5/Aki/Aki.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Chainsaw Demon #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
@@ -1229,6 +1516,61 @@ const List<Product> productos = [
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Chainsaw_Man_Waifus/Chainsaw_Man_Waifus.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Chainsaw man reze arc #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Chainsaw_man_reze_arc_1/Chainsaw_man_reze_arc/Chainsaw_man_reze_arc.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Chainsaw man reze arc #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Chainsaw_man_reze_arc_2/Chainsaw_man_reze_arc/Chainsaw_man_reze_arc.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji&Makima #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji&Makima_1/Denji&Makima/Denji&Makima.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji&Makima #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji&Makima_2/Denji&Makima/Denji&Makima.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji&Makima #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji&Makima_3/Denji&Makima/Denji&Makima.webp"
     ],
     subcategoria: "Chainsaw Man",
     dateAdded: "2026-06-04",
@@ -1278,6 +1620,270 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Denji #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_1/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #10",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_10/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #11",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_11/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #12",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_12/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #13",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_13/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #14",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_14/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #15",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_15/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #16",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_16/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #17",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_17/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #18",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_18/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #19",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_19/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_2/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #20",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_20/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #21",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_21/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #22",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_22/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #23",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_23/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #24",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_24/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_3/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_4/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_5/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_6/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_7/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_8/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Denji #9",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Denji_9/Denji/Denji.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Himeno #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
@@ -1317,6 +1923,336 @@ const List<Product> productos = [
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Kobeni/Kobeni.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Makima #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Makima_1/Makima/Makima.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Makima #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Makima_2/Makima/Makima.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Makima #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Makima_3/Makima/Makima.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_1/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #10",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_10/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #11",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_11/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #12",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_12/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #13",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_13/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #14",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_14/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #15",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_15/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #16",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_16/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #17",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_17/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_2/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_3/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_4/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_5/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_6/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_7/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_8/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Power #9",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Power_9/Power/Power.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Reze #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Reze_1/Reze/Reze.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Reze #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Reze_2/Reze/Reze.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Reze #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Reze_3/Reze/Reze.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Reze #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Reze_4/Reze/Reze.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Seccion-4 #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Seccion-4_1/Seccion-4/Seccion-4.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Seccion-4 #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Seccion-4_2/Seccion-4/Seccion-4.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Seccion-4 #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Seccion-4_3/Seccion-4/Seccion-4.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Yoru #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Yoru_1/Yoru/Yoru.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Yoru #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Yoru_2/Yoru/Yoru.webp"
+    ],
+    subcategoria: "Chainsaw Man",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Yoru #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Chainsaw_Man/Yoru_3/Yoru/Yoru.webp"
     ],
     subcategoria: "Chainsaw Man",
     dateAdded: "2026-06-04",
@@ -1388,12 +2324,160 @@ const List<Product> productos = [
     dateAdded: "2026-06-05",
   ),
   Product(
+    nombre: "Camisa Dandadan #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Dandadan/Dandadan_1/Dandadan_1.webp"
+    ],
+    subcategoria: "Dandadan",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Dandadan Team #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Dandadan_Team/Dandadan_Team.webp"
+    ],
+    subcategoria: "Dandadan",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Okarun&Momo&Aliens #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun&Momo&Aliens/Okarun&Momo&Aliens/Okarun&Momo&Aliens.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun&Momo&Aliens/Okarun&Momo&Aliens_doble/Okarun&Momo&Aliens_doble.webp"
+    ],
+    subcategoria: "Dandadan",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Okarun&Momo #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun&Momo_1/Okarun&Momo/Okarun&Momo.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun&Momo_1/Okarun&Momo_doble/Okarun&Momo_doble.webp"
+    ],
+    subcategoria: "Dandadan",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Okarun&Momo #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun&Momo_2/Okarun&Momo/Okarun&Momo.webp"
+    ],
+    subcategoria: "Dandadan",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Okarun&Momo #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun&Momo_3/Okarun&Momo/Okarun&Momo.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun&Momo_3/Okarun&Momo_2_doble/Okarun&Momo_2_doble.webp"
+    ],
+    subcategoria: "Dandadan",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Okarun #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun_1/Okarun/Okarun.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun_1/Okarun_1_doble/Okarun_1_doble.webp"
+    ],
+    subcategoria: "Dandadan",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Okarun #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun_2/Okarun/Okarun.webp"
+    ],
+    subcategoria: "Dandadan",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Okarun #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun_3/Okarun/Okarun.webp"
+    ],
+    subcategoria: "Dandadan",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Okarun #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun_4/Okarun/Okarun.webp"
+    ],
+    subcategoria: "Dandadan",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Okarun #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun_5/Okarun/Okarun.webp"
+    ],
+    subcategoria: "Dandadan",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Okarun #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun_6/Okarun/Okarun.webp"
+    ],
+    subcategoria: "Dandadan",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Okarun #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Okarun_7/Okarun/Okarun.webp"
+    ],
+    subcategoria: "Dandadan",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Seiko Ayase #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Seiko_Ayase/Seiko_Ayase/Seiko_Ayase.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dandadan/Seiko_Ayase/Seiko_Ayase_doble/Seiko_Ayase_doble.webp"
     ],
     subcategoria: "Dandadan",
     dateAdded: "2026-06-04",
@@ -1553,6 +2637,17 @@ const List<Product> productos = [
     dateAdded: "2026-06-05",
   ),
   Product(
+    nombre: "Camisa Androide #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Androide/Androide_18/Androide_18.webp"
+    ],
+    subcategoria: "Dragon Ball",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Bardock #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
@@ -1630,12 +2725,78 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Frezzer #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Frezzer_1/Frezzer/Frezzer.webp"
+    ],
+    subcategoria: "Dragon Ball",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Frezzer #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Frezzer_2/Frezzer/Frezzer.webp"
+    ],
+    subcategoria: "Dragon Ball",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gogeta #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Gogeta_1/Gogeta/Gogeta.webp"
+    ],
+    subcategoria: "Dragon Ball",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gogeta #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Gogeta_2/Gogeta/Gogeta.webp"
+    ],
+    subcategoria: "Dragon Ball",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Gohan&Dragon #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Gohan&Dragon/Gohan&Dragon.webp"
+    ],
+    subcategoria: "Dragon Ball",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gohan #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Gohan_1/Gohan/Gohan.webp"
+    ],
+    subcategoria: "Dragon Ball",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gohan #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Gohan_2/Gohan/Gohan.webp"
     ],
     subcategoria: "Dragon Ball",
     dateAdded: "2026-06-04",
@@ -1652,12 +2813,67 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Gohan SSJ2 #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Gohan_SSJ2_1/Gohan_SSJ2/Gohan_SSJ2.webp"
+    ],
+    subcategoria: "Dragon Ball",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gohan SSJ2 #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Gohan_SSJ2_2/Gohan_SSJ2/Gohan_SSJ2.webp"
+    ],
+    subcategoria: "Dragon Ball",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Goku&Gohan&Goten #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Goku&Gohan&Goten/Goku&Gohan&Goten.webp"
+    ],
+    subcategoria: "Dragon Ball",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Goku #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Goku_1/Goku/Goku.webp"
+    ],
+    subcategoria: "Dragon Ball",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Goku #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Goku_2/Goku/Goku.webp"
+    ],
+    subcategoria: "Dragon Ball",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Goku #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Goku_3/Goku/Goku.webp"
     ],
     subcategoria: "Dragon Ball",
     dateAdded: "2026-06-04",
@@ -1773,6 +2989,28 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Vegeta #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Vegeta_1/Vegeta/Vegeta.webp"
+    ],
+    subcategoria: "Dragon Ball",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Vegeta #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Dragon_Ball/Vegeta_2/Vegeta/Vegeta.webp"
+    ],
+    subcategoria: "Dragon Ball",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Vegeta SSJ #4",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
@@ -1784,12 +3022,210 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Asuka-y-Rei #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Asuka-y-Rei/Asuka-y-Rei__2/Asuka-y-Rei__2.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Asuka #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Asuka_1/Asuka/Asuka.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Asuka #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Asuka_2/Asuka__2/Asuka__2.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Asuka #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Asuka_3/Asuka__3/Asuka__3.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Asuka #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Asuka_4/Asuka__4/Asuka__4.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Asuka #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Asuka_5/Asuka__5/Asuka__5.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Asuka #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Asuka_6/Asuka__6/Asuka__6.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Asuka #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Asuka_7/Asuka__7/Asuka__7.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa AsukayRei #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/AsukayRei/AsukayRei.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Eva-01_1/Eva-01/Eva-01.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 #10",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Eva-01_10/Eva-01__10/Eva-01__10.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Eva-01_2/Eva-01__2/Eva-01__2.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Eva-01_3/Eva-01__3/Eva-01__3.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Eva-01_4/Eva-01__4/Eva-01__4.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Eva-01_5/Eva-01__5/Eva-01__5.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Eva-01_6/Eva-01__6/Eva-01__6.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Eva-01_7/Eva-01__7/Eva-01__7.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Eva-01_8/Eva-01__8/Eva-01__8.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Eva-01 #9",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Eva-01_9/Eva-01__9/Eva-01__9.webp"
     ],
     subcategoria: "Evangelion",
     dateAdded: "2026-06-04",
@@ -1817,12 +3253,188 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Mari #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Mari_1/Mari/Mari.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Mari #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Mari_2/Mari__2/Mari__2.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Mari #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Mari_3/Mari__3/Mari__3.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Mari #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Mari_4/Mari__4/Mari__4.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Misato #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Misato_1/Misato/Misato.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Misato #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Misato_2/Misato__2/Misato__2.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Misato #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Misato_3/Misato__3/Misato__3.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Nerv #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Nerv/Nerv.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Rei #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Rei_1/Rei/Rei.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Rei #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Rei_2/Rei__2/Rei__2.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Rei #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Rei_3/Rei__3/Rei__3.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Rei #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Rei_4/Rei__4/Rei__4.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Rei #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Rei_5/Rei__5/Rei__5.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Rei #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Rei_6/Rei__6/Rei__6.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Rei #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Rei_7/Rei__7/Rei__7.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Rei #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Rei_8/Rei__8/Rei__8.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Rei #9",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Rei_9/Rei__9/Rei__9.webp"
     ],
     subcategoria: "Evangelion",
     dateAdded: "2026-06-04",
@@ -1847,6 +3459,171 @@ const List<Product> productos = [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Shinji-Eva-01/Shinji-Eva-01.webp"
     ],
     subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Shinji #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Shinji_1/Shinji/Shinji.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Shinji #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Shinji_2/Shinji__2/Shinji__2.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Shinji #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Evangelion/Shinji_3/Shinji__3/Shinji__3.webp"
+    ],
+    subcategoria: "Evangelion",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Fern #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Frieren_Beyond_The_Journey/Fern_1/Fern/Fern.webp"
+    ],
+    subcategoria: "Frieren Beyond The Journey",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Fern #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Frieren_Beyond_The_Journey/Fern_2/Fern__2/Fern__2.webp"
+    ],
+    subcategoria: "Frieren Beyond The Journey",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Frieren & Fern #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Frieren_Beyond_The_Journey/Frieren_&_Fern_1/Frieren_&_Fern/Frieren_&_Fern.webp"
+    ],
+    subcategoria: "Frieren Beyond The Journey",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Frieren & Fern #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Frieren_Beyond_The_Journey/Frieren_&_Fern_2/Frieren_&_Fern__2/Frieren_&_Fern__2.webp"
+    ],
+    subcategoria: "Frieren Beyond The Journey",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Frieren & Fern #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Frieren_Beyond_The_Journey/Frieren_&_Fern_3/Frieren_&_Fern__3/Frieren_&_Fern__3.webp"
+    ],
+    subcategoria: "Frieren Beyond The Journey",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Frieren #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Frieren_Beyond_The_Journey/Frieren_1/Frieren/Frieren.webp"
+    ],
+    subcategoria: "Frieren Beyond The Journey",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Frieren #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Frieren_Beyond_The_Journey/Frieren_2/Frieren__2/Frieren__2.webp"
+    ],
+    subcategoria: "Frieren Beyond The Journey",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Frieren #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Frieren_Beyond_The_Journey/Frieren_3/Frieren__3/Frieren__3.webp"
+    ],
+    subcategoria: "Frieren Beyond The Journey",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Frieren #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Frieren_Beyond_The_Journey/Frieren_4/Frieren__4/Frieren__4.webp"
+    ],
+    subcategoria: "Frieren Beyond The Journey",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Frieren #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Frieren_Beyond_The_Journey/Frieren_5/Frieren__5/Frieren__5.webp"
+    ],
+    subcategoria: "Frieren Beyond The Journey",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sōsō no Frieren #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Frieren_Beyond_The_Journey/Sōsō_no_Frieren_1/Sōsō_no_Frieren/Sōsō_no_Frieren.webp"
+    ],
+    subcategoria: "Frieren Beyond The Journey",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sōsō no Frieren #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Frieren_Beyond_The_Journey/Sōsō_no_Frieren_2/Sōsō_no_Frieren__2/Sōsō_no_Frieren__2.webp"
+    ],
+    subcategoria: "Frieren Beyond The Journey",
     dateAdded: "2026-06-04",
   ),
   Product(
@@ -2224,12 +4001,397 @@ const List<Product> productos = [
     dateAdded: "2026-06-05",
   ),
   Product(
+    nombre: "Camisa Choso #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Choso_1/Choso/Choso.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Choso #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Choso_2/Choso/Choso.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Choso #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Choso_3/Choso/Choso.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Choso #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Choso_4/Choso/Choso.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Clase #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Clase/Clase_1/Clase_1.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Geto #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Geto_1/Geto/Geto.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Geto #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Geto_2/Geto/Geto.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Geto #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Geto_3/Geto/Geto.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Geto #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Geto_4/Geto/Geto.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Geto #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Geto_5/Geto/Geto.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Geto #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Geto_6/Geto/Geto.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Geto #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Geto_7/Geto/Geto.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Geto #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Geto_8/Geto/Geto.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Geto #9",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Geto_9/Geto/Geto.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Gojo & Geto #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_&_Geto/Gojo_&_Geto.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_1/Gojo/Gojo.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #10",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_10/Gojo__17/Gojo__17.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #11",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_11/Gojo_5/Gojo_5.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #12",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_12/Gojo__18/Gojo__18.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #13",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_13/Gojo_6/Gojo_6.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #14",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_14/Gojo__19/Gojo__19.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #15",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_15/Gojo_7/Gojo_7.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #16",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_16/Gojo__20/Gojo__20.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #17",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_17/Gojo_8/Gojo_8.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #18",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_18/Gojo_9/Gojo_9.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #19",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_19/Gojo_10/Gojo_10.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_2/Gojo__13/Gojo__13.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #20",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_20/Gojo_11/Gojo_11.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #21",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_21/Gojo_12/Gojo_12.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_3/Gojo_1/Gojo_1.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_4/Gojo__14/Gojo__14.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_5/Gojo_2/Gojo_2.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_6/Gojo__15/Gojo__15.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_7/Gojo_3/Gojo_3.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_8/Gojo__16/Gojo__16.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Gojo #9",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Gojo_9/Gojo_4/Gojo_4.webp"
     ],
     subcategoria: "Jujutsu Kaisen",
     dateAdded: "2026-06-04",
@@ -2268,6 +4430,39 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Itadori #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Itadori_1/Itadori/Itadori.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Itadori #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Itadori_2/Itadori/Itadori.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Itadori #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Itadori_3/Itadori__3/Itadori__3.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Jujutsu Kaisen Clase-1 Halloween #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
@@ -2290,6 +4485,138 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Maki #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Maki_1/Maki/Maki.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Maki #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Maki_2/Maki/Maki.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Maki #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Maki_3/Maki/Maki.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Maki #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Maki_4/Maki__4/Maki__4.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Megumi #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Megumi_1/Megumi/Megumi.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Megumi #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Megumi_2/Megumi__5/Megumi__5.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Megumi #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Megumi_3/Megumi_2/Megumi_2.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Megumi #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Megumi_4/Megumi__6/Megumi__6.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Megumi #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Megumi_5/Megumi_3/Megumi_3.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Megumi #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Megumi_6/Megumi_4/Megumi_4.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Mei Mei #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Mei_Mei_1/Mei_Mei/Mei_Mei.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Mei Mei #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Mei_Mei_2/Mei_Mei/Mei_Mei.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Mekamaru #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
@@ -2307,6 +4634,138 @@ const List<Product> productos = [
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Nanami&Itadori/Nanami&Itadori.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nanami #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Nanami_1/Nanami/Nanami.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nanami #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Nanami_2/Nanami/Nanami.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nanami #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Nanami_3/Nanami/Nanami.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nanami #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Nanami_4/Nanami/Nanami.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nanami #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Nanami_5/Nanami/Nanami.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nanami #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Nanami_6/Nanami/Nanami.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nobara #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Nobara_1/Nobara/Nobara.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nobara #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Nobara_2/Nobara/Nobara.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nobara #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Nobara_3/Nobara/Nobara.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nobara #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Nobara_4/Nobara/Nobara.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nobara #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Nobara_5/Nobara/Nobara.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nobara #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Nobara_6/Nobara__6/Nobara__6.webp"
     ],
     subcategoria: "Jujutsu Kaisen",
     dateAdded: "2026-06-04",
@@ -2345,12 +4804,375 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Shibuya Incident Arc #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Shibuya_Incident_Arc_1/Shibuya_Incident_Arc/Shibuya_Incident_Arc.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Shibuya Incident Arc #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Shibuya_Incident_Arc_2/Shibuya_Incident_Arc__2/Shibuya_Incident_Arc__2.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna & Gojo #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_&_Gojo_1/Sukuna_&_Gojo/Sukuna_&_Gojo.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna & Gojo #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_&_Gojo_2/Sukuna_&_Gojo__2/Sukuna_&_Gojo__2.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_1/Sukuna/Sukuna.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna #10",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_10/Sukuna_7/Sukuna_7.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna #11",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_11/Sukuna_8/Sukuna_8.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna #12",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_12/Sukuna_9/Sukuna_9.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna #13",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_13/Sukuna_10/Sukuna_10.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_2/Sukuna__11/Sukuna__11.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_3/Sukuna_1/Sukuna_1.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_4/Sukuna__12/Sukuna__12.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_5/Sukuna_2/Sukuna_2.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_6/Sukuna_3/Sukuna_3.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_7/Sukuna_4/Sukuna_4.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_8/Sukuna_5/Sukuna_5.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sukuna #9",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Sukuna_9/Sukuna_6/Sukuna_6.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Todo #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Todo/Todo.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Todo&Itadori #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Todo&Itadori_1/Todo&Itadori/Todo&Itadori.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Todo&Itadori #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Todo&Itadori_2/Todo&Itadori/Todo&Itadori.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Toge #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Toge_1/Toge/Toge.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Toge #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Toge_2/Toge/Toge.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Toji #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Toji_1/Toji/Toji.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Toji #10",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Toji_10/Toji_6/Toji_6.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Toji #11",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Toji_11/Toji_7/Toji_7.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Toji #12",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Toji_12/Toji_8/Toji_8.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Toji #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Toji_2/Toji__9/Toji__9.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Toji #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Toji_3/Toji_2/Toji_2.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Toji #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Toji_4/Toji__10/Toji__10.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Toji #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Toji_5/Toji_3/Toji_3.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Toji #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Toji_6/Toji__11/Toji__11.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Toji #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Toji_7/Toji_4/Toji_4.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Toji #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Toji_8/Toji__12/Toji__12.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Toji #9",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Toji_9/Toji_5/Toji_5.webp"
     ],
     subcategoria: "Jujutsu Kaisen",
     dateAdded: "2026-06-04",
@@ -2378,6 +5200,72 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Yuta #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Yuta_1/Yuta/Yuta.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Yuta #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Yuta_2/Yuta__5/Yuta__5.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Yuta #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Yuta_3/Yuta_1/Yuta_1.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Yuta #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Yuta_4/Yuta__6/Yuta__6.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Yuta #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Yuta_5/Yuta_2/Yuta_2.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Yuta #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Jujutsu_Kaisen/Yuta_6/Yuta_3/Yuta_3.webp"
+    ],
+    subcategoria: "Jujutsu Kaisen",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Comandante Yosida #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
@@ -2400,12 +5288,100 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Kafka #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kaiju_N°8/Kafka_1/Kafka/Kafka.webp"
+    ],
+    subcategoria: "Kaiju N°8",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Kafka #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kaiju_N°8/Kafka_2/Kafka/Kafka.webp"
+    ],
+    subcategoria: "Kaiju N°8",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Kaiju Kawai #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kaiju_N°8/Kaiju_Kawai/Kaiju_Kawai.webp"
+    ],
+    subcategoria: "Kaiju N°8",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Kaiju N°8 #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kaiju_N°8/Kaiju_N°8_1/Kaiju_N°8/Kaiju_N°8.webp"
+    ],
+    subcategoria: "Kaiju N°8",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Kaiju N°8 #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kaiju_N°8/Kaiju_N°8_2/Kaiju_N°8/Kaiju_N°8.webp"
+    ],
+    subcategoria: "Kaiju N°8",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Kaiju N°8 #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kaiju_N°8/Kaiju_N°8_3/Kaiju_N°8/Kaiju_N°8.webp"
+    ],
+    subcategoria: "Kaiju N°8",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Kaiju N°8 #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kaiju_N°8/Kaiju_N°8_4/Kaiju_N°8/Kaiju_N°8.webp"
+    ],
+    subcategoria: "Kaiju N°8",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Kaiju N°8 #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kaiju_N°8/Kaiju_N°8_5/Kaiju_N°8/Kaiju_N°8.webp"
+    ],
+    subcategoria: "Kaiju N°8",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Kaiju N°8 #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kaiju_N°8/Kaiju_N°8_6/Kaiju_N°8/Kaiju_N°8.webp"
     ],
     subcategoria: "Kaiju N°8",
     dateAdded: "2026-06-04",
@@ -2419,6 +5395,858 @@ const List<Product> productos = [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kaiju_N°8/Reno_Ichikawa/Reno_Ichikawa.webp"
     ],
     subcategoria: "Kaiju N°8",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Akaza #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Akaza/Akaza/Akaza.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Akaza/Akaza_doble_1/Akaza_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Akaza/Akaza_doble_2/Akaza_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Douma #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Douma_1/Douma/Douma.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Douma_1/Douma_doble_1/Douma_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Douma_1/Douma_doble_2/Douma_doble_2.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Douma_1/Douma_doble_3/Douma_doble_3.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Douma #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Douma_2/Douma/Douma.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Douma_2/Douma_1_doble_1/Douma_1_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Douma_2/Douma_1_doble_2/Douma_1_doble_2.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Douma_2/Douma_1_doble_3/Douma_1_doble_3.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Genya #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Genya/Genya/Genya.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Genya/Genya_doble/Genya_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Haganezuka #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Haganezuka_1/Haganezuka/Haganezuka.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Haganezuka_1/Haganezuka_doble/Haganezuka_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Haganezuka #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Haganezuka_2/Haganezuka/Haganezuka.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Haganezuka_2/Mesa_de_trabajo/Mesa_de_trabajo.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Haganezuka #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Haganezuka_3/Haganezuka/Haganezuka.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Haganezuka_3/Haganezuka_2_doble/Haganezuka_2_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Hashira #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Hashira_1/Hashira/Hashira.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Hashira_1/Hashira_doble/Hashira_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Hashira #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Hashira_2/Hashira/Hashira.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Hashira_2/Hashira_1_doble/Hashira_1_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Hashiras #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Hashiras_1/Hashiras/Hashiras.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Hashiras_1/Hashiras_doble/Hashiras_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Hashiras #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Hashiras_2/Hashiras/Hashiras.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Hashiras_2/Hashiras_1_doble/Hashiras_1_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Hashiras #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Hashiras_3/Hashiras/Hashiras.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Hashiras_3/Hashiras_2_doble/Hashiras_2_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Hashiras #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Hashiras_4/Hashiras/Hashiras.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Hashiras_4/Hashiras_3_doble/Hashiras_3_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Inosuke #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Inosuke_1/Inosuke/Inosuke.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Inosuke_1/Inosuke_doble/Inosuke_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Inosuke #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Inosuke_2/Inosuke/Inosuke.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Inosuke_2/Inosuke_1_doble/Inosuke_1_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Inosuke #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Inosuke_3/Inosuke/Inosuke.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Inosuke_3/Inosuke_2_doble_1/Inosuke_2_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Inosuke_3/Inosuke_2_doble_2/Inosuke_2_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Kaigaku #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Kaigaku/Kaigaku/Kaigaku.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Kaigaku/Kaigaku_doble_1/Kaigaku_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Kaigaku/Kaigaku_doble_2/Kaigaku_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Kanao #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Kanao/Kanao/Kanao.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Kanao/Kanao_doble_1/Kanao_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Kanao/Kanao_doble_2/Kanao_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Kimetsu Halloween #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Kimetsu_Halloween/Kimetsu_Halloween/Kimetsu_Halloween.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Kimetsu_Halloween/Kimetsu_Halloween_doble/Kimetsu_Halloween_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Kokushibo #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Kokushibo_1/Kokushibo/Kokushibo.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Kokushibo_1/Kokushibo_doble_1/Kokushibo_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Kokushibo_1/Kokushibo_doble_2/Kokushibo_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Kokushibo #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Kokushibo_2/Kokushibo/Kokushibo.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Kokushibo_2/Kokushibo_2_doble_1/Kokushibo_2_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Kokushibo_2/Kokushibo_2_doble_2/Kokushibo_2_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luna Superior #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Luna_Superior/Luna_Superior_4_doble_1/Luna_Superior_4_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Luna_Superior/Luna_Superior_4_doble_2/Luna_Superior_4_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Lunas Superiores #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Lunas_Superiores_1/Lunas_Superiores/Lunas_Superiores.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Lunas Superiores #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Lunas_Superiores_2/Lunas_Superiores/Lunas_Superiores.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Mitsuri #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_1/Mitsuri/Mitsuri.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_1/Mitsuri_doble_1/Mitsuri_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_1/Mitsuri_doble_2/Mitsuri_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Mitsuri #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_2/Mitsuri/Mitsuri.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_2/Mitsuri_1_doble_1/Mitsuri_1_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_2/Mitsuri_1_doble_2/Mitsuri_1_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Mitsuri #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_3/Mitsuri/Mitsuri.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_3/Mitsuri_2_doble_1/Mitsuri_2_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_3/Mitsuri_2_doble_2/Mitsuri_2_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Mitsuri #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_4/Mitsuri/Mitsuri.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_4/Mitsuri_3_doble_1/Mitsuri_3_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_4/Mitsuri_3_doble_2/Mitsuri_3_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Mitsuri #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_5/Mitsuri/Mitsuri.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_5/Mitsuri_4_doble_1/Mitsuri_4_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_5/Mitsuri_4_doble_2/Mitsuri_4_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Mitsuri Kanroji #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_Kanroji/Mitsuri_Kanroji/Mitsuri_Kanroji.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_Kanroji/Mitsuri_Kanroji_doble_1/Mitsuri_Kanroji_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Mitsuri_Kanroji/Mitsuri_Kanroji_doble_2/Mitsuri_Kanroji_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Muzan #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Muzan_1/Muzan/Muzan.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Muzan_1/Muzan_doble/Muzan_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Muzan #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Muzan_2/Muzan/Muzan.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Muzan_2/Muzan_1_doble/Muzan_1_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nezuko #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_1/Nezuko/Nezuko.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_1/Nezuko_doble_1/Nezuko_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_1/Nezuko_doble_2/Nezuko_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nezuko #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_2/Nezuko/Nezuko.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_2/Nezuko_1_doble_1/Nezuko_1_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_2/Nezuko_1_doble_2/Nezuko_1_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nezuko #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_3/Nezuko/Nezuko.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_3/Nezuko_2_doble_1/Nezuko_2_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_3/Nezuko_2_doble_2/Nezuko_2_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nezuko #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_4/Nezuko/Nezuko.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_4/Nezuko_3_doble_1/Nezuko_3_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_4/Nezuko_3_doble_2/Nezuko_3_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nezuko #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_5/Nezuko/Nezuko.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_5/Nezuko_4_doble_1/Nezuko_4_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Nezuko_5/Nezuko_4_doble_2/Nezuko_4_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Rengoku #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_1/Rengoku/Rengoku.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_1/Rengoku_doble_1/Rengoku_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_1/Rengoku_doble_2/Rengoku_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Rengoku #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_2/Rengoku/Rengoku.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_2/Rengoku_1_doble_1/Rengoku_1_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_2/Rengoku_1_doble_2/Rengoku_1_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Rengoku #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_3/Rengoku/Rengoku.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_3/Rengoku_2_doble_1/Rengoku_2_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_3/Rengoku_2_doble_2/Rengoku_2_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Rengoku #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_4/Rengoku/Rengoku.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_4/Rengoku_3_doble_1/Rengoku_3_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_4/Rengoku_3_doble_2/Rengoku_3_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Rengoku #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_5/Rengoku/Rengoku.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_5/Rengoku_4_doble_1/Rengoku_4_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Rengoku_5/Rengoku_4_doble_2/Rengoku_4_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sanemi #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Sanemi/Sanemi/Sanemi.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Sanemi/Sanemi_doble_1/Sanemi_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Sanemi/Sanemi_doble_2/Sanemi_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sanemi&Genya #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Sanemi&Genya/Sanemi&Genya/Sanemi&Genya.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Sanemi&Genya/Sanemi&Genya_doble_1/Sanemi&Genya_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Sanemi&Genya/Sanemi&Genya_doble_2/Sanemi&Genya_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Shinobu&Douma #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu&Douma/Shinobu&Douma/Shinobu&Douma.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu&Douma/Shinobu&Douma_doble_1/Shinobu&Douma_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu&Douma/Shinobu&Douma_doble_2/Shinobu&Douma_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Shinobu #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_1/Shinobu/Shinobu.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_1/Shinobu_doble_1/Shinobu_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_1/Shinobu_doble_2/Shinobu_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Shinobu #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_2/Shinobu/Shinobu.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_2/Shinobu_1_doble_1/Shinobu_1_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_2/Shinobu_1_doble_2/Shinobu_1_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Shinobu #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_3/Shinobu/Shinobu.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_3/Shinobu_2_doble_1/Shinobu_2_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_3/Shinobu_2_doble_2/Shinobu_2_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Shinobu #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_4/Shinobu_3_doble/Shinobu_3_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Shinobu Kocho #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_Kocho_1/Shinobu_Kocho/Shinobu_Kocho.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_Kocho_1/Shinobu_Kocho_doble_1/Shinobu_Kocho_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_Kocho_1/Shinobu_Kocho_doble_2/Shinobu_Kocho_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Shinobu Kocho #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_Kocho_2/Shinobu_Kocho/Shinobu_Kocho.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_Kocho_2/Shinobu_Kocho_1_doble_1/Shinobu_Kocho_1_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Shinobu_Kocho_2/Shinobu_Kocho_1_doble_2/Shinobu_Kocho_1_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Tanjiro&Inosuke&Zenitsu #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro&Inosuke&Zenitsu/Tanjiro&Inosuke&Zenitsu/Tanjiro&Inosuke&Zenitsu.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro&Inosuke&Zenitsu/Tanjiro&Inosuke&Zenitsu_doble_1/Tanjiro&Inosuke&Zenitsu_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro&Inosuke&Zenitsu/Tanjiro&Inosuke&Zenitsu_doble_2/Tanjiro&Inosuke&Zenitsu_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Tanjiro&Nezuko&Inosuke&Zenitsu #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro&Nezuko&Inosuke&Zenitsu/Tanjiro&Nezuko&Inosuke&Zenitsu/Tanjiro&Nezuko&Inosuke&Zenitsu.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro&Nezuko&Inosuke&Zenitsu/Tanjiro&Nezuko&Inosuke&Zenitsu_doble_1/Tanjiro&Nezuko&Inosuke&Zenitsu_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro&Nezuko&Inosuke&Zenitsu/Tanjiro&Nezuko&Inosuke&Zenitsu_doble_2/Tanjiro&Nezuko&Inosuke&Zenitsu_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Tanjiro&Yorichi #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro&Yorichi/Tanjiro&Yorichi/Tanjiro&Yorichi.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro&Yorichi/Tanjiro&Yorichi_doble_1/Tanjiro&Yorichi_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro&Yorichi/Tanjiro&Yorichi_doble_2/Tanjiro&Yorichi_doble_2.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro&Yorichi/Tanjiro&Yorichi_doble_3/Tanjiro&Yorichi_doble_3.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Tanjiro #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro_1/Tanjiro/Tanjiro.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro_1/Tanjiro_doble_1/Tanjiro_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro_1/Tanjiro_doble_2/Tanjiro_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Tanjiro #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro_2/Tanjiro/Tanjiro.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro_2/Tanjiro_2_doble/Tanjiro_2_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Tanjiro #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro_3/Tanjiro_3_doble_1/Tanjiro_3_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tanjiro_3/Tanjiro_3_doble_2/Tanjiro_3_doble_2.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Tengen Uzui #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tengen_Uzui/Tengen_Uzui/Tengen_Uzui.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tengen_Uzui/Tengen_Uzui_doble/Tengen_Uzui_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Tomioka #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tomioka_1/Tomioka/Tomioka.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tomioka_1/Tomioka_doble_1/Tomioka_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tomioka_1/Tomioka_doble_2/Tomioka_doble_2.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tomioka_1/Tomioka_doble_3/Tomioka_doble_3.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Tomioka #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tomioka_2/Tomioka_doble_1/Tomioka_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tomioka_2/Tomioka_doble_2/Tomioka_doble_2.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tomioka_2/Tomioka_doble_3/Tomioka_doble_3.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Tomioka #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tomioka_3/Tomioka_2_doble_1/Tomioka_2_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tomioka_3/Tomioka_2_doble_2/Tomioka_2_doble_2.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Tomioka_3/Tomioka_2_doble_3/Tomioka_2_doble_3.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Uzui #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Uzui/Uzui/Uzui.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Uzui/Uzui_doble_1/Uzui_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Uzui/Uzui_doble_2/Uzui_doble_2.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Uzui/Uzui_doble_3/Uzui_doble_3.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Villa de los Herreros #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Villa_de_los_Herreros/Villa_de_los_Herreros/Villa_de_los_Herreros.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Villa_de_los_Herreros/Villa_de_los_Herreros_doble/Villa_de_los_Herreros_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Yorichi #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Yorichi/Yorichi/Yorichi.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Yorichi/Yorichi_doble/Yorichi_doble.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Zenitsu #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Zenitsu_1/Zenitsu/Zenitsu.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Zenitsu_1/Zenitsu_doble_1/Zenitsu_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Zenitsu_1/Zenitsu_doble_2/Zenitsu_doble_2.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Zenitsu_1/Zenitsu_doble_3/Zenitsu_doble_3.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Zenitsu #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Zenitsu_2/Zenitsu/Zenitsu.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Zenitsu_2/Zenitsu_1_doble_1/Zenitsu_1_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Zenitsu_2/Zenitsu_1_doble_2/Zenitsu_1_doble_2.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Zenitsu_2/Zenitsu_1_doble_3/Zenitsu_1_doble_3.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Zenitsu #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Zenitsu_3/Zenitsu/Zenitsu.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Zenitsu_3/Zenitsu_2_doble_1/Zenitsu_2_doble_1.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Zenitsu_3/Zenitsu_2_doble_2/Zenitsu_2_doble_2.webp",
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Kimetsu_no_Yaiba/Zenitsu_3/Zenitsu_2_doble_3/Zenitsu_2_doble_3.webp"
+    ],
+    subcategoria: "Kimetsu No Yaiba",
     dateAdded: "2026-06-04",
   ),
   Product(
@@ -2642,6 +6470,39 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Jiraiya #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Naruto/Jiraiya_1/Jiraiya/Jiraiya.webp"
+    ],
+    subcategoria: "Naruto",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Jiraiya #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Naruto/Jiraiya_2/Jiraiya/Jiraiya.webp"
+    ],
+    subcategoria: "Naruto",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Jiraiya #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Naruto/Jiraiya_3/Jiraiya/Jiraiya.webp"
+    ],
+    subcategoria: "Naruto",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Kaguya #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
@@ -2681,6 +6542,28 @@ const List<Product> productos = [
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Naruto/Minato/Minato.webp"
+    ],
+    subcategoria: "Naruto",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Naruto #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Naruto/Naruto_1/Naruto/Naruto.webp"
+    ],
+    subcategoria: "Naruto",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Naruto #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Naruto/Naruto_2/Naruto/Naruto.webp"
     ],
     subcategoria: "Naruto",
     dateAdded: "2026-06-04",
@@ -2730,6 +6613,50 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Ace #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Ace_1/Ace/Ace.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Ace #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Ace_2/Ace/Ace.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Ace #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Ace_3/Ace/Ace.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Ace #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Ace_4/Ace/Ace.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Boa Hancock #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
@@ -2747,6 +6674,28 @@ const List<Product> productos = [
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Bonney/Bonney.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Chopper #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Chopper_1/Chopper/Chopper.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Chopper #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Chopper_2/Chopper/Chopper.webp"
     ],
     subcategoria: "One Piece",
     dateAdded: "2026-06-04",
@@ -2807,12 +6756,243 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Luffy #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_1/Luffy/Luffy.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy #10",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_10/Luffy/Luffy.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy #11",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_11/Luffy/Luffy.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy #12",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_12/Luffy/Luffy.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_2/Luffy/Luffy.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_3/Luffy/Luffy.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_4/Luffy/Luffy.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_5/Luffy/Luffy.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_6/Luffy/Luffy.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_7/Luffy/Luffy.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_8/Luffy/Luffy.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy #9",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_9/Luffy/Luffy.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy EggHead #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_EggHead_1/Luffy_EggHead/Luffy_EggHead.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy EggHead #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_EggHead_2/Luffy_EggHead/Luffy_EggHead.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy Gear #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_Gear/Luffy_Gear_5/Luffy_Gear_5.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Luffy Gear 4 Bounce-Man #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_Gear_4_Bounce-Man/Luffy_Gear_4_Bounce-Man.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy Gear 4 Snake-Man #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_Gear_4_Snake-Man_1/Luffy_Gear_4_Snake-Man/Luffy_Gear_4_Snake-Man.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy Gear 4 Snake-Man #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_Gear_4_Snake-Man_2/Luffy_Gear_4_Snake-Man/Luffy_Gear_4_Snake-Man.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy Gear 5 #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_Gear_5_1/Luffy_Gear_5/Luffy_Gear_5.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy Gear 5 #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_Gear_5_2/Luffy_Gear_5/Luffy_Gear_5.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy Gear 5 #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_Gear_5_3/Luffy_Gear_5/Luffy_Gear_5.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Luffy Gear 5 #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Luffy_Gear_5_4/Luffy_Gear_5/Luffy_Gear_5.webp"
     ],
     subcategoria: "One Piece",
     dateAdded: "2026-06-04",
@@ -2862,6 +7042,28 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Nami #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Nami_1/Nami/Nami.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Nami #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Nami_2/Nami/Nami.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Sanji #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
@@ -2895,12 +7097,78 @@ const List<Product> productos = [
     dateAdded: "2026-06-04",
   ),
   Product(
+    nombre: "Camisa Trafalgar Law #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Trafalgar_Law_1/Trafalgar_Law/Trafalgar_Law.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Trafalgar Law #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Trafalgar_Law_2/Trafalgar_Law/Trafalgar_Law.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
     nombre: "Camisa Usopp&Zoro&Luffy #1",
     precio: "280",
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
       "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Usopp&Zoro&Luffy/Usopp&Zoro&Luffy.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Zoro #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Zoro_1/Zoro/Zoro.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Zoro #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Zoro_2/Zoro/Zoro.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Zoro #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Zoro_3/Zoro/Zoro.webp"
+    ],
+    subcategoria: "One Piece",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Zoro #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/One_Piece/Zoro_4/Zoro/Zoro.webp"
     ],
     subcategoria: "One Piece",
     dateAdded: "2026-06-04",
@@ -3498,6 +7766,171 @@ const List<Product> productos = [
     ],
     subcategoria: "Sakamoto Days",
     dateAdded: "2026-06-05",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #1",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_1/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #10",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_10/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #11",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_11/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #12",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_12/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #13",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_13/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #14",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_14/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #15",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_15/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #2",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_2/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #3",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_3/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #4",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_4/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #5",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_5/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #6",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_6/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #7",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_7/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #8",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_8/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
+  ),
+  Product(
+    nombre: "Camisa Sung Jinwoo #9",
+    precio: "280",
+    descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
+    categoria: "Camisas",
+    imagenes: [
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Solo_Leveling/Sung_Jinwoo_9/Sung_Jinwoo/Sung_Jinwoo.webp"
+    ],
+    subcategoria: "Solo Leveling",
+    dateAdded: "2026-06-04",
   ),
   Product(
     nombre: "Camisa Agent Chimera #1",

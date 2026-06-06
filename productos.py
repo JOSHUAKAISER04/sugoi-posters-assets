@@ -1,6 +1,28 @@
 import os
 import re
+import sys
 from datetime import date, datetime
+
+# Evita UnicodeEncodeError con los emojis al imprimir en consolas Windows (cp1252)
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+except Exception:
+    pass
+
+EXTENSIONES_IMG = (".png", ".jpg", ".jpeg", ".webp")
+
+def buscar_imagenes_rec(carpeta):
+    """
+    Devuelve las imágenes dentro de 'carpeta' a CUALQUIER profundidad,
+    ordenadas por su ruta relativa. Soporta estructuras donde la imagen
+    está anidada en una subcarpeta extra (ej. Casca_1/Casca/Casca.webp).
+    """
+    encontradas = []
+    for raiz, _dirs, archivos in os.walk(carpeta):
+        for f in archivos:
+            if f.lower().endswith(EXTENSIONES_IMG):
+                encontradas.append(os.path.join(raiz, f))
+    return sorted(encontradas, key=lambda p: os.path.relpath(p, carpeta).lower())
 
 # Configuración del repo
 usuario = "JOSHUAKAISER04"
@@ -10,9 +32,7 @@ carpeta_base = "."
 
 # Ruta al products.dart existente (para conservar fechas ya registradas).
 # Puede ser relativa al lugar desde donde se ejecuta el script.
-PRODUCTOS_DART_EXISTENTE = os.path.join(
-    os.path.dirname(__file__), "..", "lib", "data", "products.dart"
-)
+PRODUCTOS_DART_EXISTENTE = r"D:\Proyectos\sugoi_posters_deploys\lib\data\products.dart"
 
 # ── Cargar fechas ya registradas ─────────────────────────────────────────────
 def _leer_fechas_existentes(path: str) -> dict[str, str]:
@@ -203,21 +223,21 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
                     if not os.path.isdir(variante_path):
                         continue
 
-                    archivos_variante = [f for f in sorted(os.listdir(variante_path)) if f.lower().endswith((".png", ".jpg", ".jpeg", ".webp"))]
+                    archivos_variante = buscar_imagenes_rec(variante_path)
                     if archivos_variante:
                         nombre_base, numero_carpeta = extraer_variante(variante_dir)
                         nombre_base = normalize_hashes(nombre_base)
 
                         imagenes_variante = [
-                            base_url + os.path.relpath(os.path.join(variante_path, f), carpeta_base).replace("\\", "/")
-                            for f in archivos_variante
+                            base_url + os.path.relpath(ruta, carpeta_base).replace("\\", "/")
+                            for ruta in archivos_variante
                         ]
                         # Mostrar el número tal cual si existe; si no existe, usar 1
                         numero_display = numero_carpeta if numero_carpeta > 0 else 1
 
                         nombre_producto = f"{nombre_categoria} {nombre_base} #{numero_display}"
                         imagenes_dart = "[\n" + ",\n".join([f'      "{img}"' for img in imagenes_variante]) + "\n    ]"
-                        rutas_locales = [os.path.join(variante_path, f) for f in archivos_variante]
+                        rutas_locales = archivos_variante
                         fecha = _fecha_para(nombre_producto, rutas_locales)
                         productos.append(f'''  Product(
     nombre: "{nombre_producto}",
@@ -229,71 +249,31 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
     dateAdded: "{fecha}",
   ),''')
 
-            # 2) Archivos directos en la subcategoria
+            # 2) Archivos directos en la subcategoria (Se unificó la lógica para TODAS las categorías)
             if archivos_directos:
-                if categoria_dir == "Pol":
-                    # Polaroids: 1 product por archivo
-                    for file in archivos_directos:
-                        ruta_local = os.path.join(subcategoria_path, file)
-                        relative_path = os.path.relpath(ruta_local, carpeta_base).replace("\\", "/")
-                        url = base_url + relative_path
-                        personaje = limpiar_nombre(file)
-                        personaje = normalize_hashes(personaje)
-                        subcategoria_final = personaje if subcategoria_dir.lower() == "anime" else subcategoria_limpia
-
-                        nombre_producto = f"{nombre_categoria} {personaje}"
-                        imagenes_dart = "[\n" + f'      "{url}"' + "\n    ]"
-                        fecha = _fecha_para(nombre_producto, [ruta_local])
-                        productos.append(f'''  Product(
-    nombre: "{nombre_producto}",
-    precio: "{precio}",
-    descripcion: "{descripcion}",
-    categoria: "{categoria_plural}",
-    imagenes: {imagenes_dart},
-    subcategoria: "{subcategoria_final}",
-    dateAdded: "{fecha}",
-  ),''')
-
-                elif categoria_dir == "P-o":
-                    # Posters: UN producto por archivo directo
-                    for file in archivos_directos:
-                        ruta_local = os.path.join(subcategoria_path, file)
-                        relative_path = os.path.relpath(ruta_local, carpeta_base).replace("\\", "/")
-                        url = base_url + relative_path
-                        personaje = limpiar_nombre(file)
-                        personaje = normalize_hashes(personaje)
+                for file in archivos_directos:
+                    ruta_local = os.path.join(subcategoria_path, file)
+                    relative_path = os.path.relpath(ruta_local, carpeta_base).replace("\\", "/")
+                    url = base_url + relative_path
+                    personaje = limpiar_nombre(file)
+                    personaje = normalize_hashes(personaje)
+                    
+                    # Logica específica si era de polaroid anime
+                    if categoria_dir == "Pol" and subcategoria_dir.lower() == "anime":
+                        subcategoria_final = personaje 
+                    else:
                         subcategoria_final = subcategoria_limpia
 
-                        nombre_producto = f"{nombre_categoria} {personaje}"
-                        imagenes_dart = "[\n" + f'      "{url}"' + "\n    ]"
-                        fecha = _fecha_para(nombre_producto, [ruta_local])
-                        productos.append(f'''  Product(
-    nombre: "{nombre_producto}",
-    precio: "{precio}",
-    descripcion: "{descripcion}",
-    categoria: "{categoria_plural}",
-    imagenes: {imagenes_dart},
-    subcategoria: "{subcategoria_final}",
-    dateAdded: "{fecha}",
-  ),''')
-
-                else:
-                    # Camisas/Suéteres: agrupar archivos directos en UN producto por subcategoria
-                    rutas_locales = [os.path.join(subcategoria_path, f) for f in archivos_directos]
-                    imagenes = [
-                        base_url + os.path.relpath(r, carpeta_base).replace("\\", "/")
-                        for r in rutas_locales
-                    ]
-                    nombre_producto = f"{nombre_categoria} {subcategoria_limpia} #1"
-                    imagenes_dart = "[\n" + ",\n".join([f'      "{img}"' for img in imagenes]) + "\n    ]"
-                    fecha = _fecha_para(nombre_producto, rutas_locales)
+                    nombre_producto = f"{nombre_categoria} {personaje}"
+                    imagenes_dart = "[\n" + f'      "{url}"' + "\n    ]"
+                    fecha = _fecha_para(nombre_producto, [ruta_local])
                     productos.append(f'''  Product(
     nombre: "{nombre_producto}",
     precio: "{precio}",
     descripcion: "{descripcion}",
     categoria: "{categoria_plural}",
     imagenes: {imagenes_dart},
-    subcategoria: "{subcategoria_limpia}",
+    subcategoria: "{subcategoria_final}",
     dateAdded: "{fecha}",
   ),''')
 
@@ -306,20 +286,45 @@ for categoria_dir in sorted(os.listdir(carpeta_base)):
 
             subcategoria_limpia = formatear_subcategoria(subcategoria_dir)
 
-            for file in sorted(os.listdir(subcategoria_path)):
-                if not file.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
-                    continue
+            # Iterar los elementos dentro para admitir tanto archivos como carpetas
+            for elemento in sorted(os.listdir(subcategoria_path)):
+                ruta_elemento = os.path.join(subcategoria_path, elemento)
+                
+                # Caso A: Archivo de imagen directo
+                if os.path.isfile(ruta_elemento) and elemento.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
+                    relative_path = os.path.relpath(ruta_elemento, carpeta_base).replace("\\", "/")
+                    url = base_url + relative_path
+                    personaje = limpiar_nombre(elemento)
+                    personaje = normalize_hashes(personaje)
 
-                ruta_local = os.path.join(subcategoria_path, file)
-                relative_path = os.path.relpath(ruta_local, carpeta_base).replace("\\", "/")
-                url = base_url + relative_path
-                personaje = limpiar_nombre(file)
-                personaje = normalize_hashes(personaje)
+                    nombre_producto = f"{nombre_categoria} {personaje}"
+                    imagenes_dart = "[\n" + f'      "{url}"' + "\n    ]"
+                    fecha = _fecha_para(nombre_producto, [ruta_elemento])
+                    productos.append(f'''  Product(
+    nombre: "{nombre_producto}",
+    precio: "{precio}",
+    descripcion: "{descripcion}",
+    categoria: "{categoria_plural}",
+    imagenes: {imagenes_dart},
+    subcategoria: "{subcategoria_limpia}",
+    dateAdded: "{fecha}",
+  ),''')
+                    
+                # Caso B: Carpeta interna (ej. Separadores con múltiples imágenes para el mismo personaje)
+                elif os.path.isdir(ruta_elemento):
+                    archivos_internos = buscar_imagenes_rec(ruta_elemento)
+                    if archivos_internos:
+                        nombre_base, numero_carpeta = extraer_variante(elemento)
+                        nombre_base = normalize_hashes(nombre_base)
+                        numero_display = numero_carpeta if numero_carpeta > 0 else 1
 
-                nombre_producto = f"{nombre_categoria} {personaje}"
-                imagenes_dart = "[\n" + f'      "{url}"' + "\n    ]"
-                fecha = _fecha_para(nombre_producto, [ruta_local])
-                productos.append(f'''  Product(
+                        nombre_producto = f"{nombre_categoria} {nombre_base} #{numero_display}"
+                        imagenes_internas = [base_url + os.path.relpath(ruta, carpeta_base).replace("\\", "/") for ruta in archivos_internos]
+                        imagenes_dart = "[\n" + ",\n".join([f'      "{img}"' for img in imagenes_internas]) + "\n    ]"
+                        rutas_locales_int = archivos_internos
+                        fecha = _fecha_para(nombre_producto, rutas_locales_int)
+                        
+                        productos.append(f'''  Product(
     nombre: "{nombre_producto}",
     precio: "{precio}",
     descripcion: "{descripcion}",

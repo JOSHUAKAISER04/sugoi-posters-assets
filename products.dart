@@ -2274,7 +2274,7 @@ const List<Product> productos = [
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
-      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Cyberpunk_Edgerunners/Lucy/Lucy.webp"
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Cyberpunk_Edgerunners/Lucy_1/Lucy_1.webp"
     ],
     subcategoria: "Cyberpunk Edgerunners",
     dateAdded: "2026-06-05",
@@ -2285,7 +2285,7 @@ const List<Product> productos = [
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
-      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Cyberpunk_Edgerunners/Lucy #2/Lucy #2.webp"
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Cyberpunk_Edgerunners/Lucy_2/Lucy_2.webp"
     ],
     subcategoria: "Cyberpunk Edgerunners",
     dateAdded: "2026-06-05",
@@ -2296,7 +2296,7 @@ const List<Product> productos = [
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
-      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Cyberpunk_Edgerunners/Rebecca/Rebecca.webp"
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Cyberpunk_Edgerunners/Rebecca_1/Rebecca_1.webp"
     ],
     subcategoria: "Cyberpunk Edgerunners",
     dateAdded: "2026-06-05",
@@ -2307,7 +2307,7 @@ const List<Product> productos = [
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
-      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Cyberpunk_Edgerunners/Rebecca #2/Rebecca #2.webp"
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Cyberpunk_Edgerunners/Rebecca_2/Rebecca_2.webp"
     ],
     subcategoria: "Cyberpunk Edgerunners",
     dateAdded: "2026-06-05",
@@ -2318,7 +2318,7 @@ const List<Product> productos = [
     descripcion: "Camisa de alta calidad inspirada en tu anime favorito. Ideal para el día a día o coleccionar como parte de tu pasión otaku.",
     categoria: "Camisas",
     imagenes: [
-      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Cyberpunk_Edgerunners/Rebecca #3/Rebecca #3.webp"
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/C-a/Cyberpunk_Edgerunners/Rebecca_3/Rebecca_3.webp"
     ],
     subcategoria: "Cyberpunk Edgerunners",
     dateAdded: "2026-06-05",
@@ -8824,14 +8824,14 @@ const List<Product> productos = [
     dateAdded: "2026-06-05",
   ),
   Product(
-    nombre: "Polaroid Fullmetal Alchemist Brotherhood",
+    nombre: "Polaroid Full Metal Alchemist Brotherhood",
     precio: "20",
     descripcion: "Polaroid coleccionable con acabado especial. Llévate un recuerdo único de tu anime favorito en formato de bolsillo.",
     categoria: "Polaroids",
     imagenes: [
-      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/Pol/Anime/Fullmetal_Alchemist_Brotherhood.webp"
+      "https://cdn.jsdelivr.net/gh/JOSHUAKAISER04/sugoi-posters-assets@main/Pol/Anime/Full_Metal_Alchemist_Brotherhood.webp"
     ],
-    subcategoria: "Fullmetal Alchemist Brotherhood",
+    subcategoria: "Full Metal Alchemist Brotherhood",
     dateAdded: "2026-06-05",
   ),
   Product(
